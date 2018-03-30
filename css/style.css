@@ -1,0 +1,249 @@
+.center2{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  align:center
+}
+.center {
+    width:500px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: block
+
+}
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+html, body {
+    overflow-x:hidden;
+}
+body {
+    font-family: "Gudea",Helvetica, Arial, sans-serif !important;
+    color:#333333;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Gudea",Helvetica, Arial, sans-serif !important;
+}
+h1 {
+    font-size: 40px !important;
+}
+h2 {
+    font-size: 22px !important;
+    text-align: center;
+    line-height: 30px !important;
+    padding:20px 0 0 0;
+}
+h3.title {
+    font-size: 18px !important;
+    letter-spacing: 2px;
+    text-align:center;
+    font-weight:700;
+    color: #F0640F;
+}
+h3.title.shaded {
+    margin-top: 30px;
+}
+h4 {
+    font-weight:700 !important;
+}
+h4.branding {
+    margin-top:30px;
+}
+p {
+    font-size: 16px !important;
+    line-height: 25px;
+}
+ul li {
+    font-size: 16px !important;
+    line-height: 25px;
+}
+
+/* HEADER */
+header nav div img {
+    display:inline-block;
+    float:left;
+    margin-right: 15px;
+    margin-left:25px;
+    margin-bottom:0;
+}
+header nav div p {
+    display:inline-block;
+    padding-top: 33px;
+    margin-right:0;
+    margin-bottom:0;
+    font-weight:300;
+    color:#B1B5B4;
+    letter-spacing: 2px;
+}
+header nav ul {
+    display:inline;
+    padding-top: 33px;
+    margin-right:20px;
+    float:right;
+    font-weight:300;
+}
+header nav ul > li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+header nav ul > li > a {
+    font-size: 16px;
+    color:#B1B5B4 !important;
+    letter-spacing: 1px;
+}
+header banner div#backyard {
+    background-color: #6AC465;
+    overflow:hidden;
+    margin:-12px 50px -20px 50px;
+    padding:0;
+}
+header banner div h1 {
+    margin:0 50px 0 50px;
+    padding-left:20px;
+    position:relative;
+    top:230px;
+    clear:right;
+    color:#FFF;
+    font-weight:300;
+}
+header banner div img {
+    margin-right:30px;
+    margin-top:-30px;
+}
+header banner div.menu {
+    background-color: #F2F2F2;
+    margin-bottom: -40px;
+    z-index:9999;
+}
+header banner ul > li {
+    list-style-type: none;
+    display: inline-block;
+    margin:20px 15px 10px 15px;
+}
+header banner ul > li > a {
+    font-size: 16px;
+    color:#000000 !important;
+}
+@media (max-width: 480px) {
+    header nav ul {
+        margin-top:0;
+        margin-right:5px; /* Delete later if don't want Portfolio and About to stack */
+        padding-top:5px;
+    }
+    header banner ul > li {
+        margin-right:10px;
+        margin-left:10px;
+        margin-top:10px;
+        margin-bottom:5px;
+    }
+    header banner ul > li > a {
+        font-size: 12px;
+    }
+}
+
+/* STICKY NAVBAR */
+.affix {
+    top: 0;
+    width: 100%;
+}
+#overview, #research, #branding, #execution, #learnings, #coding {
+    padding-top:100px;
+    margin-top:-100px;
+}
+@media (max-width: 480px) {
+    #overview, #research, #branding, #execution, #learnings, #coding {
+        padding-top:150px;
+        margin-top:-150px;
+    }
+}
+
+/* SECTION */
+section {
+    margin:20px 50px 5px 50px;
+}
+section div {
+    margin-bottom:10px;
+}
+section div#shaded {
+    background-color:#DADADA;
+    margin:0 -50px 10px -50px !important;
+}
+section div#shaded p {
+    margin-right:50px !important;
+    margin-left:50px !important;
+}
+section div hr {
+    display:block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    border-style:inset;
+    border-width: 1px;
+}
+section div#slightly-shaded {
+    background-color:#F4F4F4;
+    margin:0 -50px 0 -50px !important;
+}
+section div#slightly-shaded p {
+    margin-right:50px !important;
+    margin-left:50px !important;
+}
+
+/* FOOTER */
+footer div.contact {
+    background-color:#C5C5C5;
+}
+footer div.contact p {
+    margin:50px 0 30px 0;
+    color:gray;
+    font-size: 22px !important;
+    font-weight:300 !important;
+}
+footer div.contact a {
+    margin-bottom:50px;
+}
+.btn {
+    border-radius: 4px !important;
+    color:#FFFFFF;
+    font-size:20px !important;
+    font-weight:700;
+    text-decoration: none;
+    padding:15px 40px !important;
+    background-color: #f0640f;
+    border:2px solid #FFFFFF !important;
+}
+footer div.bottom p {
+    font-size: 12px !important;
+    display:inline-block;
+    margin:20px 0 20px 50px;
+}
+footer div ul {
+    display:inline;
+    float:right;
+    margin-right:50px;
+}
+footer div ul > li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px 30px 20px 0;
+}
+footer div ul > li > a {
+    font-size: 16px;
+    color:#333333 !important;
+    letter-spacing: 1px;
+}
+@media (max-width: 992px) {
+    footer div ul > li {
+        margin-right:10px;
+        margin-bottom:0;
+    }
+}
