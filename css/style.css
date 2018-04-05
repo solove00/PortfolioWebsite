@@ -1,4 +1,9 @@
-
+.top-bar{
+  height:2.8125rem;
+  line-height:2.8125rem;
+  position:relative;
+  background-color: white;
+}
 /*header {
     float: left;
     margin:0 0 30px 0;
@@ -209,7 +214,7 @@ section div#slightly-shaded p {
 
 /* FOOTER */
 footer div.contact {
-    background-color:#C5C5C5;
+    background-color:rgba(216,216,216,0.5);
 }
 footer div.contact p {
     margin:50px 0 30px 0;
@@ -227,7 +232,7 @@ footer div.contact a {
     font-weight:700;
     text-decoration: none;
     padding:15px 40px !important;
-    background-color: #f0640f;
+    background-color: #1BC9D7;
     border:2px solid #FFFFFF !important;
 }
 footer div.bottom p {
