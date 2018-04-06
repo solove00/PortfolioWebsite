@@ -9,7 +9,8 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700" rel="stylesheet" type="text/css">
-
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+  
   <!-- CSS -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
@@ -21,22 +22,14 @@
 
 <body>
   <header>
-    <nav class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12" style="background-color:rgba(255,255,255,0.7)">
-
-          <a href="/index.html" class="logo-small alignleft"><img src="/images/websitelogo.png" alt="SHAN OU" style="width:60px;"/></a>
-          <a href="/index.html">
-            <p>SHAN OU</p>
-          </a>
-          <ul class="alignright">
-            <li class="selected"><a href="/index.html">PORTFOLIO</a></li>
-            <li class="selected"><a href="/resume.html">RESUME</a></li>
-            <li><a href="/about.html">ABOUT</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <div class="topnav" id="myTopnav">
+          <a href="index.html" class="logo-small alignleft"><img src="images/websitelogo.png" alt="SHAN OU" style="width:48px;"/></a>
+          <a class="name" href="index.html">SHAN OU</a>
+          <a class="item" href="about.html">ABOUT</a>
+          <a class="item" href="resume.html">RESUME</a>
+          <a class="item" href="index.html">PORTFOLIO</a>
+          <a href="javascript:void(0);" style="font-size:24px;" class="icon" onclick="responsiveNavBar()">&#9776;</a>
+   </div>
 
     <!-- HERO -->
     <!-- <main class="container-fluid">
@@ -161,6 +154,7 @@
   <!-- JS -->
   <script src="js/jquery-3.1.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
       // Add smooth scrolling to all links
