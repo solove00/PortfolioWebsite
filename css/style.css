@@ -81,12 +81,6 @@ a.float:hover + div.label-container{
     display: block
 }
 
-.center-paragraph{
-    margin-left: auto;
-    margin-right: auto;
-    width: 30em
-}
-
 table {
     border-collapse: collapse;
 }
@@ -223,11 +217,36 @@ header banner ul > li > a {
     }
 }
 
+.center-paragraph{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    height: auto
+}
+@media (max-width: 480px) {
+    .center-paragraph{
+        margin-left: auto;
+        margin-right: auto;
+        width: 20em;
+        height: auto
+    }
+}
+
 /* STICKY NAVBAR */
+/* .affix {
+    top: 0;
+    width: 100%;
+} */
 .affix {
     top: 0;
     width: 100%;
+    z-index: 9999
 }
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
 #overview, #research, #branding, #execution, #learnings, #coding {
     padding-top:100px;
     margin-top:-100px;
@@ -320,7 +339,6 @@ footer div ul > li > a {
         margin-bottom:0;
     }
 }
-
 
 .youtube-container {
     position: relative;
