@@ -28,12 +28,6 @@
     display: block
 }
 
-.center-paragraph{
-    margin-left: auto;
-    margin-right: auto;
-    width: 30em
-}
-
 table {
     border-collapse: collapse;
 }
@@ -167,6 +161,21 @@ header banner ul > li > a {
     }
     header banner ul > li > a {
         font-size: 12px;
+    }
+}
+
+.center-paragraph{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    height: auto
+}
+@media (max-width: 480px) {
+    .center-paragraph{
+        margin-left: auto;
+        margin-right: auto;
+        width: 20em;
+        height: auto
     }
 }
 
