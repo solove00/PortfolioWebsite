@@ -1,4 +1,15 @@
 
+.backgroundimage{
+
+    background: url("/images/bkg5.jpg");
+    background-repeat: no-repeat;
+  
+    overflow: scroll;
+    width:100%;
+    max-width:1920px;
+    background-size:100%;
+}
+
 body{
 	font-family:Verdana, Geneva, sans-serif;
 	background-color:#CCC;
