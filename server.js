@@ -1,21 +1,52 @@
-var http = require("http");
-var connect = require('connect');
+// var http = require("http");
+// var connect = require('connect');
 
-console.log('\n\n--- Node Version: ' + process.version + ' ---');
+// console.log('\n\n--- Node Version: ' + process.version + ' ---');
 
-// Set up Connect routing
-var app = connect()
-    .use(connect.static(__dirname + '/'))
-    .use(function(req, res) {
-        console.log('Could not find handler for: ' + req.url);
-        res.end('Could not find handler for: ' + req.url);
-    })
-    .use(function(err, req, res, next) {
-        console.log('Error trapped by Connect: ' + err.message + ' : ' + err.stack);
-        res.end('Error trapped by Connect: ' + err.message);
-    });
+// // Set up Connect routing
+// var app = connect()
+//     .use(connect.static(__dirname + '/'))
+//     .use(function(req, res) {
+//         console.log('Could not find handler for: ' + req.url);
+//         res.end('Could not find handler for: ' + req.url);
+//     })
+//     .use(function(err, req, res, next) {
+//         console.log('Error trapped by Connect: ' + err.message + ' : ' + err.stack);
+//         res.end('Error trapped by Connect: ' + err.message);
+//     });
 
-// Start node server listening on specified port -----
-http.createServer(app).listen(80);
+// // Start node server listening on specified port -----
+// http.createServer(app).listen(80);
 
-console.log('HTTP server listening on port 80');
+// console.log('HTTP server listening on port 80');var http = require("http");
+// var connect = require('connect');
+
+// console.log('\n\n--- Node Version: ' + process.version + ' ---');
+
+// // Set up Connect routing
+// var app = connect()
+//     .use(connect.static(__dirname + '/'))
+//     .use(function(req, res) {
+//         console.log('Could not find handler for: ' + req.url);
+//         res.end('Could not find handler for: ' + req.url);
+//     })
+//     .use(function(err, req, res, next) {
+//         console.log('Error trapped by Connect: ' + err.message + ' : ' + err.stack);
+//         res.end('Error trapped by Connect: ' + err.message);
+//     });
+
+// // Start node server listening on specified port -----
+// http.createServer(app).listen(80);
+
+// console.log('HTTP server listening on port 80');
+
+var app = express.createServer();
+self.app.all(/.*/, function(req, res, next) {
+  var host = req.header("host");
+  if (host.match(/^www\..*/i)) {
+    next();
+  } else {
+    res.redirect(301, "http://www." + host + req.url);
+  }
+});
+app.use('/',express.static('public'));
