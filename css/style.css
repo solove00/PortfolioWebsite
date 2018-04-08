@@ -316,7 +316,13 @@ footer div.contact a {
 footer div.bottom p {
     font-size: 12px !important;
     display:inline-block;
-    margin:20px 0 20px 50px;
+    margin:10px 0px 10px 40px;
+}
+footer .bottomstyle{
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255,255,255,0.3);
 }
 footer div ul {
     display:inline;
@@ -326,14 +332,17 @@ footer div ul {
 footer div ul > li {
     list-style-type: none;
     display: inline-block;
-    margin: 20px 30px 20px 0;
+    /*margin: 0px 0px 0px 0px;*/
+    height: 0;
+    line-height: px;
+    text-align: center;
 }
 footer div ul > li > a {
     font-size: 16px;
     color:#333333 !important;
     letter-spacing: 1px;
 }
-@media (max-width: 992px) {
+@media (max-width: 600px) {
     footer div ul > li {
         margin-right:10px;
         margin-bottom:0;
@@ -357,9 +366,9 @@ footer div ul > li > a {
 
 .topnav {
     overflow: hidden;
-    background-color:rgba(255, 255, 255, 0.7);
+    background-color:rgba(255, 255, 255, 0.1);
   }
-  
+
   .topnav a {
     float: left;
     display: block;
@@ -369,16 +378,16 @@ footer div ul > li > a {
     text-decoration: none;
     font-size: 16px;
   }
-  
+
   .topnav a:hover {
     color:inherit;
   }
-  
+
   /* .active {
     background-color: #4CAF50;
     color: white;
   } */
-   
+
   .topnav .icon {
     display: none;
   }
@@ -394,7 +403,7 @@ footer div ul > li > a {
     padding-right: 20px;
     padding-left: 20px;
   }
-  
+
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
@@ -403,7 +412,7 @@ footer div ul > li > a {
       line-height: 54px;
     }
   }
-  
+
   @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
