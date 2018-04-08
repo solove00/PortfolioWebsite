@@ -416,6 +416,20 @@ footer div ul > li > a {
   }
 
   @media screen and (max-width: 600px) {
+    .topnav a img {
+        float: left;
+        width:48px;
+        margin-left: 5px;
+        margin-top: 5px;
+      }
+    .topnav .item {
+    position: relative;
+    line-height: 40px;
+    font-size: 150%
+    }
+    .topnav .item.rightmost {
+        padding-top:50px;
+    }
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -444,4 +458,23 @@ footer div ul > li > a {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+
+  .portfolio-thumbnail {
+    width:350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .portfolio-mobile-text{
+      display: none;
+  }
+  @media screen and (max-width: 768px) {
+    .portfolio-text 
+    {
+        display: none;
+    }
+    .portfolio-mobile-text{
+        display: inline;
+        text-align: center;
+    }
   }
