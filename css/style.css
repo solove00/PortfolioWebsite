@@ -437,3 +437,11 @@ footer div ul > li > a {
       text-align: left;
     }
   }
+
+  .mainbackground{
+    background:url("/images/bkg19.jpeg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
