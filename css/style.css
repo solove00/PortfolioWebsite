@@ -325,9 +325,10 @@ footer .bottomstyle{
     background-color: rgba(255,255,255,0.3);
 }
 footer div ul {
-    display:inline;
+    /* display:inline; */
     float:right;
     margin-right:50px;
+    margin-top:10px;
 }
 footer div ul > li {
     list-style-type: none;
@@ -341,6 +342,7 @@ footer div ul > li > a {
     font-size: 16px;
     color:#333333 !important;
     letter-spacing: 1px;
+    padding-left: 30px;
 }
 @media (max-width: 600px) {
     footer div ul > li {
