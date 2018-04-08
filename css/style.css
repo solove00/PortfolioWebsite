@@ -303,7 +303,7 @@ footer div.contact p {
 footer div.contact a {
     margin-bottom:50px;
 }
-.contact-btn {
+.btn {
     border-radius: 4px !important;
     color:#FFFFFF;
     font-size:20px !important;
@@ -453,7 +453,7 @@ footer div ul > li > a {
   }
 
   .mainbackground{
-    background:url("/images/bkg5.jpg") no-repeat center center fixed;
+    background:url("/images/bkg19.jpeg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
