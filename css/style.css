@@ -478,3 +478,35 @@ footer div ul > li > a {
         text-align: center;
     }
   }
+
+
+#portfolio-list{
+    margin:0 auto;
+}
+
+.portfolio-item{
+    position: relative;
+    text-align: center;
+    color: white;
+    width:100%;
+    margin:0 auto;
+}
+
+.portfolio-item .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.portfolio-item img{
+    width:100%;
+}
+
+.portfolio-item h2 {
+    font-size: 40px;
+}
+
+.portfolio-item p {
+    font-size: 40px;
+}
