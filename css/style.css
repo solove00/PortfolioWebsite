@@ -453,7 +453,7 @@ footer div ul > li > a {
   }
 
   .mainbackground{
-    background:url("/images/bkg19.jpeg") no-repeat center center fixed; 
+    background:url("/images/bkg5.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -469,7 +469,7 @@ footer div ul > li > a {
       display: none;
   }
   @media screen and (max-width: 768px) {
-    .portfolio-text 
+    .portfolio-text
     {
         display: none;
     }
@@ -503,10 +503,14 @@ footer div ul > li > a {
     width:100%;
 }
 
-.portfolio-item h2 {
-    font-size: 40px;
+.portfolio-item .center{
+    font-size: 100px;
+    color:black;
+
 }
 
 .portfolio-item p {
     font-size: 40px;
+    color:black;
+
 }
