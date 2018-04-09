@@ -93,11 +93,11 @@ html, body {
     overflow-x:hidden;
 }
 body {
-    font-family: "Gudea",Helvetica, Arial, sans-serif !important;
+    font-family: "Arimo",Helvetica, Arial, sans-serif !important;
     color:#333333;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Gudea",Helvetica, Arial, sans-serif !important;
+    font-family: "Libre+Baskerville",Helvetica, Arial, sans-serif !important;
 }
 h1 {
     font-size: 40px !important;
@@ -181,6 +181,7 @@ header banner div h1 {
     clear:right;
     color:#FFF;
     font-weight:300;
+    font-family: "Righteous";
 }
 header banner div img {
     margin-right:30px;
@@ -310,7 +311,8 @@ footer div.contact a {
     font-weight:700;
     text-decoration: none;
     padding:15px 40px !important;
-    background-color: #1BC9D7;
+    /*background-color: #1BC9D7;*/
+    background:rgb(212,128,39);
     border:2px solid #FFFFFF !important;
 }
 footer div.bottom p {
@@ -532,8 +534,6 @@ footer div ul > li > a {
 #port-item-title{
     font-size:50px;
     color:white;
-
-
     font-family: "Righteous";
 
 }
@@ -559,8 +559,9 @@ footer div ul > li > a {
   }
 
   .btn.btn-portfolio{
-    background: rgba(204, 204, 204, 0.8);
-    color:black;
+    /*background: rgba(204, 204, 204, 0.8);*/
+    background:rgba(212,128,39,0.8);
+    color:white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /* border:2px solid black !important; */
     /* font-size:20px !important;
