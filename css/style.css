@@ -93,11 +93,11 @@ html, body {
     overflow-x:hidden;
 }
 body {
-    font-family: "Gudea",Helvetica, Arial, sans-serif !important;
+    font-family: "Arimo",Helvetica, Arial, sans-serif !important;
     color:#333333;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Gudea",Helvetica, Arial, sans-serif !important;
+    font-family: "Libre+Baskerville",Helvetica, Arial, sans-serif !important;
 }
 h1 {
     font-size: 40px !important;
@@ -181,6 +181,7 @@ header banner div h1 {
     clear:right;
     color:#FFF;
     font-weight:300;
+    font-family: "Righteous";
 }
 header banner div img {
     margin-right:30px;
@@ -310,7 +311,8 @@ footer div.contact a {
     font-weight:700;
     text-decoration: none;
     padding:15px 40px !important;
-    background-color: #1BC9D7;
+    /*background-color: #1BC9D7;*/
+    background:rgb(212,128,39);
     border:2px solid #FFFFFF !important;
 }
 footer div.bottom p {
@@ -378,7 +380,7 @@ footer div ul > li > a {
     text-align: left;
     padding: 8px 8px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .topnav a:hover {
@@ -453,7 +455,7 @@ footer div ul > li > a {
   }
 
   .mainbackground{
-    background:url("/images/bkg19.jpeg") no-repeat center center fixed; 
+    background:url("/images/bkg19.jpeg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -469,7 +471,7 @@ footer div ul > li > a {
       display: none;
   }
   @media screen and (max-width: 768px) {
-    .portfolio-text 
+    .portfolio-text
     {
         display: none;
     }
@@ -477,4 +479,94 @@ footer div ul > li > a {
         display: inline;
         text-align: center;
     }
+  }
+
+
+#portfolio-list{
+    margin:0 auto;
+}
+
+.portfolio-item{
+    position: relative;
+    text-align: center;
+    color: white;
+    width:100%;
+    margin:0 auto;
+}
+
+.portfolio-item .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.portfolio-item img{
+    width:100%;
+}
+
+.portfolio-item .center{
+    font-size: 100px;
+    color:black;
+
+}
+
+.portfolio-item p {
+    font-size: 100px;
+    color:black;
+
+}
+
+#port-title{
+    font-size:50px;
+    margin-left: 42px;
+    font-family: "Libre Baskerville";
+    color:rgb(201,201,201);
+    /*color:rgb(59,42,42);*/
+}
+
+#port-description{
+    font-size:30px;
+    color:rgb(122,122,122);
+    margin-left: 42px;
+}
+
+#port-item-title{
+    font-size:50px;
+    color:white;
+    font-family: "Righteous";
+
+}
+
+#port-item-description{
+    font-size:24px;
+    color:white;
+    /*font-family: "Righteous";*/
+}
+
+@media screen and (max-width: 600px) {
+    #port-title{
+        font-size:40px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    #port-description{
+        font-size:20px;
+        margin-left: 0px;
+        text-align: center;
+    }
+  }
+
+  .btn.btn-portfolio{
+    /*background: rgba(204, 204, 204, 0.8);*/
+    background:rgba(212,128,39,0.8);
+    color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* border:2px solid black !important; */
+    /* font-size:20px !important;
+    font-weight:700;
+    text-decoration: none;
+    padding:15px 40px !important;
+    background-color: #1BC9D7; */
   }
