@@ -570,3 +570,10 @@ footer div ul > li > a {
     padding:15px 40px !important;
     background-color: #1BC9D7; */
   }
+
+#preloadedImages
+{
+    display: none;
+    content: url("/images/portfolio1.png")
+    url("/images/portfolio-bounce1.png");
+}
