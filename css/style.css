@@ -532,13 +532,13 @@ footer div ul > li > a {
 }
 
 #port-item-title{
-    font-size:4vmax;
+    font-size:3.5vmax;
     color:white;
     font-family: "Righteous";
 }
 
 #port-item-description{
-    font-size:2vmax;
+    font-size:1.8vmax;
     color:white;
     /*font-family: "Righteous";*/
 }
