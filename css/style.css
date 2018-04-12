@@ -577,3 +577,11 @@ footer div ul > li > a {
     content: url("/images/portfolio1.png")
     url("/images/portfolio-bounce1.png");
 }
+
+#preview
+{   
+    position: fixed;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
