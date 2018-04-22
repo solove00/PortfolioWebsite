@@ -384,23 +384,24 @@ footer div ul > li > a {
 }
 
 .youtube-container {
-    position: relative;
+    /* position: relative;
     width: 100%;
     height: 0;
     padding-bottom: 56.25%;
     margin-left: 10vw;
-    margin-right: 10vw;
-
+    margin-right: 10vw; */
+    position: relative;
+	padding-bottom: calc(56.25%*0.6); /* 16:9 */
+	padding-top: 25px;
+	height: 0;
 }
-.youtube-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 40%;
-    height: 40%;
-		align: middle;
-    /* width: 100%;
-    height: 100%; */
+
+.youtube-container iframe {
+	position: absolute;
+	top: 0;
+	left: 20%;
+	width: 60%;
+	height: 100%;
 }
 
 
