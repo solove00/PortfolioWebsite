@@ -1,3 +1,6 @@
+.bold{
+	font-weight:bold;
+}
 
 body{
 	font-family:Verdana, Geneva, sans-serif;
@@ -115,6 +118,13 @@ h3.title {
     font-weight:700;
     color: #F0640F;
 }
+h3.bounce-title {
+    font-size: 18px !important;
+    letter-spacing: 2px;
+    text-align:center;
+    font-weight:700;
+    color: #03B2E5;
+}
 h3.title.shaded {
     margin-top: 30px;
 }
@@ -173,6 +183,13 @@ header banner div#backyard {
     margin:-12px 50px -20px 50px;
     padding:0;
 }
+header banner div#bounce {
+    background-color: #03B2E5;
+    overflow:hidden;
+    margin:-12px 50px -20px 50px;
+    padding:0;
+}
+
 header banner div h1 {
     margin:0 50px 0 50px;
     padding-left:20px;
@@ -186,6 +203,10 @@ header banner div h1 {
 header banner div img {
     margin-right:30px;
     margin-top:-30px;
+}
+header banner div img#bounce{
+    margin-right:30px;
+    margin-top:80px;
 }
 header banner div.menu {
     background-color: #F2F2F2;

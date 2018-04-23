@@ -33,12 +33,12 @@
       <a href="javascript:void(0);" style="font-size:24px;" class="icon" onclick="responsiveNavBar()">&#9776;</a>
     </div>
     <banner class="container-fluid">
-      <div class="row" id="backyard" style="width: auto; height: 320px">
+      <div class="row" id="bounce" style="width: auto; height: 320px">
         <div class="col-xs-push-4">
-          <h1 id="backyard" class="animated fadeIn">Bounce (still working on)</h1>
+          <h1 id="bounce" class="animated fadeIn">Bounce (Work in progress)</h1>
         </div>
-        <div class="col-xs-pull-8">
-          <img class="pull-right hidden-xs" src="/images/bounce/portfolio-logo.png" style="width:250px;" />
+        <div class="col-xs-pull-8" >
+          <img class="pull-right hidden-xs" id="bounce" src="/images/bounce/bounce-computerpic.png" style="width:250px;" />
         </div>
       </div>
       <banner>
@@ -62,19 +62,20 @@
       <div class="row" style="margin-top: 32px">
         <div class="col-xs-12">
           <br>
-          <h3 class="title">THE PROBLEM</h3>
+          <h3 class="bounce-title">THE PROBLEM</h3>
         </div>
       </div>
       <div class="row">
         <div class="col-xs-12">
-          <p>People try to make money in their spare time in the stock market. Many of them are not professional stock traders or have no background in finance. But many stock trading website is not beginner friendly because of old UI designs with redundant
-            information and options. Beginners are easy to get overwhelmed by the design of the websites itself. For example, Scottrade and Fidelity have very complicated UX process and have long submenus for each dropdown.
+          <p>People try to invest in the stock market in their spare time. Many of them are not professional stock traders or don’t have finance background. But many stock trading websites are not beginner friendly because of outdated UI designs with redundant
+            information and options. Beginners are easy to get overwhelmed by the design of the websites itself. For example, Scottrade and Fidelity have very complicated UX process and have long submenus for each dropdown. And they provide too much information
+            including news, market trends, etc., which users can also find from many other news sources not the trading website.
           </p>
         </div>
       </div>
       <!-- <div class="row">
         <div class="col-xs-12">
-          <h3 class="title">THE PROBLEM</h3>
+          <h3 class="bounce-title">THE PROBLEM</h3>
         </div>
       </div> -->
       <!-- <div class="row">
@@ -86,20 +87,21 @@
     <div class="container-fluid" id="shaded">
       <div class="row">
         <div class="col-xs-12">
-          <h3 class="title shaded">THE SOLUTION</h3>
+          <h3 class="bounce-title shaded">THE SOLUTION</h3>
         </div>
       </div>
       <div class="row">
         <div class="col-xs-12">
-          <p>Bounce solves the problems of stocking trading for beginners.The stock trading website I want to design will be very beginner friendly with selected information and options. </p>
+          <p>Bounce solves the problems of complicated stocking trading for beginners. The stock trading website I designed is very beginner friendly with selected information and options. I carried out series of surveys and usability tests to find out the
+            information are needed for beginners and the best design help them trade easily. </p>
           <!-- <img src="/images/puppyface-threeimage.png" class="center-block" style="width:70%" /> -->
         </div>
       </div>
     </div>
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
       <div class="row">
         <div class="col-xs-12">
-          <h3 class="title">MY ROLE</h3>
+          <h3 class="bounce-title">MY ROLE</h3>
         </div>
       </div>
       <div class="row">
@@ -107,15 +109,16 @@
           <p>I functioned as the UX researcher, UX designer, visual designer for this project. Within these roles, I conducted user research, created wireframes, conducted user interview, and completed visual designs.</p>
         </div>
       </div>
-    </div>
+    </div> -->
   </section>
 
   <!--RESEARCH-->
+  <br>
   <section id="research">
     <div class="container-fluid">
       <div class="row">
         <div class="col-xs-12">
-          <h3 class="title">THE RESEARCH</h3>
+          <h3 class="bounce-title">THE RESEARCH</h3>
         </div>
       </div>
     </div>
@@ -134,9 +137,10 @@
           <ul>
             <li>How many times do they trade stock every year;</li>
             <li>How many years of experience do they have;</li>
-            <li>What frustration they have with their current broker;</li>
+            <li>What frustrations they have with their current brokers;</li>
             <li>What do they think their broker can be improved;</li>
             <li>What information they would like to get from a stock trading website.</li>
+            <li>What features are important to them</li>
           </ul>
           <p>Results were gathered from 27 respondents who are interested in stock trading across the country.</p>
         </div>
@@ -161,15 +165,15 @@
 
       <div class="row">
         <div class="col-xs-12">
-          <p>Those who are not interested in stocking trading are excluded from the survey by the first question, so only datas of those 26 respondents who are interested in stock trading are collected. I summarized the datas and figured out my target audiences,
+          <p>Those who are not interested in stocking trading were excluded from the survey by the first question, so only data of those 26 respondents who are interested in stock trading were collected. I summarized the datas and figured out my target audiences,
             their frustrations and needs. </p>
-          <ul>
-            <li>(1)93% of who are interested in stock trading ranges from 18 ~ 45 yrs. Since most of the users ranger from 18~45 yrs, we can make a trendy design which may be appealing to investors</li>
-            <li>(2)Only 38% are happy with their current brokers, 62% think their brokers can be improve in some ways, 26% think they are very difficult to use (See Question 5)</li>
-            <li>(3)27% feel frustrated when they miss companies important events (See Question 5)</li>
-            <li>(4)They want simple design for beginners, easier money transfer from bank, organized stock transactions(See Question 6)</li>
-            <li>(5)They want to about a company’s earning/revenue growth, stock type(dividend type, growth type etc.), cash flow(See Question 8) </li>
-            <li>(6)They want an important event calendar with alerts, price change notification, filters for stock selection(See Question 9) </li>
+          <ul style="list-style-type:decimal">
+            <li>93% of who are interested in stock trading ranges from 18 ~ 45 yrs. Since most of the users ranger from 18~45 yrs, we can make a trendy design which may be appealing to investors</li>
+            <li>Only 38% are happy with their current brokers, 62% think their brokers can be improve in some ways, 26% think they are very difficult to use (See Question 5)</li>
+            <li>27% feel frustrated when they miss companies important events (See Question 5)</li>
+            <li>They want simple design for beginners, easier money transfer from bank, organized stock transactions(See Question 6)</li>
+            <li>They want to about a company’s earning/revenue growth, stock type(dividend type, growth type etc.), cash flow(See Question 8) </li>
+            <li>They want an important event calendar with alerts, price change notification, filters for stock selection(See Question 9) </li>
           </ul>
           <!-- <p>It is clear that from these survey results pet owners wanted a search tool that can find reliable and low-cost pet services.</p> -->
         </div>
@@ -186,12 +190,11 @@
       </div>
       <div class="row">
         <div class="col-xs-12">
-          <p>I conducted one-on-one interviews with three of my survey respondents to find out more details about their responses and help us understand the problem better. From these interviews, I developed three personas and identified there are three
-            major user groups:</p>
+          <p>I conducted video interviews with three of my survey respondents to know more about their trading background and lifestyle. From these interviews, I developed three personas and identified there are three major user groups: </p>
           <ul>
-            <li>Caro represents pet owners who live in small towns where limited pet hotels are available;</li>
-            <li>Tara represents pet owners who have limited incomes like students, they prefer cheaper cost for pet services;</li>
-            <li>Max represents pet owners who live in a costly area like San Francisco, they like the idea of credit exchange for pet services. </li>
+            <li>Michael represents stock traders who want to know company financials and big events;</li>
+            <li>Tara represents stock traders who know very few about stock market and want simplified user interface.</li>
+            <li>Max represents stock traders who think current brokers are difficult to use, and he need something simple;</li>
           </ul>
         </div>
       </div>
@@ -208,7 +211,7 @@
       </div>
       <div class="row">
         <div class="col-xs-12">
-          <p>The demand for reliable and cheaper pet service is popular. I also identified some features for implementation in the future development process, such as adding filters for senior dog experience, puppy experience, rescue dog experience, etc.
+          <p>The demand for simple and easy design for stock trading beginner is popular. I also identified some features for implementation in the future development process, such as stock picker based on market cap, earning growth, revenue, etc.
           </p>
         </div>
       </div>
@@ -250,8 +253,8 @@
       <div class="row">
         <div class="col-xs-12">
           <p>Based on all the surveys, interviews and competitive analysis, I came up with <a href="https://docs.google.com/spreadsheets/d/1fWNRlF99Y8X1tD5BQXsGQsywWjTiDX5cSYViRaNGiuY/edit?usp=sharing">a list of user stories.</a> While making a list of user
-            stories, I only pick those features and information that audience want the most based on the survey. And those features that users doesn’t want (Like news feed, comment are, a list of stock invested by great investors) I didn’t put it on the
-            user stories list. So that I can make a simple design for the website.</p>
+            stories, I only pick those features and information that audience want the most based on the survey. And those features that users doesn’t want (Like news feed, comment area, a list of stock invested by great investors) I didn’t put it on
+            the user stories list. But these features can be saved for future development of the website. For now I just made a simple design and will continue to do more usability tests and add some necessary features. </p>
         </div>
       </div>
     </div>
@@ -266,14 +269,14 @@
       </div>
       <div class="row">
         <div class="col-xs-12">
-          <p>I converted user stories into <a href="https://drive.google.com/file/d/1esB_uuMXPAI7hDfQXasxfPUBsiu9x5Ic/view?usp=sharing">user flows</a>and <a href="https://drive.google.com/file/d/19SRpn0UdRkrSJLASSdhx3RZqPzFi5tff/view?usp=sharing">sitemap</a>            to visualize the navigation process and content hierarchy. In this part, I not only referred to the competitors’ UX design process and also referred to some websites that provide stock resource, including SimpleWallStreet and other financial
+          <p>I converted user stories into <a href="https://drive.google.com/file/d/1esB_uuMXPAI7hDfQXasxfPUBsiu9x5Ic/view?usp=sharing">user flows</a> and <a href="https://drive.google.com/file/d/19SRpn0UdRkrSJLASSdhx3RZqPzFi5tff/view?usp=sharing">sitemap</a>            to visualize the navigation process and content hierarchy. In this part, I not only referred to the competitors’ UX design process and also referred to some websites that provide stock resource, including Simply Wall St and other financial
             websites like Barron’s, Seeking Alpha.</p>
           <br>
-          <img src="/images/bounce/bounce-userflow.png" class="center-block " style="width:75%" />
+          <img src="/images/bounce/userflow.png" class="center-block " style="width:75%" />
           <br>
           <br>
           <br>
-          <img src="/images/bounce/bounce-sitemap.png" class="center-block " style="width:80%" />
+          <img src="/images/bounce/sitemap.png" class="center-block " style="width:80%" />
         </div>
       </div>
     </div>
@@ -284,15 +287,15 @@
     <div class="container-fluid" id="slightly-shaded">
       <div class="row">
         <div class="col-xs-12">
-          <h3 class="title">BRANDING</h3>
+          <h3 class="bounce-title">BRANDING</h3>
         </div>
       </div>
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-xs-12">
           <p> Many logos of pet’s brands can be divided into two groups: (1) colorful pet image to display a happy pet (2) one color strokes to present a feeling of clean and simple. From my research, I concluded that this product needed to get a balance
             between these two. Because the cuteness of pets can attract users, and the cleanness and simple can make users feel reliable.</p>
         </div>
-      </div>
+      </div> -->
     </div>
 
     <!--Typography-->
@@ -305,8 +308,9 @@
       </div>
       <div class="row">
         <div class="col-xs-12">
-          <p>Righteous is an open sans typeface. Its round bowl, counter, and aperture create a feeling of decor and cuteness. It is suitable for headlines and reminds people of the cuteness of puppies.</p>
-          <p>Gudea’s sans serif displays a simple, condensed structure that brings a pleasant feeling when used at any size. Gudea was initially used in engineering documents. It also provides a sense of reliability.</p>
+          <p>Bounce needs two simple typefaces to make the design and content easy to read. Didact Gothic and Arimo are both sans-serif typeface. They are simple and they both give the design a modern look when compared to serif typeface. </p>
+          <p>Didact Gothic was designed to present each letter in the form most often used in elementary classrooms. It works as a simple headline font that feature a simple outline style. Arimo was designed to display an innovative, refreshing feeling.
+            It also offers improved on-screen readability which is good for content text. Both typefaces have a neutral feel and can work in a variety style. </p>
           <br>
           <img src="/images/bounce/typeface.png" class="center-block" style="width:70%" />
           <br>
@@ -335,10 +339,12 @@
       </div>
       <div class="row">
         <div class="col-xs-12">
-          <p>The word “puppyface” came up when I was browsing some dog’s facebook pages. Puppy with cute and smiling faces usually gets a lot more “likes.” People’s heart is melty when they see a puppy. When I first walked my dog in the community as he was
-            a puppy, he drew a lot of attention from my neighbors like a superstar. It is hard for people to ignore puppies’ innocent and adorable faces. </p>
-          <p>PuppyFace needed a logo to promote its public recognition and personality. The logo design begun with sketches of various puppy faces and evolved into a simple illustration of a puppies face with round eyes, nose, pink tongue and two big ears.
-            Round eyes, nose, and pink tongue display cute personality. Dropped ears present relaxation. Shaded yellow color conveys a feeling of reliability and stable. So the logo itself transmits a message of cuteness and loyalty. </p>
+          <p>“Never try to time the market and nobody has ever done this successfully and consistently”, the saying is a golden rule for stock trading. That’s because the market itself is bouncing up and down and nobody can catch the lowest point and highest
+            point consistently. So going up and down is the natural and normal behavior of stock market. So here comes the name “Bounce” for my stock trading website. Bounce itself reflects the attribute and movement of stocks. And this attribute is embedded
+            into many people’s mind. If you ask people what they think of stock market, they may say it is like rollercoaster. </p>
+          <p>Bounce needs a logo to promote its public recognition and personality. The logo design begun with various sketches of letter “B” combined with arrows and evolved into a simple illustration of an arrow. The arrows itself looks like a letter “B”.
+            It indicates positively that the stock market is going up. The green color in stock market means gain. So it help to fortify the feeling of making money in stock market. </p>
+          <p>The name “Bounce” provide a neutral feeling and the logo conveys a feeling of positive and make the combination tend to be positive. </p>
           <br>
           <img src="/images/bounce/bounce-logodesign.png" class="center-block" style="width:70%" />
         </div>
@@ -358,20 +364,22 @@
       </div>
       <div class="row">
         <div class="col-xs-12">
-          <p>PuppyFace needs a color palette to trigger people’s feeling for pets. Bright green and bright orange are chosen to present pet’s happiness. The orange color reminds people of dog’s activeness, and green color reminds people of dogs playing on
-            grass. The color inspiration came from playing with my dog in a park.</p>
-          <img src="/images/Puppyface-colorpallet.png" class="center-block" style="width:70%" />
+          <p>Blue was chosen as the main color for its association with security and trust. Black and grey were chosen as the colors for texts. Purple is the pop color for buttons. The high saturation of purple color will draw user’s attention easily. Green
+            and red are standard colors for stock market. They will be used to highlight some data or charts. </p>
+          <img src="/images/bounce/colors.png" class="center-block" style="width:40%" />
         </div>
       </div>
     </div>
   </section>
 
   <!--EXECUTION-->
+  <br>
+  <br>
   <section id="execution">
     <div class="container-fluid" id="slightly-shaded">
       <div class="row">
         <div class="col-xs-12">
-          <h3 class="title">EXECUTION</h3>
+          <h3 class="bounce-title">EXECUTION</h3>
         </div>
       </div>
     </div>
@@ -397,68 +405,161 @@
       </div>
       <div class="row">
         <div class="col-xs-12">
-          <p>I started paper prototype by quickly sketching the structures. While I was outlining, I focus on providing information and features pet owners concerned the most. Paper prototype allowed me to quickly create different layouts for sitter list,
-            profile, reservations. I conducted simple preference testing using paper prototype. From the feedback, I learned that users prefer information in a row rather than in columns. The “z” eye tracking theory can explain this result well. </p>
+          <p>I did full paper prototype for the entire website including many features. I choose to do that because paper prototype is very helpful from my experience. It helps to save a lot of time in the later development process. When I did the low fidelity
+            wireframe later, I can just use the paper prototype as reference. </p>
+          <p>One in-person user test was done to test the navigation and contents. The user was asked to finish the following tasks, and he provided a lot of good suggestions in the 40 minutes video. </p>
+          <p>The user was asked to finish the following tasks:</p>
+          <div class="">
+            <ul style="list-style-type:decimal">
+              <li>Log in/Sign up</li>
+              <li>Buy 20 shares Apple stock at market price</li>
+              <li>Buy 20 shares Apple stocks at limit price</li>
+              <li>Buy 10 shares Applied Material stocks at limit price</li>
+              <li>How to find a stock that meets your requirements</li>
+              <li>How to set notifications</li>
+              <li>Where is your profile information and how to change?</li>
+              <li>How to transfer money</li>
+              <li>Where to find information of all money and stocks you have?</li>
+              <li>Where to find tax documents and account statements?</li>
+            </ul>
+
+
+          </div>
+          <p>According to the <a href="https://docs.google.com/document/d/1N1s64e7JMCnb35KUqg9D19ttUeQOJOMxn73eHhua2tc/edit?usp=sharing">feedbacks and analysis of the usability test,</a>I came up with a list of potential changes that I can do to improve
+            the website:</p>
+          <div class="">
+            <ul style="list-style-type:decimal">
+              <li>Only show the last four digits of users’ social security numbers</li>
+              <li>Change the wording of “go to homepage” to “start trading” or “let’s make some money”</li>
+              <li>Use radio button design for “Order Type” and “Expiration Type” </li>
+              <li>Change “balance” to “cash balance” </li>
+              <li>Highlight price in order reviewing section</li>
+              <li>Move stock price section above trade section</li>
+              <li>Change the wording of “filter” to “stock picker” or “stock screener”</li>
+              <li>Remove “share price” section on stock page</li>
+              <li>Add dividend section on stock page</li>
+              <li>Replace infinite symbol with the largest market cap</li>
+              <li>Add a sorting feature for stock picker results</li>
+              <li>Customize notifications for each stock</li>
+              <li>Remove the summary section in account</li>
+            </ul>
+
+          </div>
+
         </div>
       </div>
 
       <div>
-        <p><b>Video of one usability test using paperprototype:</b> </p>
-      <br>
-      <div class="youtube-container">
-        <iframe width="560" height="349" src="https://www.youtube.com/embed/34cGkqRqyME" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-      </div>
-
-    </div>
-
-    <!--Wireframes-->
-    <div class="container-fluid">
-
-      <div class="row">
-        <div class="col-xs-12">
-          <h4>Low-Fidelity Wireframes</h4>
-          <hr>
+        <p><b>Video of one usability test using paperprototype (40 minutes):</b> </p>
+        <br>
+        <div class="youtube-container">
+          <iframe width="560" height="349" src="https://www.youtube.com/embed/34cGkqRqyME" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
         </div>
+        <br>
       </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <p>I created <a href="https://www.dropbox.com/s/ccsxhaqanjsife2/PuppyFace%20Balsamiq.pdf?dl=0">low fidelity wireframes </a>through Balsamiq to simulate the desired interaction flow and feel of the product. </p>
+
+      <!--Wireframes-->
+      <div class="container-fluid">
+
+        <div class="row">
+          <div class="col-xs-12">
+            <h4>Low-Fidelity Wireframes</h4>
+            <hr>
+          </div>
+          <img src="/images/bounce/lowfi-wireframe.png" class="center-block" style="width:78%" />
         </div>
-        <img src="/images/bounce/lowfi-wireframe.png" class="center-block" style="width:78%" />
-      </div>
-    </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <p>I created <a href="https://drive.google.com/drive/folders/1swgThQ2ZaY-a_ARg5R-Puz959KFKjIrv?usp=sharing">clickable low fidelity wireframes </a>through Sketch and Invision to simulate the desired interaction flow and feel of the product.The
+              purpose of the low fidelity wireframe test is to check if the design has the right navigation, and if people can find the right content and finish task easily. </p>
+            <p>I created <a href="https://invis.io/5RH0U1NS7NW">clickable low fidelity prototype</a> by InVision and using Usertest.io to finish the test. I required the test website to recruit five users between 18~45 years old who are interested in stock
+              trading. The reason why I only recruit people between 18~45 is that according to the survey at the beginning of the project I already knew that these people are the majority population of stock trading beginners. </p>
+            <p>The whole usability testing process consist of seven tasks and three questions. They are listed below:</p>
+            <ul style="list-style-type:decimal">
+              <li>Imagine you are a stock trading beginner, you don't have an account, please sign up.</li>
+              <li>Please purchase 20 shares of Apple stock at market price.</li>
+              <li>Imagine you own AMAT (Applied Material) stock, please sell 10 shares at a limit price ($53.00).</li>
+              <li>You would like to turn on/ off notifications (such as price change/big events/new product release) for all stocks on the watchlist. How would you do it?</li>
+              <li>Imagine you want to find a stock that meets certain requirements (such as growth rate, earnings), can you find it and add it to your watchlist?</li>
+              <li>If you want to know whether a stock is overvalued/undervalued, where would you find this information?</li>
+              <li>Please find out where to transfer money to/from banks.</li>
+              <li>What made you frustrated when using the website? </li>
+              <li>What's good about this website? </li>
+              <li>What can we do to improve the website?</li>
+            </ul>
+          </div>
+          <p>I watched recorded videos of the user’s behaviors over and over again to make sure I catch every details, at the same time, I observed and wrote down the reactions of users. Here is a<a href="https://docs.google.com/document/d/1KvegB-0uq52oK86wairTGFcbh6COaJuVNi5Bi0fPLuI/edit?usp=sharing"> 10 pages detailed analysis</a>            of five usability tests. Based on users’ feedbacks and my analysis, here are potential changes to the website:</p>
+          <ul style="list-style-type:decimal">
+            <li><span class="bold">Add wire transfer option:</span> Some users may concern the safety of linking their bank account and would rather use wire transfer, Bounce should be able to provide a wire transfer</li>
+            <li>Stress bank account safety: Even though Bounce states all personal information are bank-level safe here, and bank accounts are protected by FDIC, but users may not see this explanation next to bank information. I can use an eye-catching color
+              or bold font to increase the readability and get more attention. </li>
+            <li>Change the wording of search bar: Search is a broad concept. Users don’t know if the search bar is for stock search or web page content search. To make it clear, I can change the wording of searching bar from “search” to “want to buy some
+              stocks?”, or “find your favorite stock to start trading”. </li>
+            <li>Change the wording of review button: Some non-tech savvy users may not understand what does “Review” button do, they may concern if they click the button, they will have to go back to the beginning of the buying process. To ease their confusion,
+              I can change the wording of review button from “Review” to “Review your order”. </li>
+            <li>Add explanations/descriptions: To beginners, they are not familiar with what is market order and limit order, they need some explanations or descriptions. </li>
+            <li>Add instant response after a market order: Market order usually is filled instantly, so after the orders is filled, the sell box should refresh automatically, changing from “You don’t have any Apple stock” to “you have 20 shares APPL”. </li>
+            <li>Re-design the user flow for selling stocks: users should be able to view what stocks they own in two places, Account, and Portfolio (home page). </li>
+            <li>Increase the difference between a buy box and a sell box: Use different colors or add animation to increase the difference. For example, the letter “buy” will enlarge when buy box is chosen. The purpose is to reduce the possibility of mixing
+              buy and sell.</li>
+            <li>Indicate what’s the next information to fill out: users may forget to fill out some information before placing an order, there are two ways to solve the problem (a) use error reminder (b) indicate what’s the next step by making some differentiation
+              between filled and to be filled.</li>
+            <li>Re-design user flow for notifications settings: most users expect when clicking the icon of watchlist then they will be directed to the setting of watchlist. </li>
+            <li>Consolidating some notification options: notifications sections are a lot to read, to make it easy for users, I can group some options.</li>
+            <li>Improve feedbacks after stocks are added: Current feedbacks are limited, if a user click eye icon (add to watchlist icon), only the color of eye icon will turn bright. But this color change is not enough to draw users’ attention. There are
+              two things I can do to help users catch the status change easily (1) change wording from “add to watchlist” to “added to watchlist”; (2) add an instant notifications like “XXX stock is added to your watchlist” or “We help you keep an eye
+              on XXX stocks”</li>
+            <li>Change the wording of “industry”: Some users are not clear what will happen if they choose one or two industries. The purpose of choosing industries is to encourage people to invest in something they are interested in or something they like,
+              it doesn’t matter whether it is one industry or two industries. So if I change the wording from “industry” to “Let us know what industries are you interested in”, that will be more clear to them.</li>
+            <li>Options for users to know more about value calculation: Users would like to know how the website decide if a stock is overvalued or undervalued. I can provide a small icon next to calculation or a link to show how we calculate the value and
+              how we get the numbers. </li>
+            <li>Add drop-down menu: users prefer drop-down menu to preview the content on each page because right now, they don’t know where they are and where the button will lead to. Presenting a drop-down menu when hovering can solve this problem.</li>
+            <li>Simplified company introduction: Provide basic information like location, business, and also provide an option if users want to read more. Removing extra words from the design will make the reading easy and make the UI cleaner. Some users
+              don’t want to read it if too much information is provided. </li>
+            <li>Allow users to jump to certain content on the stock page: There are two reasons why users assume that stock value section is in the Stock Picker (a) the last task is to use stock picker to pick a stock, there are several options in the picker,
+              users don’t remember all the options and think “value section” may be there; (b) the “value” information is actually on the stock page itself, users don’t see it there because there are too many information on the stock page. If I add a
+              menu on the stock pages, It will help users navigate to “value” section, and help them recognize information on the stock page. There is a lot useful information on the stock page, and users are easy to get lost. Providing a feature to allow
+              users to jump to certain content can help users find what they want easily. </li>
+            <li>Focus on beginner use and prevent overkill by providing tips and description</li>
 
 
-  <!--FOOTER-->
-  <footer>
-    <div class="container-fluid contact text-center">
-      <div class="row">
-        <div class="col-xs-12">
-          <p>Want to chat?</p>
-          <a href="mailto:oushanmail@gmail.com?subject=Hi,Shan!" class="btn">GET IN TOUCH</a>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid bottom bottomstyle">
-      <div class="row">
-        <div class="d-flex flex-row .align-content-center">
-          <ul>
-            <li><a href="mailto:oushanmail@gmail.com?subject=Hi,Shan!" target="_blank"> <i class="fa fa-envelope" style="font-size:24px; color:rgb(59,42,42)"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/shanouuf/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px; color:rgb(59,42,42)"></i></a></li>
-            <li><a href="https://github.com/solove00" target="_blank"><i class="fa fa-github-square" style="font-size:24px; color:rgb(59,42,42)"></i></a></li>
+
           </ul>
-        </div>
-        <div class="d-flex flex-row-reverse">
-          <p>&copy; 2018 Shan Ou | Designed &amp; Developed by Shan Ou</p>
+
         </div>
       </div>
-    </div>
-  </footer>
 
-  <!-- JS -->
-  <script src="/js/jquery-3.1.1.min.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
-  <script src="/js/scripts.js"></script>
+
+      <!--FOOTER-->
+      <footer>
+        <div class="container-fluid contact text-center">
+          <div class="row">
+            <div class="col-xs-12">
+              <p>Want to chat?</p>
+              <a href="mailto:oushanmail@gmail.com?subject=Hi,Shan!" class="btn">GET IN TOUCH</a>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid bottom bottomstyle">
+          <div class="row">
+            <div class="d-flex flex-row .align-content-center">
+              <ul>
+                <li><a href="mailto:oushanmail@gmail.com?subject=Hi,Shan!" target="_blank"> <i class="fa fa-envelope" style="font-size:24px; color:rgb(59,42,42)"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/shanouuf/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px; color:rgb(59,42,42)"></i></a></li>
+                <li><a href="https://github.com/solove00" target="_blank"><i class="fa fa-github-square" style="font-size:24px; color:rgb(59,42,42)"></i></a></li>
+              </ul>
+            </div>
+            <div class="d-flex flex-row-reverse">
+              <p>&copy; 2018 Shan Ou | Designed &amp; Developed by Shan Ou</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- JS -->
+      <script src="/js/jquery-3.1.1.min.js"></script>
+      <script src="/js/bootstrap.min.js"></script>
+      <script src="/js/scripts.js"></script>
 </body>
 
 </html>
