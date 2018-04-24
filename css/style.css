@@ -345,6 +345,8 @@ section div#slightly-shaded p {
 section div p{
     margin-right:10vw !important;
     margin-left:10vw !important;
+    text-align: justify;
+    text-justify: inter-word;
 }
 section div h4{
     margin-right:10vw !important;
@@ -357,6 +359,11 @@ section div ul{
 section div table{
     margin-right:10vw !important;
     margin-left:10vw !important;
+}
+
+section div ul{
+    text-align: justify;
+    text-justify: inter-word;
 }
 /*
 section div h4{
