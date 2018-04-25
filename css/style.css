@@ -731,7 +731,7 @@ footer div ul > li > a {
     height:100%; /* = 100% - 2*5% padding */
     width:100%; /* = 100% - 2*5% padding */
     /* padding: 5%; */
-    
+
 }
 .table{
     display:table;
@@ -790,15 +790,15 @@ footer div ul > li > a {
 }
 
 .img1{
-    background-image: url('/images/portfolio1.png');
+    background-image: url('/images/p-puppyface.png');
 }
 
 .img2{
-    background-image: url('/images/portfolio-bounce1.png');
+    background-image: url('/images/p-bounce.png');
 }
 
 .img3{
-    background-image: url('/images/blocbox/portfolio-pic.png');
+    background-image: url('/images/p-blocbox.png');
 }
 
 
@@ -823,7 +823,7 @@ animation: AnimationName 10s ease infinite;
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-@keyframes AnimationName { 
+@keyframes AnimationName {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
