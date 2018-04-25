@@ -11,6 +11,8 @@
     <!-- <link href="https://fonts.googleapis.com/css?family=Gudea" rel="stylesheet" type="text/css"> -->
     <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/normalize.css">
@@ -19,17 +21,13 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel='icon' href="/images/logo4.png" type='image/x-icon'/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/thumbnail-gallery.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
 </head>
-<body class="mainbackground">
-    <header>
-        <div class="topnav" id="myTopnav">
-                <a href="/index.html" class="logo-small alignleft"><img src="/images/logo4.png" alt="SHAN OU"/></a>
-                <a class="name" href="/index.html">Shan Ou</a>
-                <a class="item rightmost" href="/about.html">About</a>
-                <a class="item" href="/resume.html">Resume</a>
-                <a class="item" href="/portfolio.html">Portfolio</a>
-                <a href="javascript:void(0);" style="font-size:24px;" class="icon" onclick="responsiveNavBar()">&#9776;</a>
-       </div>
+<body>
+
+
 
 <!--
         <nav class="container-fluid">
@@ -64,25 +62,21 @@
         </banner> -->
 
         <!-- HERO -->
-        <main class="container-fluid">
-            <div id = "preloadedImages">
-            </div>
-        </main>
-     </header>
+
 
         <!-- CASE STUDY PREVIEWS -->
-        <section class="container-fluid" id="preview">
+        <!-- <section class="container-fluid" id="preview">
         <div class="row">
-                <div class="col-lg-12">
+            <div class="col-lg-12">
+                <br>
+                <br>
+
+                <h1 class="text-center fadeIn"><font face="Libre Baskerville" >Shan Ou</font></h1>
+
                     <br>
                     <br>
-
-                    <h1 class="text-center fadeIn"><font face="Libre Baskerville" >Shan Ou</font></h1>
-
-                        <br>
-                        <br>
-                    <p class="text-center animated fadeIn"><font face="Libre Baskerville" >I am a UX/UI Designer with focus on User Experience and Usability from South Florida.</font></p>
-                </div>
+                <p class="text-center animated fadeIn"><font face="Libre Baskerville" >I am a UX/UI Designer with focus on User Experience and Usability from South Florida.</font></p>
+            </div>
             </div>
             <div class="row">
                 <div class="col-lg-12 fadeIn" style="text-align: center;">
@@ -90,58 +84,131 @@
                 </div>
             </div>
 
-
-
-            <!-- <div class="row preview">
-                <div class="col-sm-6 ">
-                    <a href="/case_study/puppyface.html"><img src="/images/indexpuppyface6.png" class=" center-block portfolio-thumbnail img-rounded"></a>
+        </section> -->
+        <section id="portfolio-list">
+                <!-- https://uigradients.com/#FreshTurboscent -->
+            <div class="main-color">
+                    <div class="topnav" id="myTopnav" style="background-color:transparent">
+                            <a href="/index.html" class="logo-small alignleft"><img src="/images/logo4.png" alt="SHAN OU"/></a>
+                            <a class="name" href="/index.html">Shan Ou</a>
+                            <a class="item rightmost" href="/about.html">About</a>
+                            <a class="item" href="/resume.html">Resume</a>
+                            <a class="item" href="/portfolio.html">Portfolio</a>
+                            <a href="javascript:void(0);" style="font-size:24px;" class="icon" onclick="responsiveNavBar()">&#9776;</a>
                 </div>
-                <div class="col-sm-6 portfolio-text">
-                    <a href="/case_study/puppyface.html"><h3 class="text-left">PuppyFace</h3></a>
-                    <br>
-
-                    <p>PuppyFace is an app that offers reliable and free pet services.</p>
-
-                </div>
-                <div class="portfolio-mobile-text">
-                    <a href="/case_study/puppyface.html"><h3>PuppyFace</h3></a>
-                </div>
-            </div> -->
-            <!-- <div class="row preview">
-                <div class="col-sm-6">
-                    <a href="case-studies/backyard.html"><img src="images/thumbnail-backyard.png" class="center-block" style="width:300px"/></a>
-                </div>
-                <div class="col-sm-6">
-                    <a href="case-studies/backyard.html"><h3 class="text-left">Backyard</h3></a>
-                    <p style="color:lightgray">UX Design</p>
-                    <p>Backyard is a mobile application that simplifies and customizes the search for parks and playgrounds suitable for children. My goal was to streamline the selection and evaluation process to help families enjoy the outdoors.</p>
-                    <a href="case-studies/backyard.html"><p class="project-link">View project &#8594;</p></a>
-                </div>
-            </div>
-            <div class="row preview">
-                <div class="col-sm-6">
-                    <a href="case-studies/hive.html"><img src="images/thumbnail-hive.png" class="center-block" style="width:300px"/></a>
-                </div>
-                <div class="col-sm-6">
-                    <a href="case-studies/hive.html"><h3 class="text-left">Hive</h3></a>
-                    <p style="color:lightgray">UX Design</p>
-                    <p>Hive is a SaaS web application for collecting and sorting information. This platform reimagines how people might organize, share, and collaborate on content, either casually with friends or in the professional workspace. </p>
-                    <a href="case-studies/hive.html"><p class="project-link">View project &#8594;</p></a>
+                <main class="container-fluid">
+                    <div id = "preloadedImages">
+                    </div>
+                </main>
+                
+            
+                <div class="container-fluid">
+        
+                <div class="row" style="padding:0 0 0 0; margin-bottom:0">
+                        <div class="doublesquare" style="background-color:transparent;">
+                            <div class="content">
+                                <div class="centered" >
+                                    <div id="port-cell-description">Shan</div>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </div>
-            <div class="row preview">
-                <div class="col-sm-6">
-                    <a href="case-studies/photofile.html"><img src="images/thumbnail-photofile.png" class="center-block" style="width:300px"/></a>
+                  <div class="row" style="padding:0 0 0 0; margin-bottom:0">
+                      <div class="square" style="background-color:thistle;">
+                          <div class="content">
+                              <div class="centered" >
+                                  <div id="port-cell-description">Inspired by my puppy Disney</div>
+                              </div>
+                              <div class="centered" >
+                                  <a class="port-textglow" id="port-cell-title" href="/case_study/puppyface.html">PuppyFace</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="square bg img1">
+                          <div class="content">
+                          </div>
+                      </div>
+                  </div>
+          
+                  <div class="row" style="padding:0 0 0 0; margin-bottom:0">
+                      <div class="square bg img2">
+                          <div class="content">
+                          </div>
+                      </div>
+                      <div class="square" style="background-color:skyblue;">
+                          <div class="content">
+                              <div class="centered" >
+                                  <div id="port-cell-description">Get everyone INVESTED!</div>                 
+                              </div>
+                              <div class="centered" >
+                                  <a class="port-textglow" id="port-cell-title" href="/case_study/Bounce.html">Bounce</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row" style="padding:0 0 0 0; margin-bottom:0">
+                      <div class="square" style="background-color:sandybrown;">
+                          <div class="content">
+                              <div class="centered" >
+                                  <div id="port-cell-description">Save, share, collaborate!</div>                   
+                              </div>
+                              <div class="centered" >
+                                  <a class="port-textglow" id="port-cell-title" href="/case_study/blocbox.html">BlocBox</a>            
+                              </div>
+                          </div>
+                      </div>
+                      <div class="square bg img3">
+                          <div class="content">
+                          </div>
+                      </div>
+                  </div>
+          
+                  <div id="port-title" style="padding-top: 10vmax" >Selected Works (change wording)</div>
+                  <div class="tz-gallery">
+          
+                          <div class="row">
+                  
+                              <div class="col-sm-6 col-md-4">
+                                  <div class="thumbnail">
+                                      <a class="lightbox" href="/images/bkg11.jpeg">
+                                          <img src="/images/bkg11.jpeg" alt="xxx">
+                                      </a>
+                                      <div class="caption">
+                                          <h3>Thumbnail label</h3>
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-sm-6 col-md-4">
+                                  <div class="thumbnail">
+                                      <a class="lightbox" href="/images/bkg11.jpeg">
+                                          <img src="/images/bkg11.jpeg" alt="xxx">
+                                      </a>
+                                      <div class="caption">
+                                          <h3>Thumbnail label</h3>
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-sm-6 col-md-4">
+                                      <div class="thumbnail">
+                                          <a class="lightbox" href="/images/bkg11.jpeg">
+                                              <img src="/images/bkg11.jpeg" alt="xxx">
+                                          </a>
+                                          <div class="caption">
+                                              <h3>Thumbnail label</h3>
+                                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                          </div>
+                  
+                      </div>
+                  
+          
                 </div>
-                <div class="col-sm-6">
-                    <a href="case-studies/photofile.html"><h3 class="text-left">Photofile</h3></a>
-                    <p style="color:lightgray">UX Design</p>
-                    <p>Photofile is a mobile application that enables attorneys to submit legal documents to the court and track their progress. I designed this product as a practicing attorney in response to Santa Clara County's adoption of an electronic filing system in 2016. </p>
-                    <a href="case-studies/photofile.html"><p class="project-link">View project &#8594;</p></a>
-                </div>
-            </div> -->
-        </section>
-
+              </section>
     <!--FOOTER-->
     <footer>
         <div class="container-fluid bottom bottomstyle" style=" position:fixed; bottom:0; left:0;">
