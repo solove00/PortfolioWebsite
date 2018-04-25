@@ -96,11 +96,13 @@ html, body {
     overflow-x:hidden;
 }
 body {
-    font-family: "Arimo",Helvetica, Arial, sans-serif !important;
+    /*font-family: "Arimo",Helvetica, Arial, sans-serif !important;*/
+		font-family: "Roboto", sans-serif, Helvetica, Arial, sans-serif !important;
     color:#333333;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: "Libre+Baskerville",Helvetica, Arial, sans-serif !important;
+		/*font-family: 'Lato', sans-serif,Helvetica, Arial, sans-serif !important;*/
 }
 h1 {
     font-size: 60px !important;
