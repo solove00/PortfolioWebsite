@@ -1,3 +1,4 @@
+
 .bold{
 	font-weight:bold;
 }
@@ -476,6 +477,7 @@ footer div ul > li > a {
     padding: 8px 8px;
     text-decoration: none;
     font-size: 20px;
+		font-family:'Poppins', sans-serif;
   }
 
   .topnav a:hover {
@@ -832,7 +834,7 @@ a#port-cell-title:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
-  } 
+  }
 
   .arrow-container{
     display: table;
@@ -847,12 +849,17 @@ a#port-cell-title:before {
   .title-container.top-bottom{
     font-size: 2vw;
     color:white;
+		font-family:'Comfortaa', cursive;
   }
   .title-container.middle{
-    font-family: "Righteous";   
     font-size: 4vw;
     color:white;
+		font-family:'Heebo', sans-serif;
     }
+
+		.topnav a#indexpage {
+			color: white;
+		}
 
 /* .main-color{
 
