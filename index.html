@@ -101,42 +101,42 @@
             </div>
 
         </section> -->
-        <!-- https://uigradients.com/#FreshTurboscent -->
-        <div style="background-image:url('/images/grd-bkgcolor4.png');background-size:100% 100%;">
-                <div class="topnav" id="myTopnav" style="background-color:transparent">
-                    <a href="/index.html" class="logo-small alignleft">
-                        <img src="/images/logo-blue.png" alt="SHAN OU" />
-                    </a>
-                    <a class="name" id="indexpage" href="/index.html">Shan Ou</a>
-                    <a class="item rightmost" id="indexpage" href="/about.html">About</a>
-                    <a class="item" id="indexpage" href="/resume.html">Resume</a>
-                    <a class="item" id="indexpage" href="/index.html#portfolio-list">Portfolio</a>
-                    <a href="javascript:void(0);" style="font-size:24px;" class="icon" id="indexpage" onclick="responsiveNavBar()">&#9776;</a>
-                </div>
-                <div class="row" style="padding:0 0 0 0; margin-bottom:0">
-                    <div class="doublesquare" style="background-color:transparent;">                       
-                        <div class="content">
+    <!-- https://uigradients.com/#FreshTurboscent -->
+    <div style="background-image:url('/images/grd-bkgcolor4.png');background-size:100% 100%;">
+        <div class="topnav" id="myTopnav" style="background-color:transparent">
+            <a href="/index.html" class="logo-small alignleft">
+                <img src="/images/logo-blue.png" alt="SHAN OU" />
+            </a>
+            <a class="name" id="indexpage" href="/index.html">Shan Ou</a>
+            <a class="item rightmost" id="indexpage" href="/about.html">About</a>
+            <a class="item" id="indexpage" href="/resume.html">Resume</a>
+            <a class="item" id="indexpage" href="/index.html#portfolio-list">Portfolio</a>
+            <a href="javascript:void(0);" style="font-size:24px;" class="icon" id="indexpage" onclick="responsiveNavBar()">&#9776;</a>
+        </div>
+        <div class="row" style="padding:0 0 0 0; margin-bottom:0">
+            <div class="doublesquare" style="background-color:transparent;">
+                <div class="content">
 
-                            <div class="centered">
-                                <div>
-                                        <div class="title-container top-bottom">Hello, my name is Shan Ou and I'm a </div>
-                                        <br>
-                                        <div class="title-container middle">UX & UI Designer</div>
-                                        <br>
-                                        <!-- <div>based in South Florida.</div> -->
-                                        <div class="title-container top-bottom">based in sunny South Florida.</div>
-                                </div>
-                                <div class="arrow-container">
-                                    <div class="chevron"></div>
-                                    <div class="chevron"></div>
-                                    <div class="chevron"></div>
-                                    <a style="display: none;" href="/index.html#portfolio-list"></a>
-                                </div>
-                            </div>
+                    <div class="centered">
+                        <div>
+                            <div class="title-container top-bottom">Hello, my name is Shan Ou and I'm a </div>
+                            <br>
+                            <div class="title-container middle">UX & UI Designer</div>
+                            <br>
+                            <!-- <div>based in South Florida.</div> -->
+                            <div class="title-container top-bottom">based in sunny South Florida.</div>
+                        </div>
+                        <div class="arrow-container">
+                            <div class="chevron"></div>
+                            <div class="chevron"></div>
+                            <div class="chevron"></div>
+                            <a style="display: none;" href="/index.html#portfolio-list"></a>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 
     <section id="portfolio-list">
         <div class="row" style="padding:0 0 0 0; margin-bottom:0">
@@ -152,7 +152,7 @@
             </div>
             <div class="square bg img1">
                 <div class="content">
-                     <a style="display: none;" href="/case_study/puppyface.html">PuppyFace</a>
+                    <a style="display: none;" href="/case_study/puppyface.html">PuppyFace</a>
                 </div>
             </div>
         </div>
@@ -160,7 +160,7 @@
         <div class="row" style="padding:0 0 0 0; margin-bottom:0">
             <div class="square bg img2">
                 <div class="content">
-                     <a style="display: none;" href="/case_study/Bounce.html">PuppyFace</a>
+                    <a style="display: none;" href="/case_study/Bounce.html">PuppyFace</a>
                 </div>
             </div>
             <div class="square" style="background-color:skyblue;">
@@ -187,7 +187,7 @@
             </div>
             <div class="square bg img3">
                 <div class="content">
-                     <a style="display: none;" href="/case_study/blocbox.html">PuppyFace</a>
+                    <a style="display: none;" href="/case_study/blocbox.html">PuppyFace</a>
                 </div>
             </div>
         </div>
@@ -204,7 +204,8 @@
                         </a>
                         <div class="caption">
                             <h3>Swan Logo Design</h3>
-                            <p>The design process of a logo for my portfolio website and the beautiful branding story behind it. </p>
+                            <p>The design process of a logo for my portfolio website and the beautiful branding story behind
+                                it. </p>
                         </div>
                     </div>
                 </div>
@@ -226,7 +227,8 @@
                         </a>
                         <div class="caption">
                             <h3>EasyTalk</h3>
-                            <p>A custom Android SMS application that features Navigation Drawer, Feed, Recent Conversations, Expandable Search.</p>
+                            <p>A custom Android SMS application that features Navigation Drawer, Feed, Recent Conversations,
+                                Expandable Search.</p>
                         </div>
                     </div>
                 </div>
@@ -296,21 +298,20 @@
                 } // End if
             });
 
-            	$(".square").click(function(){
-                    window.location=$(this).find("a").attr("href"); 
-                    return false;
-                });
+            $(".square").click(function () {
+                window.location = $(this).find("a").attr("href");
+                return false;
+            });
 
-                $(".doublesquare").click(function(event){
-                    // var offset = 20; //Offset of 20px
-                    if(event.clientY > 0.7 * $(window).height())
-                    {
-                        $('html, body').animate({
+            $(".doublesquare").click(function (event) {
+                // var offset = 20; //Offset of 20px
+                if (event.clientY > 0.7 * $(window).height()) {
+                    $('html, body').animate({
                         scrollTop: $("#portfolio-list").offset().top
-                        }, 1000);
-                    }
+                    }, 1000);
+                }
 
-                });
+            });
         });
     </script>
 </body>
