@@ -39,7 +39,7 @@ body{
 	height:60px;
 	top:110px;
 	right:40px;
-	background-color:#06C;
+	background-color:rgb(115, 87, 173);
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
@@ -804,7 +804,7 @@ footer div ul > li > a {
 }
 
 .img3{
-    background-image: url('/images/p-blocbox.png');
+    background-image: url('/images/blocbox-table.png');
 }
 
 
@@ -874,7 +874,7 @@ a#port-cell-title:before {
             padding-top: 10vmax;
             font-size:1.1vmax;
         }
-        
+
  }
 
  .topnav a#indexpage {
