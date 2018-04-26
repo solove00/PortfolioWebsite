@@ -640,7 +640,6 @@ footer div ul > li > a {
 #port-item-description{
     font-size:1.8vmax;
     color:white;
-    font-family:'Comfortaa', sans-serif,cursive;
 }
 
 @media screen and (max-width: 600px) {
@@ -771,7 +770,7 @@ footer div ul > li > a {
     padding-top: 10vmax;
     font-size:1.6vmax;
     color:white;
-    /*font-family: "Righteous";*/
+    font-family:'Comfortaa', sans-serif,cursive;}
 }
 
 .port-textglow {
@@ -868,16 +867,12 @@ a#port-cell-title:before {
         font-size: 0.8em;
       }
       .title-container.middle{
-        font-family: "Righteous";   
         font-size: 1.5em;
-        color:white;
         }
 
         #port-cell-description{
             padding-top: 10vmax;
             font-size:1.1vmax;
-            color:white;
-            /*font-family: "Righteous";*/
         }
         
  }
