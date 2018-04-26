@@ -109,8 +109,9 @@
                     <a href="javascript:void(0);" style="font-size:24px;" class="icon" onclick="responsiveNavBar()">&#9776;</a>
                 </div>
                 <div class="row" style="padding:0 0 0 0; margin-bottom:0">
-                    <div class="doublesquare" style="background-color:transparent;">
+                    <div class="doublesquare" style="background-color:transparent;">                       
                         <div class="content">
+
                             <div class="centered">
                                 <div>
                                         <div class="title-container top-bottom">Hello, my name is Shan Ou. I am a </div>
@@ -124,6 +125,7 @@
                                     <div class="chevron"></div>
                                     <div class="chevron"></div>
                                     <div class="chevron"></div>
+                                    <a style="display: none;" href="/index.html#portfolio-list"></a>
                                 </div>
                             </div>
                         </div>
@@ -145,6 +147,7 @@
             </div>
             <div class="square bg img1">
                 <div class="content">
+                     <a style="display: none;" href="/case_study/puppyface.html">PuppyFace</a>
                 </div>
             </div>
         </div>
@@ -152,6 +155,7 @@
         <div class="row" style="padding:0 0 0 0; margin-bottom:0">
             <div class="square bg img2">
                 <div class="content">
+                     <a style="display: none;" href="/case_study/Bounce.html">PuppyFace</a>
                 </div>
             </div>
             <div class="square" style="background-color:skyblue;">
@@ -178,6 +182,7 @@
             </div>
             <div class="square bg img3">
                 <div class="content">
+                     <a style="display: none;" href="/case_study/blocbox.html">PuppyFace</a>
                 </div>
             </div>
         </div>
@@ -286,6 +291,22 @@
                     });
                 } // End if
             });
+
+            	$(".square").click(function(){
+                    window.location=$(this).find("a").attr("href"); 
+                    return false;
+                });
+
+                $(".doublesquare").click(function(event){
+                    // var offset = 20; //Offset of 20px
+                    if(event.clientY > 0.7 * $(window).height())
+                    {
+                        $('html, body').animate({
+                        scrollTop: $("#portfolio-list").offset().top
+                        }, 1000);
+                    }
+
+                });
         });
     </script>
 </body>

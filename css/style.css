@@ -121,11 +121,14 @@ h3.title {
     color: #F0640F;
 }
 h3.bounce-title {
-    font-size: 18px !important;
+    font-size: 18px;
     letter-spacing: 2px;
     text-align:center;
     font-weight:700;
     color: #03B2E5;
+}
+h3.bounce-title#wip {
+    font-size: 30px;
 }
 h3.blocbox-title {
     font-size: 18px !important;
@@ -722,7 +725,8 @@ footer div ul > li > a {
     float:left;
     position: relative;
     width: 100%;
-    padding-bottom : 50%; /* = width for a 1:1 aspect ratio */
+    height: 100vh;
+    /* padding-bottom : 50%; = width for a 1:1 aspect ratio */
     margin:0;
     overflow:hidden;
 }
@@ -807,10 +811,7 @@ a#port-cell-title
 {
     position: relative;
     text-decoration: none;
-}
-
-a#port-cell-title {
-  color:white;
+    color:white;
 }
 
 a#port-cell-title:before {
@@ -853,6 +854,30 @@ a#port-cell-title:before {
     font-size: 4vw;
     color:white;
     }
+
+@media screen and (max-width: 600px) {
+    .arrow-container{
+        padding-top: 28vh;
+      }
+
+      .title-container.top-bottom{
+        font-size: 0.8em;
+      }
+      .title-container.middle{
+        font-family: "Righteous";   
+        font-size: 1.5em;
+        color:white;
+        }
+
+        #port-cell-description{
+            padding-top: 10vmax;
+            font-size:1.1vmax;
+            color:white;
+            /*font-family: "Righteous";*/
+        }
+        
+ }
+
 
 /* .main-color{
 
