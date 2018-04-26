@@ -49,4 +49,4 @@ self.app.all(/.*/, function(req, res, next) {
     res.redirect(301, "http://www." + host + req.url);
   }
 });
-app.use('/',express.static('public'));
+app.use('/',express.static('public', { maxage: '1d' }));
