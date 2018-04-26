@@ -875,18 +875,6 @@ footer div ul>li>a {
     color: #fff;
 }
 
-.img1 {
-    background-image: url('/images/p-puppyface.png');
-}
-
-.img2 {
-    background-image: url('/images/p-bounce.png');
-}
-
-.img3 {
-    background-image: url('/images/blocbox-table.png');
-}
-
 a#port-cell-title {
     position: relative;
     text-decoration: none;
@@ -959,6 +947,11 @@ a#port-cell-title:hover:before {
 
 .topnav a.icon#indexpage {
     color: white;
+}
+
+.image-fit{
+    max-width:100%;
+    max-height:100%;
 }
 
 /* .main-color{
