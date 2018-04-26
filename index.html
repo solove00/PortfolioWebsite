@@ -24,6 +24,11 @@
     <link rel="stylesheet" href="/css/thumbnail-gallery.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+
+    <!-- <link rel="stylesheet/scss" href="css/arrow.scss" type="text/css"> -->
+    <link rel="stylesheet/less" type="text/css" href="css/arrow.less" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/3.0.2/less.min.js" ></script>
+
 </head>
 
 <body>
@@ -108,6 +113,12 @@
                         <div class="content">
                             <div class="centered">
                                 <div id="port-cell-description">Shan</div>
+
+                                <div class="arrow-container">
+                                    <div class="chevron"></div>
+                                    <div class="chevron"></div>
+                                    <div class="chevron"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -244,6 +255,7 @@
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/scripts.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    
     <script>
         baguetteBox.run('.tz-gallery');
     </script>
@@ -273,12 +285,6 @@
             });
         });
     </script>
-
-    <script>
-
-    </script>
-
-
 </body>
 
 </html>
