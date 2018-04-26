@@ -617,7 +617,7 @@ footer div ul > li > a {
 #port-title{
     font-size:3vmax;
     margin-left: 42px;
-    font-family: "Libre Baskerville";
+    font-family:'Heebo', sans-serif;
     /* color:rgb(201,201,201); */
     /*color:rgb(59,42,42);*/
 }
@@ -637,7 +637,7 @@ footer div ul > li > a {
 #port-item-description{
     font-size:1.8vmax;
     color:white;
-    /*font-family: "Righteous";*/
+    font-family:'Comfortaa', sans-serif,cursive;
 }
 
 @media screen and (max-width: 600px) {
@@ -849,7 +849,7 @@ a#port-cell-title:before {
   .title-container.top-bottom{
     font-size: 2vw;
     color:white;
-		font-family:'Comfortaa', cursive;
+		font-family:'Comfortaa', sans-serif,cursive;
   }
   .title-container.middle{
     font-size: 4vw;
