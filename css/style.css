@@ -527,7 +527,7 @@ footer div ul > li > a {
     .topnav .item {
     position: relative;
     line-height: 40px;
-    font-size: 150%
+    font-size: 130%
     }
     .topnav .item.rightmost {
         padding-top:50px;
@@ -878,6 +878,10 @@ a#port-cell-title:before {
  }
 
  .topnav a#indexpage {
+    color: white;
+}
+
+.topnav a.icon#indexpage {
     color: white;
 }
 /* .main-color{
