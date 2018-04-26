@@ -834,6 +834,25 @@ a#port-cell-title:before {
     transform: scaleX(1);
   } 
 
+  .arrow-container{
+    display: table;
+    margin: 0 auto;
+    padding-top: 15vw;
+  }
+  .title-container{
+    display: table;
+    margin: 0 auto;
+  }
+
+  .title-container.top-bottom{
+    font-size: 2vw;
+    color:white;
+  }
+  .title-container.middle{
+    font-family: "Righteous";   
+    font-size: 4vw;
+    color:white;
+    }
 
 /* .main-color{
 
