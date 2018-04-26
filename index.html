@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,27 +11,37 @@
     <!-- <link href="https://fonts.googleapis.com/css?family=Gudea" rel="stylesheet" type="text/css"> -->
     <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300" rel="stylesheet">
+
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel='icon' href="/images/logo4.png" type='image/x-icon'/>
+    <link rel='icon' href="/images/logo-blue.png" type='image/x-icon' />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body class="mainbackground">
-    <header>
-        <div class="topnav" id="myTopnav">
-                <a href="/index.html" class="logo-small alignleft"><img src="/images/logo4.png" alt="SHAN OU"/></a>
-                <a class="name" href="/index.html">Shan Ou</a>
-                <a class="item rightmost" href="/about.html">About</a>
-                <a class="item" href="/resume.html">Resume</a>
-                <a class="item" href="/portfolio.html">Portfolio</a>
-                <a href="javascript:void(0);" style="font-size:24px;" class="icon" onclick="responsiveNavBar()">&#9776;</a>
-       </div>
+    <link rel="stylesheet" href="/css/thumbnail-gallery.css">
 
-<!--
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+
+    <!-- <link rel="stylesheet/scss" href="css/arrow.scss" type="text/css"> -->
+    <link rel="stylesheet/less" type="text/css" href="css/arrow.less" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/3.0.2/less.min.js" ></script>
+
+</head>
+
+<body>
+
+    <main class="container-fluid">
+        <div id="preloadedImages">
+        </div>
+    </main>
+
+    <!--
         <nav class="container-fluid">
 
                 <div class="col-sm-12" style="background-color:rgba(255,255,255,0.7)" >
@@ -47,7 +57,7 @@
 
         </nav> -->
 
-<!--
+    <!--
         <banner class="container">
           <div class="row">
             <div class="col-xs-12 menu" style="background-color:light-gray" data-spy="affix" data-offset-top="410">
@@ -63,35 +73,24 @@
           </div>
         </banner> -->
 
-        <!-- HERO -->
-        <main class="container-fluid">
-            <div id = "preloadedImages">  </div>
-            <br><br><br>
-            <!-- <object style="display: none;" type="image/svg+xml" data="https://www.iamramraj.com/demo/Flying_birds_CSS_animation_examples/bird-cells.svg" >
-              </object> -->
-            <div class="bird-container bird-container--one">
-                <div class="bird bird--one"></div>
-              </div>
-              <div class="bird-container bird-container--two">
-                <div class="bird bird--two"></div>
-              </div>
-              </div>
-        </main>
-     </header>
+    <!-- HERO -->
 
-        <!-- CASE STUDY PREVIEWS -->
-        <section class="container-fluid" id="preview">
+
+    <!-- CASE STUDY PREVIEWS -->
+    <!-- <section class="container-fluid" id="preview">
         <div class="row">
-                <div class="col-lg-12">
-                    <br>
-                    <br>
+            <div class="col-lg-12">
+                <br>
+                <br>
 
-                    <h1 class="text-center fadeIn"><font face="Libre Baskerville" >Shan Ou</font></h1>
+                <h1 class="text-center fadeIn"><font face="Libre Baskerville" >Shan Ou</font></h1>
+
 
                         <br>
                         <br>
-                    <p class="text-center animated fadeIn"><font face="Libre Baskerville" >UX/UI Designer for Web & Mobile</font></p>
+                    <p class="text-center animated fadeIn"><font face="Libre Baskerville" >I am a UX/UI Designer based in South Florida. My passion is creating friendly and inspiring products.</font></p>
                 </div>
+
             </div>
             <div class="row">
                 <div class="col-lg-12 fadeIn" style="text-align: center;">
@@ -99,122 +98,220 @@
                 </div>
             </div>
 
-            <!-- <div class="row preview">
-                <div class="col-sm-6 ">
-                    <a href="/case_study/puppyface.html"><img src="/images/indexpuppyface6.png" class=" center-block portfolio-thumbnail img-rounded"></a>
+        </section> -->
+        <!-- https://uigradients.com/#FreshTurboscent -->
+        <div style="background-image:url('/images/grd-bkgcolor4.png');background-size:100% 100%;">
+                <div class="topnav" id="myTopnav" style="background-color:transparent">
+                    <a href="/index.html" class="logo-small alignleft">
+                        <img src="/images/logo-blue.png" alt="SHAN OU" />
+                    </a>
+                    <a class="name" id="indexpage" href="/index.html">Shan Ou</a>
+                    <a class="item rightmost" id="indexpage" href="/about.html">About</a>
+                    <a class="item" id="indexpage" href="/resume.html">Resume</a>
+                    <a class="item" id="indexpage" href="/index.html#portfolio-list">Portfolio</a>
+                    <a href="javascript:void(0);" style="font-size:24px;" class="icon" onclick="responsiveNavBar()">&#9776;</a>
                 </div>
-                <div class="col-sm-6 portfolio-text">
-                    <a href="/case_study/puppyface.html"><h3 class="text-left">PuppyFace</h3></a>
-                    <br>
+                <div class="row" style="padding:0 0 0 0; margin-bottom:0">
+                    <div class="doublesquare" style="background-color:transparent;">                       
+                        <div class="content">
 
-                    <p>PuppyFace is an app that offers reliable and free pet services.</p>
-
-                </div>
-                <div class="portfolio-mobile-text">
-                    <a href="/case_study/puppyface.html"><h3>PuppyFace</h3></a>
-                </div>
-            </div> -->
-            <!-- <div class="row preview">
-                <div class="col-sm-6">
-                    <a href="case-studies/backyard.html"><img src="images/thumbnail-backyard.png" class="center-block" style="width:300px"/></a>
-                </div>
-                <div class="col-sm-6">
-                    <a href="case-studies/backyard.html"><h3 class="text-left">Backyard</h3></a>
-                    <p style="color:lightgray">UX Design</p>
-                    <p>Backyard is a mobile application that simplifies and customizes the search for parks and playgrounds suitable for children. My goal was to streamline the selection and evaluation process to help families enjoy the outdoors.</p>
-                    <a href="case-studies/backyard.html"><p class="project-link">View project &#8594;</p></a>
+                            <div class="centered">
+                                <div>
+                                        <div class="title-container top-bottom">Hello, my name is Shan Ou and I'm a </div>
+                                        <br>
+                                        <div class="title-container middle">UX & UI Designer</div>
+                                        <br>
+                                        <!-- <div>based in South Florida.</div> -->
+                                        <div class="title-container top-bottom">based in sunny South Florida.</div>
+                                </div>
+                                <div class="arrow-container">
+                                    <div class="chevron"></div>
+                                    <div class="chevron"></div>
+                                    <div class="chevron"></div>
+                                    <a style="display: none;" href="/index.html#portfolio-list"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row preview">
-                <div class="col-sm-6">
-                    <a href="case-studies/hive.html"><img src="images/thumbnail-hive.png" class="center-block" style="width:300px"/></a>
-                </div>
-                <div class="col-sm-6">
-                    <a href="case-studies/hive.html"><h3 class="text-left">Hive</h3></a>
-                    <p style="color:lightgray">UX Design</p>
-                    <p>Hive is a SaaS web application for collecting and sorting information. This platform reimagines how people might organize, share, and collaborate on content, either casually with friends or in the professional workspace. </p>
-                    <a href="case-studies/hive.html"><p class="project-link">View project &#8594;</p></a>
+
+    <section id="portfolio-list">
+        <div class="row" style="padding:0 0 0 0; margin-bottom:0">
+            <div class="square" style="background-color:thistle;">
+                <div class="content">
+                    <div class="centered">
+                        <div id="port-cell-description">Inspired by my puppy Disney</div>
+                    </div>
+                    <div class="centered">
+                        <a class="port-textglow" id="port-cell-title" href="/case_study/puppyface.html">PuppyFace</a>
+                    </div>
                 </div>
             </div>
-            <div class="row preview">
-                <div class="col-sm-6">
-                    <a href="case-studies/photofile.html"><img src="images/thumbnail-photofile.png" class="center-block" style="width:300px"/></a>
+            <div class="square bg img1">
+                <div class="content">
+                     <a style="display: none;" href="/case_study/puppyface.html">PuppyFace</a>
                 </div>
-                <div class="col-sm-6">
-                    <a href="case-studies/photofile.html"><h3 class="text-left">Photofile</h3></a>
-                    <p style="color:lightgray">UX Design</p>
-                    <p>Photofile is a mobile application that enables attorneys to submit legal documents to the court and track their progress. I designed this product as a practicing attorney in response to Santa Clara County's adoption of an electronic filing system in 2016. </p>
-                    <a href="case-studies/photofile.html"><p class="project-link">View project &#8594;</p></a>
-                </div>
-            </div> -->
-        </section>
+            </div>
+        </div>
 
+        <div class="row" style="padding:0 0 0 0; margin-bottom:0">
+            <div class="square bg img2">
+                <div class="content">
+                     <a style="display: none;" href="/case_study/Bounce.html">PuppyFace</a>
+                </div>
+            </div>
+            <div class="square" style="background-color:skyblue;">
+                <div class="content">
+                    <div class="centered">
+                        <div id="port-cell-description">Get everyone INVESTED!</div>
+                    </div>
+                    <div class="centered">
+                        <a class="port-textglow" id="port-cell-title" href="/case_study/Bounce.html">Bounce</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding:0 0 0 0; margin-bottom:0">
+            <div class="square" style="background-color:sandybrown;">
+                <div class="content">
+                    <div class="centered">
+                        <div id="port-cell-description">Save, share, collaborate!</div>
+                    </div>
+                    <div class="centered">
+                        <a class="port-textglow" id="port-cell-title" href="/case_study/blocbox.html">BlocBox</a>
+                    </div>
+                </div>
+            </div>
+            <div class="square bg img3">
+                <div class="content">
+                     <a style="display: none;" href="/case_study/blocbox.html">PuppyFace</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="port-title" style="padding-top: 7vmax">Selected Works</div>
+        <div class="tz-gallery">
+
+            <div class="row">
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" href="/images/tn-logodesign.png">
+                            <img src="/images/tn-cover1.png" alt="xxx">
+                        </a>
+                        <div class="caption">
+                            <h3>Swan Logo Design</h3>
+                            <p>The design process of a logo for my portfolio website and the beautiful branding story behind it. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" href="/images/musicbox.png">
+                            <img src="/images/musicbox-2iphone-orange.png" alt="xxx">
+                        </a>
+                        <div class="caption">
+                            <h3>MusicBox</h3>
+                            <p>A music appplication for iOS that features Playlists, Discover New Music, Search for Artists.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" href="/images/easytalk5pic.png">
+                            <img src="/images/tn-cover3.png" alt="xxx">
+                        </a>
+                        <div class="caption">
+                            <h3>EasyTalk</h3>
+                            <p>A custom Android SMS application that features Navigation Drawer, Feed, Recent Conversations, Expandable Search.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--FOOTER-->
     <footer>
         <div class="container-fluid bottom bottomstyle" style=" position:fixed; bottom:0; left:0;">
             <div class="row">
-               <div class="d-flex flex-row .align-content-center">
+                <div class="d-flex flex-row .align-content-center">
                     <ul>
-                        <li><a href="mailto:oushanmail@gmail.com?subject=Hi,Shan!" target="_blank"> <i class="fa fa-envelope" style="font-size:24px; color:rgb(59,42,42)"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/shanouuf/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px; color:rgb(59,42,42)"></i></a></li>
-                        <li><a href="https://github.com/solove00" target="_blank"><i class="fa fa-github-square" style="font-size:24px; color:rgb(59,42,42)"></i></a></li>
+                        <li>
+                            <a href="mailto:oushanmail@gmail.com?subject=Hi,Shan!" target="_blank">
+                                <i class="fa fa-envelope-square" style="font-size:24px; color:rgb(59,42,42)"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/shanouuf/" target="_blank">
+                                <i class="fa fa-linkedin-square" style="font-size:24px; color:rgb(59,42,42)"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/solove00" target="_blank">
+                                <i class="fa fa-github-square" style="font-size:24px; color:rgb(59,42,42)"></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="d-flex flex-row-reverse">
                     <p>&copy; 2018 Shan Ou | Designed &amp; Developed by Shan Ou</p>
                 </div>
-                <!-- <div class="col-xs-6 col-xs-push-6">
-                    <ul>
-                        <li><a href="mailto:oushanmail@gmail.com?subject=Hi,Shan!" target="_blank"> <i class="fa fa-envelope" style="font-size:24px; color:rgb(59,42,42)"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/shanouuf/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px; color:rgb(59,42,42)"></i></a></li>
-                        <li><a href="https://github.com/solove00" target="_blank"><i class="fa fa-github-square" style="font-size:24px; color:rgb(59,42,42)"></i></a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-6 col-xs-pull-6">
-                    <p>&copy; 2018 Shan Ou | Designed &amp; Developed by Shan Ou</p>
-                </div> -->
             </div>
         </div>
     </footer>
-
-
-
 
     <!-- JS -->
     <script src="/js/jquery-3.1.1.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/scripts.js"></script>
-    <script type="text/javascript">
-       $(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
+    <script>
+        baguetteBox.run('.tz-gallery');
     </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
 
-<script>
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
 
-</script>
+                    // Store hash
+                    var hash = this.hash;
 
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
 
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+
+            	$(".square").click(function(){
+                    window.location=$(this).find("a").attr("href"); 
+                    return false;
+                });
+
+                $(".doublesquare").click(function(event){
+                    // var offset = 20; //Offset of 20px
+                    if(event.clientY > 0.7 * $(window).height())
+                    {
+                        $('html, body').animate({
+                        scrollTop: $("#portfolio-list").offset().top
+                        }, 1000);
+                    }
+
+                });
+        });
+    </script>
 </body>
+
 </html>
