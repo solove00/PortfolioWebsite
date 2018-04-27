@@ -1,0 +1,28 @@
+{
+    "name": "shan-website",
+    "version": "0.21.0",
+    "description": "Shan's Portfolio website",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.16.3"
+    },
+    "engines": {
+      "node": ">=6.9.1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/solove00/PortfolioWebsite"
+    },
+    "keywords": [
+      "node",
+      "express"
+    ],
+    "author": "Shan Ou",
+    "contributors": [
+      "Shan Ou <oushanmail@gmail.com> (http://www.shancreate.com)"
+    ],
+    "license": "MIT"
+  }
