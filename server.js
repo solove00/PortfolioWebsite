@@ -72,18 +72,18 @@ var express = require("express");
 var app = express();
 
 //Redirect web.com to www.web.com
-app.all(/.*/, function (req, res, next) {
-  var host = req.header("host");
-  if (host.match(/^www\..*/i)) {
-    next();
-  } else if (host.toLowerCase().indexOf("shancreate.com")){
-    res.redirect(301, "http://www." + host + req.url);
-  }
-  else
-  {
-    next();
-  }
-});
+// app.all(/.*/, function (req, res, next) {
+//   var host = req.header("host");
+//   if (host.match(/^www\..*/i)) {
+//     next();
+//   } else if (host.toLowerCase().indexOf("shancreate.com")){
+//     res.redirect(301, "http://www." + host + req.url);
+//   }
+//   else
+//   {
+//     next();
+//   }
+// });
 
 /* serves main page */
 app.get("/", function (req, res) {
