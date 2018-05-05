@@ -847,6 +847,14 @@ footer div ul>li>a {
     font-family: 'Comfortaa', sans-serif, cursive;
 }
 
+#port-cell-view {
+    padding-top: 20vmax;
+    font-size: 1.2vmax;
+    color:white;
+    font-family: 'Comfortaa', sans-serif, cursive;
+    text-decoration: underline;
+}
+
 .port-textglow {
     -webkit-animation-duration: 1s;
     -webkit-animation-name: glow;
