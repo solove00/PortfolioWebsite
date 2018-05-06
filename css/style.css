@@ -873,6 +873,7 @@ footer div ul>li>a {
     width: auto;
     font-family: 'Roboto', sans-serif;
     font-size: 3.5vmax;
+    text-decoration: none;
 }
 
 #port-cell-description {
@@ -918,13 +919,54 @@ footer div ul>li>a {
     color: #fff;
 }
 
-a#port-cell-title {
+a#port-cell-title:before, a#port-cell-title:after {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: white;
+  }
+  a#port-cell-title:before {
+    opacity: 0;
+    -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+    transition: opacity 0s, -webkit-transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+    transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s, -webkit-transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  a#port-cell-title:after {
+    opacity: 0;
+    -webkit-transform: translateY(4px);
+            transform: translateY(4px);
+    transition: opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  a#port-cell-title:hover:before, a#port-cell-title:hover:after, a#port-cell-title:focus:before, a#port-cell-title:focus:after {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  a#port-cell-title:hover:before, a#port-cell-title:focus:before {
+    transition: opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  a#port-cell-title:hover:after, a#port-cell-title:focus:after {
+    transition: opacity 0s 0.2s, -webkit-transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
+    transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s, -webkit-transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+/* a#port-cell-title {
     position: relative;
     text-decoration: none;
     color: white;
 }
 
-a#port-cell-title:before {
+a#port-cell-title:after {
     content: "";
     position: absolute;
     width: 100%;
@@ -939,11 +981,12 @@ a#port-cell-title:before {
     transition: all 0.3s ease-in-out 0s;
 }
 
-a#port-cell-title:hover:before {
+a#port-cell-title:hover:after {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
+ */
 
 .arrow-container {
     display: table;
