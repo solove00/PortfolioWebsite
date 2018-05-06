@@ -4,7 +4,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #CCC;
     font-size: 12px;
 }
 
@@ -94,6 +93,11 @@ table,
 td,
 th {
     border: 1px solid black;
+    font-size: 18px;
+}
+
+th, td {
+    padding: 15px;
 }
 
 html,
@@ -128,14 +132,14 @@ h2 {
 }
 
 h3.title {
-    font-size: 24px !important;
+    font-size: 26px !important;
     letter-spacing: 2px;
     text-align: center;
     color: #F0640F;
 }
 
 h3.bounce-title {
-    font-size: 18px;
+    font-size: 21px;
     letter-spacing: 2px;
     text-align: center;
     font-weight: 700;
@@ -147,7 +151,7 @@ h3.bounce-title#wip {
 }
 
 h3.blocbox-title {
-    font-size: 18px !important;
+    font-size: 21px !important;
     letter-spacing: 2px;
     text-align: center;
     font-weight: 700;
@@ -167,13 +171,13 @@ h4.branding {
 }
 
 p {
-    font-size: 18px !important;
-    line-height: 30px;
+    font-size: 21px !important;
+    line-height: 36px;
 }
 
 ul li {
-    font-size: 18px !important;
-    line-height: 30px;
+    font-size: 21px !important;
+    line-height: 36px;
 }
 
 /* HEADER */
@@ -287,7 +291,7 @@ header banner ul>li {
 }
 
 header banner ul>li>a {
-    font-size: 18px;
+    font-size: 21px;
     color: #000000 !important;
 }
 
@@ -379,17 +383,12 @@ section div#shaded {
     margin: 0 0 10px 0 !important;
 }
 
-section div#shaded p {
-    margin-right: 10vw !important;
-    margin-left: 10vw !important;
-}
-
 section div hr {
     display: block;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-    margin-right: 10vw !important;
-    margin-left: 10vw !important;
+    /* margin-right: 10vw !important;
+    margin-left: 10vw !important; */
     border-style: inset;
     border-width: 1px;
 }
@@ -399,48 +398,86 @@ section div#slightly-shaded {
     /* margin:0 0 0 -50px !important; */
 }
 
+section div h4 {
+    /* margin-right: 10vw !important;
+    margin-left: 10vw !important; */
+    font-size: 25px;
+    width:38em;
+    margin: auto;
+}
+
 section div#slightly-shaded p {
-    margin-right: 10vw !important;
-    margin-left: 10vw !important;
+    /* margin-right: 10vw !important;
+    margin-left: 10vw !important; */
+}
+
+section div#shaded p {
+    /* margin-right: 10vw !important;
+    margin-left: 10vw !important; */
+    width:45em;
+    margin: auto;
 }
 
 section div p {
-    margin-right: 10vw !important;
-    margin-left: 10vw !important;
-    text-align: justify;
-    text-justify: inter-word;
+    /* margin-right: 10vw !important;
+    margin-left: 10vw !important; */
+    width:45em;
+    margin: auto;
 }
 
-section div h4 {
-    margin-right: 10vw !important;
-    margin-left: 10vw !important;
-}
 
 section div ul {
-    margin-right: 10vw !important;
-    margin-left: 10vw !important;
+    /* margin-right: 10vw !important;
+    margin-left: 10vw !important; */
+    /* width:45em;
+    margin: auto; */
+}
+
+section div ul li {
+    /* margin-right: 10vw !important;
+    margin-left: 10vw !important; */
+    width:45em;
+    margin: auto;
 }
 
 section div table {
-    margin-right: 10vw !important;
-    margin-left: 10vw !important;
+    /* margin-right: 10vw !important;
+    margin-left: 10vw !important; */
+    width:45em;
+    margin: auto;
 }
 
-section div ul {
-    text-align: justify;
-    text-justify: inter-word;
-}
+@media (max-width: 600px) {
 
-/*
-section div h4{
-    margin-right:50px !important;
-    margin-left:50px !important;
+    section div#slightly-shaded p {
+        /* margin-right: 10vw !important;
+        margin-left: 10vw !important; */
+    }
+    
+    section div#shaded p {
+        /* margin-right: 10vw !important;
+        margin-left: 10vw !important; */
+        width:45em;
+        margin: auto;
+    }
+    
+    section div p {
+        width:auto;
+    }
+    
+    
+    section div ul {
+        width:auto;
+    }
+    
+    section div ul li {
+        width:auto;
+    }
+    
+    section div table {
+        width:auto;
+    }
 }
-
-section div ul{
-    margin-right:50px !important;
-    margin-left:50px !important;
-} */
 
 /* FOOTER */
 
