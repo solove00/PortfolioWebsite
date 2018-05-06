@@ -1,7 +1,7 @@
 var chatMessages = [
   {
     name: "ms1",
-    msg: "Hi There, I'm Shan. <span class='emoji'>&#x1F603</span>",
+    msg: "Hi there, I'm Shan. <span class='emoji'>&#x1F603</span>",
     delay: 1000,
     align: "left",
     showTime: false,

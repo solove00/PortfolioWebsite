@@ -16,7 +16,7 @@
     padding-left: 30px;
     padding-top: 4px;
     color: #ccc;
-    font-family: Courier;
+    font-family: 'Roboto', sans-serif;;
   }
   
   .message-right .message-time {
@@ -26,7 +26,7 @@
     padding-right: 20px;
     padding-top: 4px;
     color: #ccc;
-    font-family: Courier;
+    font-family: 'Roboto', sans-serif;;
   }
   
   .message-left {
