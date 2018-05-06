@@ -219,21 +219,21 @@ header nav ul>li>a {
 header banner div#backyard {
     background-color: #6AC465;
     overflow: hidden;
-    margin: -12px 50px -20px 50px;
+    margin: -12px 0px -20px 0px;
     padding: 0;
 }
 
 header banner div#bounce {
     background-color: #03B2E5;
     overflow: hidden;
-    margin: -12px 50px -20px 50px;
+    margin: -12px 0px -20px 0px;
     padding: 0;
 }
 
 header banner div#blocbox {
     background-color: #DFF2DF;
     overflow: hidden;
-    margin: -12px 50px -20px 50px;
+    margin: -12px 0px -20px 0px;
     padding: 0;
 }
 
