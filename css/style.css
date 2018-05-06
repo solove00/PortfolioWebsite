@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #CCC;
     font-size: 12px;
 }
@@ -102,8 +102,8 @@ body {
 }
 
 body {
-    /*font-family: "Arimo",Helvetica, Arial, sans-serif !important;*/
-    font-family: "Roboto", sans-serif, Helvetica, Arial, sans-serif !important;
+
+    font-family: "Roboto", sans-serif !important;
     color: #333333;
 }
 
@@ -113,8 +113,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Libre+Baskerville", Helvetica, Arial, sans-serif !important;
-    /*font-family: 'Lato', sans-serif,Helvetica, Arial, sans-serif !important;*/
+    font-family: 'Roboto', sans-serif !important;
 }
 
 h1 {
@@ -129,10 +128,9 @@ h2 {
 }
 
 h3.title {
-    font-size: 18px !important;
+    font-size: 24px !important;
     letter-spacing: 2px;
     text-align: center;
-    font-weight: 700;
     color: #F0640F;
 }
 
@@ -169,13 +167,13 @@ h4.branding {
 }
 
 p {
-    font-size: 16px !important;
-    line-height: 25px;
+    font-size: 18px !important;
+    line-height: 30px;
 }
 
 ul li {
-    font-size: 16px !important;
-    line-height: 25px;
+    font-size: 18px !important;
+    line-height: 30px;
 }
 
 /* HEADER */
@@ -247,7 +245,7 @@ header banner div h1 {
     clear: right;
     color: #FFF;
     font-weight: 300;
-    font-family: "Righteous";
+    font-family: 'Roboto', sans-serif;
 }
 
 header banner div h1#blocbox {
@@ -258,7 +256,7 @@ header banner div h1#blocbox {
     clear: right;
     color: #000;
     font-weight: 300;
-    font-family: "Righteous";
+    font-family: 'Roboto', sans-serif;
 }
 
 header banner div img {
@@ -289,7 +287,7 @@ header banner ul>li {
 }
 
 header banner ul>li>a {
-    font-size: 16px;
+    font-size: 18px;
     color: #000000 !important;
 }
 
@@ -552,7 +550,7 @@ footer div ul>li>a {
     padding: 8px 8px;
     text-decoration: none;
     font-size: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .topnav a:hover {
@@ -694,7 +692,7 @@ footer div ul>li>a {
 #port-title {
     font-size: 3vmax;
     margin-left: 42px;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Roboto', sans-serif;
     /* color:rgb(201,201,201); */
     /*color:rgb(59,42,42);*/
 }
@@ -708,7 +706,7 @@ footer div ul>li>a {
 #port-item-title {
     font-size: 3.5vmax;
     color: white;
-    font-family: "Righteous";
+    font-family: 'Roboto', sans-serif;
 }
 
 #port-item-description {
@@ -836,7 +834,7 @@ footer div ul>li>a {
 #port-cell-title {
     color: white;
     width: auto;
-    font-family: "Righteous";
+    font-family: 'Roboto', sans-serif;
     font-size: 3.5vmax;
 }
 
@@ -844,14 +842,14 @@ footer div ul>li>a {
     padding-top: 10vmax;
     font-size: 1.6vmax;
     color: white;
-    font-family: 'Comfortaa', sans-serif, cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 #port-cell-view {
     padding-top: 20vmax;
     font-size: 1.2vmax;
     color:white;
-    font-family: 'Comfortaa', sans-serif, cursive;
+    font-family: 'Roboto', sans-serif;
     text-decoration: underline;
 }
 
@@ -925,12 +923,14 @@ a#port-cell-title:hover:before {
     font-size: 2vw;
     color: white;
     font-family: 'Comfortaa', sans-serif, cursive;
+
 }
 
 .title-container.middle {
     font-size: 4vw;
     color: white;
     font-family: 'Heebo', sans-serif;
+    font-weight: 900;
 }
 
 @media screen and (max-width: 600px) {
