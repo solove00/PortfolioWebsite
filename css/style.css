@@ -516,9 +516,18 @@ footer div.bottom p {
 
 footer .bottomstyle {
     position: relative;
+    right: 0;
     bottom: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+footer .sendbottom {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
 }
 
 footer div ul {
