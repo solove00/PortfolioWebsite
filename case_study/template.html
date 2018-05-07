@@ -17,9 +17,11 @@
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/style.css?v=0001">
   <link rel="stylesheet" href="/css/animate.css">
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel='icon' href="/images/logo-blue.png" type='image/x-icon' />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -35,15 +37,39 @@
       <a href="javascript:void(0);" style="font-size:24px;" class="icon" onclick="responsiveNavBar()">&#9776;</a>
     </div>
     <banner class="container-fluid">
-      <div class="row" id="blocbox" style="width: auto; height: 320px">
-        <div class="col-xs-push-4">
-          <h1 id="blocbox" class="animated fadeIn">Blocbox</h1>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="/images/easytalk5pic.png" alt="Page1" style="width:100%;">
+            </div>
+      
+            <div class="item">
+              <img src="/images/easytalk5pic.png" alt="Page2" style="width:100%;">
+            </div>
+          
+            <div class="item">
+              <img src="/images/easytalk5pic.png" alt="Page3" style="width:100%;">
+            </div>
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-        <div class="col-xs-pull-8">
-          <img class="pull-right hidden-xs" id="blocbox" src="/images/blocbox/headerpic.png" style="width:350px;" />
-        </div>
-      </div>
-      <banner>
         <div class="col-xs-12 menu" style="background-color:light-gray" data-spy="affix" data-offset-top="380">
           <ul>
             <li>
