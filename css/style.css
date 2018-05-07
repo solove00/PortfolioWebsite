@@ -163,7 +163,7 @@ h3.title.shaded {
 }
 
 h4 {
-    font-weight: 700 !important;
+    font-weight: 700;
 }
 
 h4.branding {
@@ -171,12 +171,12 @@ h4.branding {
 }
 
 p {
-    font-size: 21px !important;
+    font-size: 21px;
     line-height: 36px;
 }
 
 ul li {
-    font-size: 21px !important;
+    font-size: 21px;
     line-height: 36px;
 }
 

@@ -55,11 +55,13 @@ body {
 }
 
 .tz-gallery .caption p {
-    font-size: 12px;
+    font-size: 16px;
     color: #7b7d7d;
     margin: 0;
+    width: auto;
     margin-right:0vw !important;
     margin-left:0vw !important;
+    text-align: justify;
 }
 
 .baguetteBox-button {
