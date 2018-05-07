@@ -100,7 +100,7 @@ var chatMessages = [
   {
     name: "ms13",
     msg: "image",
-    image:"/images/shanart.png",
+    image:"/images/aboutshan.png",
     delay: 2000,
     align: "left",
     showTime: false,
@@ -137,7 +137,7 @@ var chatMessages = [
 
     if(obj.msg==="image")
     {   
-        imageString = "<img class='message-image' src='/images/shanart.png'/>";
+        imageString = "<img class='message-image' src='" + obj.image + "'/>";
         $(".chat-message-list").append("<li class='message-" + obj.align + " " + obj.name + "' hidden><div class='sp-" + obj.name + "'><span class='spinme-" + obj.align + "'><div class='spinner'><div class='bounce1'></div><div class='bounce2'></div><div class='bounce3'></div></div></span></div><div class='messageinner-" + obj.name + "' hidden>" + imageString + "</div></li>");
     }
     else

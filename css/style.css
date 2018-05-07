@@ -163,7 +163,7 @@ h3.title.shaded {
 }
 
 h4 {
-    font-weight: 700 !important;
+    font-weight: 700;
 }
 
 h4.branding {
@@ -171,12 +171,12 @@ h4.branding {
 }
 
 p {
-    font-size: 21px !important;
+    font-size: 21px;
     line-height: 36px;
 }
 
 ul li {
-    font-size: 21px !important;
+    font-size: 21px;
     line-height: 36px;
 }
 
@@ -918,6 +918,52 @@ footer div ul>li>a {
     /* you change this to "contain" if you don't want the images to be cropped */
     color: #fff;
 }
+
+/* a#indexpage{
+    text-decoration: none;
+}
+
+a#indexpage:before, a#indexpage:after {
+    content: '';
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: white;
+  }
+  a#indexpage:before {
+    opacity: 0;
+    -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+    transition: opacity 0s, -webkit-transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+    transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s, -webkit-transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  a#indexpage:after {
+    opacity: 0;
+    -webkit-transform: translateY(4px);
+            transform: translateY(4px);
+    transition: opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  a#indexpage:hover:before, a#indexpage:hover:after, a#indexpage:focus:before, a#indexpage:focus:after {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  a#indexpage:hover:before, a#indexpage:focus:before {
+    transition: opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  a#indexpage:hover:after, a#indexpage:focus:after {
+    transition: opacity 0s 0.2s, -webkit-transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
+    transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s, -webkit-transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  } */
+
 
 a#port-cell-title:before, a#port-cell-title:after {
     content: '';
