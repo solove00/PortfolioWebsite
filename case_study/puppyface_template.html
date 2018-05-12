@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>Bounce</title>
+
+  <!-- Google Fonts -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Gudea" rel="stylesheet" type="text/css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Heebo:900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <!-- CSS -->
+
+  <link rel='icon' href="/images/logo-blue.png" type='image/x-icon' />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/style.css?v=0002">
+  <link rel="stylesheet" href="/css/animate.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="topnav" id="myTopnav">
+      <a href="/index.html" class="logo-small alignleft">
+        <img src="/images/logo-blue.png" alt="SHAN OU" />
+      </a>
+      <a class="name" href="/index.html">Shan Ou</a>
+      <a class="item rightmost" href="/about.html">About</a>
+      <a class="item" href="/resume.html">Resume</a>
+      <a class="item" href="/index.html#portfolio-list">Portfolio</a>
+      <a href="javascript:void(0);" style="font-size:24px;" class="icon" onclick="responsiveNavBar()">&#9776;</a>
+    </div>
+    <banner class="container-fluid">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="/images/easytalk5pic.png" alt="Page1" style="width:100%;">
+            </div>
+
+            <div class="item">
+              <img src="/images/easytalk5pic.png" alt="Page2" style="width:100%;">
+            </div>
+
+            <div class="item">
+              <img src="/images/easytalk5pic.png" alt="Page3" style="width:100%;">
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="col-xs-12 menu" style="background-color:light-gray" data-spy="affix" data-offset-top="880">
+          <ul>
+            <li>
+              <a href="blocbox.html#overview">Overview</a>
+            </li>
+            <li>
+              <a href="blocbox.html#research">Research</a>
+            </li>
+            <li>
+              <a href="blocbox.html#branding">Branding</a>
+            </li>
+            <li>
+              <a href="blocbox.html#execution">Execution</a>
+            </li>
+            <li>
+              <a id="prototype_link" href="https://invis.io/QYDOADQWS#/255184814_Hero">View Prototype</a>
+            </li>
+          </ul>
+        </div>
+      </banner>
+  </header>
+
+  <!-- <section id="xxx">
+      <div>
+          <h3>xxx</h3>
+      </div>
+
+      <div>
+          <p class="p-after-h3">xxx</p>
+      </div>
+
+      <div>
+          <h4>xxx</h4>
+      </div>
+
+      <div>
+          <p class="p-after-h4">xxx</p>
+      </div>
+
+      <div>
+        <img src="/images/puppyface-threeimage.png" class="center-block" style="width:70%">
+      </div>
+  </section> -->
+
+
+  <!--OVERVIEW-->
+  <section id="overview">
+      <div class="first">
+          <h3>Overview</h3>
+      </div>
+
+      <div>
+          <p class="p-after-h3">Since the dawn of the ice age, humans and animals have had a special bond. They are like family to us. We love
+            our pets so much and would like to take good care of them whenever we can. When we are away, we would like to
+            find someone that love our pets as much as we do to take care of them. PuppyFace is an app that offers reliable
+            and free pet services to your pets. Why is PuppyFace free? Because we encourage pet owners to help each other,
+            we use credits as a way to record when a pet owner provide or receive service. The purpose is to reduce the cost
+            of pet service, and at the same time, our pets receive services from other pet owners which is more reliable.
+            </p>
+      </div>
+
+      <div>
+          <h4>Problem</h4>
+      </div>
+
+
+      <div>
+          <p class="p-after-h4">Even though there are many pet services apps in the marketplace, many of the current service providers are expensive
+            and can’t meet pet owner’s requirements for cost and service. Rover is the most significant pet boarding app
+            right now. But many pet sitters on Rover are asking for expensive service fees regardless of their service quality.
+            Pet service fee is much higher for holidays. Traveling out of town during holidays become more difficult when
+            you have to consider the cost, and worry about your pet’s stay at somebody’s house. </p>
+      </div>
+
+      <div>
+          <h4>Solutions</h4>
+      </div>
+
+
+      <div>
+          <p class="p-after-h4">PuppyFace solves the problems of expensive and unreliable pet services by building a credit based service exchange
+            system between pet owners. With PuppyFace, pet owners can specify their preference for a boarding place, pet
+            sitter’s experience, then book a service using credits (PuppyFace will give every new user ten free credits to
+            start with). And at the same time, pet owners can also receive and check service requests from other pet owners.
+            If the service request is accepted and finished, then the pet owner will gain credits and can be used for future
+            pet service for his/her pets. Since the platform is not money involved and pet owners provide service to each
+            other, PuppyFace is a more reliable and low-cost tool to find pet service. </p>
+      </div>
+      <div>
+        <img src="/images/puppyface-threeimage.png" class="center-block" style="width:70%">
+      </div>
+
+  </section>
+
+
+  <section id="Research">
+    <div>
+        <h3>Research</h3>
+    </div>
+
+    <div>
+        <p class="p-after-h3">xxx</p>
+    </div>
+
+     <div>
+        <h4>User Research</h4>
+    </div>
+
+    <div>
+        <p class="p-after-h4">I designed a
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeyfQpz-IJJ0KqQTyvYsCrV8igSK0QDakHX18-lpEPZAr3-XA/viewform?usp=sf_link">user research survey</a> to know my target users. My questionnaire focused on:</p>
+          <ul>
+            <li>What people do with their pets when they travel;</li>
+            <li>Where do they find daycare or boarding places for their pets;</li>
+            <li>What concerns do they have for pet daycare/boarding;</li>
+            <li>For the places your pets usually go to boarding/daycare, what do they think they can improve;</li>
+            <li>Do they like to try a new app that can help them find free and reliable pet daycare/boarding.</li>
+          </ul>
+          <p>Results were gathered from 12 respondents across the country.</p>
+    </div>
+
+
+      <div>
+        <img src="/images/survey2.png" class="center-block" style="width:70%">
+      </div>
+
+      <div>
+        <p>I summarized the data and figured out pet owner’s motivation, frustration, and concerns:</p>
+        <ul>
+          <li>Pet owners usually put their pets in boarding or someone’s home when they travel;</li>
+          <li>Pet owners find pet boarding places through the internet;</li>
+          <li>Safety, cost, experience were the most important considerations;</li>
+          <li>They would like the pets boarding places they usually send their pets can lower the price;</li>
+          <li>61% of respondents liked to try a new app that can help them find FREE pet daycare/boarding.</li>
+        </ul>
+        <p>It is clear that from these survey results pet owners wanted a search tool that can find reliable and low-cost
+          pet services.</p>
+      </div>
+
+      <div>
+          <h4>Personas</h4>
+      </div>
+
+      <div>
+        <p class="p-after-h4">I conducted one-on-one interviews with three of my survey respondents to find out more details about their responses
+          and help us understand the problem better. From these interviews, I developed three personas and identified there
+          are three major user groups:</p>
+        <ul>
+          <li>Caro represents pet owners who live in small towns where limited pet hotels are available;</li>
+          <li>Tara represents pet owners who have limited incomes like students, they prefer cheaper cost for pet services;</li>
+          <li>Max represents pet owners who live in a costly area like San Francisco, they like the idea of credit exchange
+            for pet services. </li>
+        </ul>
+      </div>
+      <div>
+        <img src="/images/Puppyface-persona1.png" class="center-block" style="width:50%" />
+      </div>
+
+      <div>
+        <p>The demand for reliable and cheaper pet service is popular. I also identified some features for implementation
+          in the future development process, such as adding filters for senior dog experience, puppy experience, rescue
+          dog experience, etc.
+        </p>
+      </div>
+
+      <div>
+          <h3>xxx</h3>
+      </div>
+
+      <div>
+          <p class="p-after-h3">xxx</p>
+      </div>
+
+      <div>
+          <h4>xxx</h4>
+      </div>
+
+      <div>
+          <p class="p-after-h4">xxx</p>
+      </div>
+
+      <div>
+        <img src="/images/puppyface-threeimage.png" class="center-block" style="width:70%">
+      </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <!--FOOTER-->
+  <footer>
+    <div class="container-fluid bottom bottomstyle">
+      <div class="row">
+        <div class="d-flex flex-row .align-content-center">
+          <ul>
+            <li>
+              <a href="mailto:oushanmail@gmail.com?subject=Hi,Shan!" target="_blank">
+                <i class="fa fa-envelope-square" style="font-size:24px; color:rgb(59,42,42)"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/shanouuf/" target="_blank">
+                <i class="fa fa-linkedin-square" style="font-size:24px; color:rgb(59,42,42)"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/solove00" target="_blank">
+                <i class="fa fa-github-square" style="font-size:24px; color:rgb(59,42,42)"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex flex-row-reverse">
+          <p>&copy; 2018 Shan Ou | Designed &amp; Developed by Shan Ou</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="/js/jquery-3.1.1.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/scripts.js?v=0002"></script>
+</body>
+
+</html>
