@@ -93,7 +93,7 @@ app.get("/", function (req, res) {
 /* serves all the static files */
 app.get(/^(.+)$/, function (req, res) {
   console.log('static file request : ' + req.params);
-  if (req.url.indexOf("/images/") === 0 || req.url.indexOf("/css/") === 0 || req.url.indexOf("/js/") === 0) {
+  if (req.url.indexOf("/images/") === 0 || req.url.indexOf("/css/") === 0 || req.url.indexOf("/js/") || req.url.indexOf(".html") === 0=== 0) {
     res.setHeader("Cache-Control", "public, max-age=3600000");
     res.setHeader("Expires", new Date(Date.now() + 3600000).toUTCString());
   }
