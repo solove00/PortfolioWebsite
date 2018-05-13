@@ -12,7 +12,7 @@ $('#floating-nav').affix({
       top: ($('header').height() - 60)
     }
 });	
-// 
+
 // window.onscroll = function (ev) {
 //     if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight - 1000) {
 //         var x = document.getElementById("prototype_link");
