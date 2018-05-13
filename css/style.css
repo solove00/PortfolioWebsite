@@ -1125,6 +1125,12 @@ a#port-cell-title:hover:after {
   max-height: 100%;
 }
 
+
+.resume{
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 40px;
+}
 /* .main-color{
 
 background: linear-gradient(270deg, #D38312, #A83279);

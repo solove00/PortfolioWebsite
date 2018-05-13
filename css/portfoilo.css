@@ -2277,7 +2277,7 @@ abbr {
 
 .more::before,
 .more::after {
-    content: "ïŒ"
+    content: ">"
 }
 
 .more-block {
@@ -4694,7 +4694,7 @@ html.no-svg .image-icons-ipod {
 }
 
 .eyebrow {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.16667;
     font-weight: 400;
     letter-spacing: .009em;
@@ -7356,7 +7356,7 @@ only screen and (max-width: 735px) and (min-resolution: 144dpi) {
     height: 655px;
     background-size: 588px 655px;
     background-repeat: no-repeat;
-    background-image: url("/v/music/f/images/overview/accessories_large.png");
+    background-image: url("/images/001-MacBook-Silver.png");
     margin-left: 112px
 }
 
@@ -7365,7 +7365,7 @@ only screen and (min-resolution: 1.5dppx),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi) {
     .page-overview .section-billboard.accessories .accessories-graphic {
-        background-image: url("/v/music/f/images/overview/accessories_large_2x.png")
+        background-image: url("/images/001-MacBook-Silver.png")
     }
 }
 
@@ -7375,7 +7375,7 @@ only screen and (min-resolution: 1.5dppx),
         height: 479px;
         background-size: 430px 479px;
         background-repeat: no-repeat;
-        background-image: url("/v/music/f/images/overview/accessories_medium.png")
+        background-image: url("/images/001-MacBook-Silver.png")
     }
 }
 
@@ -7383,7 +7383,7 @@ only screen and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
     .page-overview .section-billboard.accessories .accessories-graphic {
-        background-image: url("/v/music/f/images/overview/accessories_medium_2x.png")
+        background-image: url("/images/001-MacBook-Silver.png")
     }
 }
 
@@ -7393,7 +7393,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
         height: 303px;
         background-size: 271px 303px;
         background-repeat: no-repeat;
-        background-image: url("/v/music/f/images/overview/accessories_small.png")
+        background-image: url("/images/001-MacBook-Silver.png")
     }
 }
 
@@ -7401,7 +7401,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
 only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 735px) and (min-resolution: 144dpi) {
     .page-overview .section-billboard.accessories .accessories-graphic {
-        background-image: url("/v/music/f/images/overview/accessories_small_2x.png")
+        background-image: url("/images/001-MacBook-Silver.png")
     }
 }
 
