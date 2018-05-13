@@ -6029,6 +6029,10 @@ html.ie8 .chapternav.theme-dark {
     background-color: rgba(51, 51, 51, 0.6)
 }
 
+.page-overview section{
+    margin: 0;
+}
+
 @media only screen and (max-width: 735px) {
     .page-overview .section-content {
         width: 81.5%;
@@ -6943,7 +6947,7 @@ only screen and (max-width: 735px) and (min-resolution: 144dpi) {
     height: 737px;
     background-size: 744px 737px;
     background-repeat: no-repeat;
-    background-image: url("/images/Puppyface-iphone.png");
+    background-image: url("/images/p-puppyface-2.png");
     margin-left: -8px
 }
 
@@ -6952,7 +6956,7 @@ only screen and (min-resolution: 1.5dppx),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi) {
     .page-overview .section-billboard.homepod .homepod-graphic {
-        background-image: url("/images/Puppyface-iphone.png")
+        background-image: url("/images/p-puppyface-2.png")
     }
 }
 
@@ -6962,7 +6966,7 @@ only screen and (min-resolution: 1.5dppx),
         height: 493px;
         background-size: 506px 493px;
         background-repeat: no-repeat;
-        background-image: url("/images/Puppyface-iphone.png")
+        background-image: url("/images/p-puppyface-2.png")
     }
 }
 
@@ -6970,7 +6974,7 @@ only screen and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
     .page-overview .section-billboard.homepod .homepod-graphic {
-        background-image: url("/images/Puppyface-iphone.png")
+        background-image: url("/images/p-puppyface-2.png")
     }
 }
 
@@ -6980,7 +6984,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
         height: 345px;
         background-size: 354px 345px;
         background-repeat: no-repeat;
-        background-image: url("/images/Puppyface-iphone.png")
+        background-image: url("/images/p-puppyface-2.png")
     }
 }
 
@@ -6988,7 +6992,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
 only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 735px) and (min-resolution: 144dpi) {
     .page-overview .section-billboard.homepod .homepod-graphic {
-        background-image: url("/images/Puppyface-iphone.png")
+        background-image: url("/images/p-puppyface-2.png")
     }
 }
 
@@ -7208,7 +7212,7 @@ only screen and (max-width: 735px) and (min-resolution: 144dpi) {
     height: 600px;
     background-size: 286px 600px;
     background-repeat: no-repeat;
-    background-image: url("/v/music/f/images/overview/ipod_large.png")
+    background-image: url("/images/p-puppyface-2.png");
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -7216,7 +7220,7 @@ only screen and (min-resolution: 1.5dppx),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi) {
     .page-overview .section-billboard.ipod .ipod-graphic {
-        background-image: url("/v/music/f/images/overview/ipod_large_2x.png")
+        background-image: url("/images/p-puppyface-2.png");
     }
 }
 
@@ -7226,7 +7230,7 @@ only screen and (min-resolution: 1.5dppx),
         height: 373px;
         background-size: 178px 373px;
         background-repeat: no-repeat;
-        background-image: url("/v/music/f/images/overview/ipod_medium.png")
+        background-image: url("/images/p-puppyface-2.png");
     }
 }
 
@@ -7234,7 +7238,7 @@ only screen and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
     .page-overview .section-billboard.ipod .ipod-graphic {
-        background-image: url("/v/music/f/images/overview/ipod_medium_2x.png")
+        background-image: url("/images/p-puppyface-2.png");
     }
 }
 
@@ -7244,7 +7248,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
         height: 332px;
         background-size: 159px 332px;
         background-repeat: no-repeat;
-        background-image: url("/v/music/f/images/overview/ipod_small.png")
+        background-image: url("/images/p-puppyface-2.png");
     }
 }
 
@@ -7252,7 +7256,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
 only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 735px) and (min-resolution: 144dpi) {
     .page-overview .section-billboard.ipod .ipod-graphic {
-        background-image: url("/v/music/f/images/overview/ipod_small_2x.png")
+        background-image: url("/images/p-puppyface-2.png");
     }
 }
 
@@ -7276,7 +7280,7 @@ only screen and (max-width: 735px) and (min-resolution: 144dpi) {
     height: 600px;
     background-size: 286px 600px;
     background-repeat: no-repeat;
-    background-image: url("/v/music/f/images/overview/ipod_large.png");
+    background-image: url("/images/iphone-gold.png");
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -7288,7 +7292,7 @@ only screen and (min-resolution: 1.5dppx),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi) {
     .page-overview .section-billboard.ipod .ipod-touch-graphic {
-        background-image: url("/v/music/f/images/overview/ipod_large_2x.png")
+        background-image: url("/images/iphone-gold.png");
     }
 }
 
@@ -7298,7 +7302,7 @@ only screen and (min-resolution: 1.5dppx),
         height: 373px;
         background-size: 178px 373px;
         background-repeat: no-repeat;
-        background-image: url("/v/music/f/images/overview/ipod_medium.png")
+        background-image: url("/images/iphone-gold.png");
     }
 }
 
@@ -7306,7 +7310,7 @@ only screen and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
     .page-overview .section-billboard.ipod .ipod-touch-graphic {
-        background-image: url("/v/music/f/images/overview/ipod_medium_2x.png")
+        background-image: url("/images/iphone-gold.png");
     }
 }
 
@@ -7316,7 +7320,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
         height: 332px;
         background-size: 159px 332px;
         background-repeat: no-repeat;
-        background-image: url("/v/music/f/images/overview/ipod_small.png")
+        background-image: url("/images/iphone-gold.png");
     }
 }
 
@@ -7324,7 +7328,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
 only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 735px) and (min-resolution: 144dpi) {
     .page-overview .section-billboard.ipod .ipod-touch-graphic {
-        background-image: url("/v/music/f/images/overview/ipod_small_2x.png")
+        background-image: url("/images/iphone-gold.png");
     }
 }
 
@@ -7448,7 +7452,7 @@ only screen and (max-width: 735px) and (min-resolution: 144dpi) {
     height: 624px;
     background-size: 1083px 624px;
     background-repeat: no-repeat;
-    background-image: url("/v/music/f/images/overview/itunes_large.png");
+    background-image: url("/images/001-MacBook-Silver.png");
     margin-left: -80px
 }
 
@@ -7457,7 +7461,7 @@ only screen and (min-resolution: 1.5dppx),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi) {
     .page-overview .section-billboard.itunes .itunes-graphic {
-        background-image: url("/v/music/f/images/overview/itunes_large_2x.png")
+        background-image: url("/images/001-MacBook-Silver.png")
     }
 }
 
@@ -7467,7 +7471,7 @@ only screen and (min-resolution: 1.5dppx),
         height: 421px;
         background-size: 731px 421px;
         background-repeat: no-repeat;
-        background-image: url("/v/music/f/images/overview/itunes_medium.png")
+        background-image: url("/images/001-MacBook-Silver.png")
     }
 }
 
@@ -7475,7 +7479,7 @@ only screen and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
     .page-overview .section-billboard.itunes .itunes-graphic {
-        background-image: url("/v/music/f/images/overview/itunes_medium_2x.png")
+        background-image: url("/images/001-MacBook-Silver.png")
     }
 }
 
@@ -7485,7 +7489,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
         height: 314px;
         background-size: 543px 314px;
         background-repeat: no-repeat;
-        background-image: url("/v/music/f/images/overview/itunes_small.png")
+        background-image: url("/images/001-MacBook-Silver.png")
     }
 }
 
@@ -7493,7 +7497,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
 only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 735px) and (min-resolution: 144dpi) {
     .page-overview .section-billboard.itunes .itunes-graphic {
-        background-image: url("/v/music/f/images/overview/itunes_small_2x.png")
+        background-image: url("/images/001-MacBook-Silver.png")
     }
 }
 
