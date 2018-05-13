@@ -360,6 +360,10 @@ section div.first {
   margin-top: 60px;
 }
 
+section div.last {
+  margin-bottom: 100px;
+}
+
 section div hr {
   display: block;
   margin-top: 0.5em;
