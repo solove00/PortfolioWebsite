@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/style.css?v=0002">
+  <link rel="stylesheet" href="/css/thumbnail-gallery.css?v=0002">
   <link rel="stylesheet" href="/css/animate.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -35,7 +36,7 @@
       <a class="name" href="/index.html">Shan Ou</a>
       <a class="item rightmost" href="/about.html">About</a>
       <a class="item" href="/resume.html">Resume</a>
-      <a class="item" href="/index.html#portfolio-list">Portfolio</a>
+      <a class="item selected" href="/index.html#portfolio-list">Portfolio</a>
       <a href="javascript:void(0);" style="font-size:24px;" class="icon" onclick="responsiveNavBar()">&#9776;</a>
     </div>
     <banner class="container-fluid">
@@ -213,7 +214,7 @@
         <p>I designed three logos for blocbox and eventually choose the one in the middle. I like the concept of bamboo and
           the simplicity of logo. </p>
         <img src="/images/blocbox/logodraft.png" class="center-block" style="width:70%" />
-        
+
         <img src="/images/blocbox/blocbox-colors.png" class="center-block" style="width:70%" />
       </div>
     </div>
@@ -238,7 +239,45 @@
       <img src="/images/blocbox/hifi.png" class="center-block" style="width:79%" />
     </div>
     <div class="last"></div>
-  </section>>
+  </section>
+
+  <div class="row">
+    <h3 style="text-align: center; font-size: 40px">Read More</h3>
+  </div>
+
+  <div class="tz-gallery">
+    <div class="row">
+      <div class="col-sm-1 col-md-2">
+      </div>
+      <div class="col-sm-4 col-md-3">
+        <div class="thumbnail">
+          <a href="/case_study/puppyFace.html">
+            <img src="/images/p-puppyface-2.png" alt="MusicBox">
+          </a>
+          <div class="caption">
+            <h3>PuppyFace</h3>
+            <p>xxx
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2 col-md-2">
+      </div>
+      <div class="col-sm-4 col-md-3">
+        <div class="thumbnail">
+          <a href="/case_study/bounce.html">
+            <img src="/images/p-bounce.png" alt="MusicBox">
+          </a>
+          <div class="caption">
+            <h3>Bounce</h3>
+            <p>xxx</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1 col-md-2">
+      </div>
+    </div>
+  </div>
 
   <!--FOOTER-->
   <footer>
@@ -273,6 +312,7 @@
   <!-- JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
   <script src="/js/scripts.js?v=0002"></script>
 </body>
 

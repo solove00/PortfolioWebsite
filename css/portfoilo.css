@@ -7280,7 +7280,7 @@ only screen and (max-width: 735px) and (min-resolution: 144dpi) {
     height: 600px;
     background-size: 286px 600px;
     background-repeat: no-repeat;
-    background-image: url("/images/iphone-gold.png");
+    background-image: url("/images/index-puppyface.png");
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -7292,7 +7292,7 @@ only screen and (min-resolution: 1.5dppx),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi) {
     .page-overview .section-billboard.ipod .ipod-touch-graphic {
-        background-image: url("/images/iphone-gold.png");
+        background-image: url("/images/index-puppyface.png");
     }
 }
 
@@ -7302,7 +7302,7 @@ only screen and (min-resolution: 1.5dppx),
         height: 373px;
         background-size: 178px 373px;
         background-repeat: no-repeat;
-        background-image: url("/images/iphone-gold.png");
+        background-image: url("/images/index-puppyface.png");
     }
 }
 
@@ -7310,7 +7310,7 @@ only screen and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
     .page-overview .section-billboard.ipod .ipod-touch-graphic {
-        background-image: url("/images/iphone-gold.png");
+        background-image: url("/images/index-puppyface.png");
     }
 }
 
@@ -7320,7 +7320,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
         height: 332px;
         background-size: 159px 332px;
         background-repeat: no-repeat;
-        background-image: url("/images/iphone-gold.png");
+        background-image: url("/images/index-puppyface.png");
     }
 }
 
@@ -7328,7 +7328,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
 only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 735px) and (min-resolution: 144dpi) {
     .page-overview .section-billboard.ipod .ipod-touch-graphic {
-        background-image: url("/images/iphone-gold.png");
+        background-image: url("/images/index-puppyface.png");
     }
 }
 
@@ -7356,7 +7356,7 @@ only screen and (max-width: 735px) and (min-resolution: 144dpi) {
     height: 655px;
     background-size: 588px 655px;
     background-repeat: no-repeat;
-    background-image: url("/images/001-MacBook-Silver.png");
+    background-image: url("/images/index-bounce.png");
     margin-left: 112px
 }
 
@@ -7365,7 +7365,7 @@ only screen and (min-resolution: 1.5dppx),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi) {
     .page-overview .section-billboard.accessories .accessories-graphic {
-        background-image: url("/images/001-MacBook-Silver.png")
+        background-image: url("/images/index-bounce.png")
     }
 }
 
@@ -7375,7 +7375,7 @@ only screen and (min-resolution: 1.5dppx),
         height: 479px;
         background-size: 430px 479px;
         background-repeat: no-repeat;
-        background-image: url("/images/001-MacBook-Silver.png")
+        background-image: url("/images/index-bounce.png")
     }
 }
 
@@ -7383,7 +7383,7 @@ only screen and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
     .page-overview .section-billboard.accessories .accessories-graphic {
-        background-image: url("/images/001-MacBook-Silver.png")
+        background-image: url("/images/index-bounce.png")
     }
 }
 
@@ -7393,7 +7393,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
         height: 303px;
         background-size: 271px 303px;
         background-repeat: no-repeat;
-        background-image: url("/images/001-MacBook-Silver.png")
+        background-image: url("/images/index-bounce.png")
     }
 }
 
@@ -7401,7 +7401,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
 only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 735px) and (min-resolution: 144dpi) {
     .page-overview .section-billboard.accessories .accessories-graphic {
-        background-image: url("/images/001-MacBook-Silver.png")
+        background-image: url("/images/index-bounce.png")
     }
 }
 
@@ -7452,7 +7452,7 @@ only screen and (max-width: 735px) and (min-resolution: 144dpi) {
     height: 624px;
     background-size: 1083px 624px;
     background-repeat: no-repeat;
-    background-image: url("/images/001-MacBook-Silver.png");
+    background-image: url("/images/index-blocbox.png");
     margin-left: -80px
 }
 
@@ -7461,7 +7461,7 @@ only screen and (min-resolution: 1.5dppx),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi) {
     .page-overview .section-billboard.itunes .itunes-graphic {
-        background-image: url("/images/001-MacBook-Silver.png")
+        background-image: url("/images/index-blocbox.png")
     }
 }
 
@@ -7471,7 +7471,7 @@ only screen and (min-resolution: 1.5dppx),
         height: 421px;
         background-size: 731px 421px;
         background-repeat: no-repeat;
-        background-image: url("/images/001-MacBook-Silver.png")
+        background-image: url("/images/index-blocbox.png")
     }
 }
 
@@ -7479,7 +7479,7 @@ only screen and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
     .page-overview .section-billboard.itunes .itunes-graphic {
-        background-image: url("/images/001-MacBook-Silver.png")
+        background-image: url("/images/index-blocbox.png")
     }
 }
 
@@ -7489,7 +7489,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
         height: 314px;
         background-size: 543px 314px;
         background-repeat: no-repeat;
-        background-image: url("/images/001-MacBook-Silver.png")
+        background-image: url("/images/index-blocbox.png")
     }
 }
 
@@ -7497,7 +7497,7 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
 only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 735px) and (min-resolution: 144dpi) {
     .page-overview .section-billboard.itunes .itunes-graphic {
-        background-image: url("/images/001-MacBook-Silver.png")
+        background-image: url("/images/index-blocbox.png")
     }
 }
 

@@ -361,7 +361,7 @@ section div.first {
 }
 
 section div.last {
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 section div hr {
@@ -1130,6 +1130,10 @@ a#port-cell-title:hover:after {
   width: 60%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 40px;
+}
+
+a.selected{
+  text-decoration: underline;
 }
 /* .main-color{
 
