@@ -903,7 +903,7 @@ footer div ul>li>a {
 }
 
 #port-cell-title {
-  color: white;
+  color: black;
   width: auto;
   font-family: 'Roboto', sans-serif;
   font-size: 3.5vmax;
@@ -1005,7 +1005,7 @@ a#port-cell-title:before, a#port-cell-title:after {
   left: 0;
   right: 0;
   height: 4px;
-  background-color: white;
+  background-color: black;
 }
 
 a#port-cell-title:before {
