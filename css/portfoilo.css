@@ -321,24 +321,24 @@ body {
     color: #111
 }
 
-.page-overview .section-billboard.ipod {
+.page-overview .section-billboard.puppyface {
     background-color: #FFF1DE;
     padding-top: 156px;
     padding-bottom: 64px
 }
 
 @media only screen and (max-width: 735px) {
-    .page-overview .section-billboard.ipod {
+    .page-overview .section-billboard.puppyface {
         padding-top: 45px;
         padding-bottom: 0
     }
 }
 
-.page-overview .section-billboard.ipod .copy-wrapper {
+.page-overview .section-billboard.puppyface .copy-wrapper {
     top: -42px
 }
 
-.page-overview .section-billboard.ipod .ipod-touch-graphic {
+.page-overview .section-billboard.puppyface .puppyface-graphic {
     width: 286px;
     height: 600px;
     background-size: 286px 600px;
@@ -354,13 +354,13 @@ body {
 only screen and (min-resolution: 1.5dppx),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi) {
-    .page-overview .section-billboard.ipod .ipod-touch-graphic {
+    .page-overview .section-billboard.puppyface .puppyface-graphic {
         background-image: url("/images/index-puppyface.png");
     }
 }
 
 @media only screen and (max-width: 1068px) {
-    .page-overview .section-billboard.ipod .ipod-touch-graphic {
+    .page-overview .section-billboard.puppyface .puppyface-graphic {
         width: 178px;
         height: 373px;
         background-size: 178px 373px;
@@ -372,13 +372,13 @@ only screen and (min-resolution: 1.5dppx),
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
-    .page-overview .section-billboard.ipod .ipod-touch-graphic {
+    .page-overview .section-billboard.puppyface .puppyface-graphic {
         background-image: url("/images/index-puppyface.png");
     }
 }
 
 @media only screen and (max-width: 735px) {
-    .page-overview .section-billboard.ipod .ipod-touch-graphic {
+    .page-overview .section-billboard.puppyface .puppyface-graphic {
         width: 159px;
         height: 332px;
         background-size: 159px 332px;
@@ -390,13 +390,13 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 735px) and (min-resolution: 144dpi) {
-    .page-overview .section-billboard.ipod .ipod-touch-graphic {
+    .page-overview .section-billboard.puppyface .puppyface-graphic {
         background-image: url("/images/index-puppyface.png");
     }
 }
 
 @media only screen and (max-width: 735px) {
-    .page-overview .section-billboard.ipod .ipod-touch-graphic {
+    .page-overview .section-billboard.puppyface .puppyface-graphic {
         padding-bottom: 65px;
         position: relative;
         top: -10px;
@@ -404,17 +404,17 @@ only screen and (max-width: 735px) and (min-resolution: 144dpi) {
     }
 }
 
-.page-overview .section-billboard.accessories {
+.page-overview .section-billboard.bounce {
     background-color: #E9F7F8;
     padding-top: 123px;
     padding-bottom: 76px
 }
 
-.page-overview .section-billboard.accessories .copy-wrapper {
+.page-overview .section-billboard.bounce .copy-wrapper {
     top: -28px
 }
 
-.page-overview .section-billboard.accessories .accessories-graphic {
+.page-overview .section-billboard.bounce .bounce-graphic {
     width: 588px;
     height: 655px;
     background-size: 588px 655px;
@@ -427,13 +427,13 @@ only screen and (max-width: 735px) and (min-resolution: 144dpi) {
 only screen and (min-resolution: 1.5dppx),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi) {
-    .page-overview .section-billboard.accessories .accessories-graphic {
+    .page-overview .section-billboard.bounce .bounce-graphic {
         background-image: url("/images/index-bounce.png")
     }
 }
 
 @media only screen and (max-width: 1068px) {
-    .page-overview .section-billboard.accessories .accessories-graphic {
+    .page-overview .section-billboard.bounce .bounce-graphic {
         width: 430px;
         height: 479px;
         background-size: 430px 479px;
@@ -445,13 +445,13 @@ only screen and (min-resolution: 1.5dppx),
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
-    .page-overview .section-billboard.accessories .accessories-graphic {
+    .page-overview .section-billboard.bounce .bounce-graphic {
         background-image: url("/images/index-bounce.png")
     }
 }
 
 @media only screen and (max-width: 735px) {
-    .page-overview .section-billboard.accessories .accessories-graphic {
+    .page-overview .section-billboard.bounce .bounce-graphic {
         width: 271px;
         height: 303px;
         background-size: 271px 303px;
@@ -463,25 +463,25 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 735px) and (min-resolution: 144dpi) {
-    .page-overview .section-billboard.accessories .accessories-graphic {
+    .page-overview .section-billboard.bounce .bounce-graphic {
         background-image: url("/images/index-bounce.png")
     }
 }
 
 @media only screen and (max-width: 1068px) {
-    .page-overview .section-billboard.accessories .accessories-graphic {
+    .page-overview .section-billboard.bounce .bounce-graphic {
         margin-left: 50px
     }
 }
 
 @media only screen and (orientation: portrait) {
-    .page-overview .section-billboard.accessories .accessories-graphic {
+    .page-overview .section-billboard.bounce .bounce-graphic {
         margin-left: 0
     }
 }
 
 @media only screen and (max-width: 735px) {
-    .page-overview .section-billboard.accessories .accessories-graphic {
+    .page-overview .section-billboard.bounce .bounce-graphic {
         position: relative;
         left: 50%;
         transform: translateX(-50%);
@@ -491,26 +491,26 @@ only screen and (max-width: 735px) and (min-resolution: 144dpi) {
 }
 
 @media only screen and (max-width: 735px) {
-    .page-overview .section-billboard.accessories {
+    .page-overview .section-billboard.bounce {
         padding-top: 35px;
         padding-bottom: 12px
     }
 }
 
-.page-overview .section-billboard.itunes {
+.page-overview .section-billboard.blocbox {
     background-color: #FCE7E3;
     padding-top: 156px;
     padding-bottom: 70px
 }
 
 @media only screen and (max-width: 735px) {
-    .page-overview .section-billboard.itunes {
+    .page-overview .section-billboard.blocbox {
         padding-top: 58px;
         padding-bottom: 40px
     }
 }
 
-.page-overview .section-billboard.itunes .itunes-graphic {
+.page-overview .section-billboard.blocbox .blocbox-graphic {
     width: 1083px;
     height: 624px;
     background-size: 1083px 624px;
@@ -523,13 +523,13 @@ only screen and (max-width: 735px) and (min-resolution: 144dpi) {
 only screen and (min-resolution: 1.5dppx),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi) {
-    .page-overview .section-billboard.itunes .itunes-graphic {
+    .page-overview .section-billboard.blocbox .blocbox-graphic {
         background-image: url("/images/index-blocbox.png")
     }
 }
 
 @media only screen and (max-width: 1068px) {
-    .page-overview .section-billboard.itunes .itunes-graphic {
+    .page-overview .section-billboard.blocbox .blocbox-graphic {
         width: 731px;
         height: 421px;
         background-size: 731px 421px;
@@ -541,13 +541,13 @@ only screen and (min-resolution: 1.5dppx),
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
-    .page-overview .section-billboard.itunes .itunes-graphic {
+    .page-overview .section-billboard.blocbox .blocbox-graphic {
         background-image: url("/images/index-blocbox.png")
     }
 }
 
 @media only screen and (max-width: 735px) {
-    .page-overview .section-billboard.itunes .itunes-graphic {
+    .page-overview .section-billboard.blocbox .blocbox-graphic {
         width: 543px;
         height: 314px;
         background-size: 543px 314px;
@@ -559,19 +559,19 @@ only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
 only screen and (max-width: 735px) and (min-resolution: 144dpi) {
-    .page-overview .section-billboard.itunes .itunes-graphic {
+    .page-overview .section-billboard.blocbox .blocbox-graphic {
         background-image: url("/images/index-blocbox.png")
     }
 }
 
 @media only screen and (max-width: 1068px) {
-    .page-overview .section-billboard.itunes .itunes-graphic {
+    .page-overview .section-billboard.blocbox .blocbox-graphic {
         margin-left: 0
     }
 }
 
 @media only screen and (max-width: 735px) {
-    .page-overview .section-billboard.itunes .itunes-graphic {
+    .page-overview .section-billboard.blocbox .blocbox-graphic {
         margin-left: 0;
         left: 0;
         transform: translateX(0);
@@ -580,16 +580,16 @@ only screen and (max-width: 735px) and (min-resolution: 144dpi) {
     }
 }
 
-.page-overview .section-billboard.itunes .copy-wrapper {
+.page-overview .section-billboard.blocbox .copy-wrapper {
     margin-top: -70px
 }
 
 @media only screen and (max-width: 735px) {
-    .page-overview .section-billboard.itunes .copy-wrapper {
+    .page-overview .section-billboard.blocbox .copy-wrapper {
         margin-top: 0
     }
 }
 
-.page-overview .section-billboard.itunes .copy-wrapper .more {
+.page-overview .section-billboard.blocbox .copy-wrapper .more {
     display: inline-block
 }

@@ -582,15 +582,34 @@ footer div ul>li>a {
 }
 
 .youtube-container {
-  /* position: relative;
+  padding-top: 20px;
+  width: 79em;
+  height: 60em;
+
+  display: block;
+  margin: auto;
+} 
+
+.youtube-container iframe {
+  width: 100%;
+  height: 100%;
+}
+/* .youtube-container {
+  position: absolute;
+margin: auto;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+} */
+/* .youtube-container {
+  position: relative;
     width: 100%;
     height: 0;
     padding-bottom: 56.25%;
     margin-left: 10vw;
-    margin-right: 10vw; */
+    margin-right: 10vw; 
   position: relative;
   padding-bottom: calc(56.25%*0.6);
-  /* 16:9 */
   padding-top: 25px;
   height: 0;
 }
@@ -602,9 +621,7 @@ footer div ul>li>a {
   width: 50%;
   height: 100%;
   margin-top: 20px;
-
-
-}
+} */
 
 .topnav {
   overflow: hidden;
