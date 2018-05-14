@@ -598,9 +598,12 @@ footer div ul>li>a {
 .youtube-container iframe {
   position: absolute;
   top: 0;
-  left: 20%;
-  width: 60%;
+  left: 25%;
+  width: 50%;
   height: 100%;
+  margin-top: 20px;
+
+
 }
 
 .topnav {
