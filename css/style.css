@@ -410,7 +410,7 @@ section div p {
 
 section div img {
   margin: auto;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 section div img.large {
@@ -427,13 +427,13 @@ section div img.small {
 
 section div ul {
   margin-top: 8px;
-  margin-left: 50px;
+  margin-left: 25px;
 }
 
 section div ul li {
   /* margin-right: 10vw !important;
     margin-left: 10vw !important; */
-  width: 700px;
+  width: 675px;
   margin: auto;
 }
 
@@ -451,7 +451,7 @@ section div table {
 
   display: block;
   margin: auto;
-} 
+}
 
 .youtube-container iframe {
   width: 100%;
@@ -512,7 +512,7 @@ section div table {
     height: auto;
     display: block;
     margin: auto;
-  } 
+  }
 }
 
 @media (max-width: 480px) {
@@ -662,7 +662,7 @@ transform: translate(-50%, -50%);
     height: 0;
     padding-bottom: 56.25%;
     margin-left: 10vw;
-    margin-right: 10vw; 
+    margin-right: 10vw;
   position: relative;
   padding-bottom: calc(56.25%*0.6);
   padding-top: 25px;
