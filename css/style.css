@@ -376,7 +376,7 @@ section div hr {
 
 section div h3 {
   font-size: 34px;
-  width: 28em;
+  width: 700px;
   margin: auto;
   margin-top: 31px;
   font-weight: bold
@@ -387,7 +387,7 @@ section div h4 {
     margin-left: 10vw !important; */
   font-size: 25px;
   font-weight: bold;
-  width: 38em;
+  width: 700px;
   margin: auto;
   margin-top: 31px;
 }
