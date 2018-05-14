@@ -7,19 +7,25 @@ function responsiveNavBar() {
     }
 }
 
-window.onscroll = function (ev) {
-    if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight - 1000) {
-        var x = document.getElementById("prototype_link");
-        if (x != undefined) {
-            this.console.log(x);
-            x.classList.add("textglow");
-        }
+$('#floating-nav').affix({
+    offset: {
+      top: ($('header').height() - 60)
     }
-    else {
-        var x = document.getElementById("prototype_link");
-        if (x != undefined) {
-            this.console.log(x);
-            x.classList.remove("textglow");
-        }
-    }
-};
+});	
+
+// window.onscroll = function (ev) {
+//     if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight - 1000) {
+//         var x = document.getElementById("prototype_link");
+//         if (x != undefined) {
+//             this.console.log(x);
+//             x.classList.add("textglow");
+//         }
+//     }
+//     else {
+//         var x = document.getElementById("prototype_link");
+//         if (x != undefined) {
+//             this.console.log(x);
+//             x.classList.remove("textglow");
+//         }
+//     }
+// };

@@ -8,18 +8,24 @@
   <title>PuppyFace</title>
 
   <!-- Google Fonts -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Gudea" rel="stylesheet" type="text/css"> -->
   <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Heebo:900" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+  <link rel='icon' href="/images/logo-blue.png" type='image/x-icon' />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="/css/thumbnail-gallery.css?v=0002"> -->
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/style.css?v=0002">
   <link rel="stylesheet" href="/css/animate.css">
-  <link rel='icon' href="/images/logo-blue.png" type='image/x-icon' />
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -31,599 +37,502 @@
       <a class="name" href="/index.html">Shan Ou</a>
       <a class="item rightmost" href="/about.html">About</a>
       <a class="item" href="/resume.html">Resume</a>
-      <a class="item" href="/index.html#portfolio-list">Portfolio</a>
+      <a class="item selected" href="/index.html#portfolio-list">Portfolio</a>
       <a href="javascript:void(0);" style="font-size:24px;" class="icon" onclick="responsiveNavBar()">&#9776;</a>
     </div>
     <banner class="container-fluid">
-      <div class="row" id="backyard" style="width: auto; height: 320px">
-        <div class="col-xs-push-4">
-          <h1 id="backyard" class="animated fadeIn">PuppyFace</h1>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <!-- <li data-target="#myCarousel" data-slide-to="2"></li> -->
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="/images/puppyface/puppyface_banner_1.png" alt="Page1" style="width:100%;">
+          </div>
+
+          <div class="item">
+            <img src="/images/puppyface/puppyface_banner_2.png" alt="Page2" style="width:100%;">
+          </div>
+
+          <!-- <div class="item">
+            <img src="/images/easytalk5pic.png" alt="Page3" style="width:100%;">
+          </div> -->
         </div>
-        <div class="col-xs-pull-8">
-          <img class="pull-right hidden-xs" src="/images/Puppyface-iphone.png" style="width:250px" />
-        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-      <banner>
-        <div class="col-xs-12 menu" style="background-color:light-gray" data-spy="affix" data-offset-top="380">
-          <ul style="margin-left: -16px">
-            <li>
-              <a href="puppyface.html#overview">Overview</a>
-            </li>
-            <li>
-              <a href="puppyface.html#research">Research</a>
-            </li>
-            <li>
-              <a href="puppyface.html#branding">Branding</a>
-            </li>
-            <li>
-              <a href="puppyface.html#execution">Execution</a>
-            </li>
-            <li>
-              <a href="puppyface.html#learnings">Learnings</a>
-            </li>
-            <li>
-              <a id="prototype_link" href="https://invis.io/KQG614RXBGU">View Prototype</a>
-            </li>
-          </ul>
-        </div>
-      </banner>
+      <div class="col-xs-12 menu" id="floating-nav" style="background-color:light-gray">
+        <ul>
+          <li>
+            <a href="puppyface.html#overview">Overview</a>
+          </li>
+          <li>
+            <a href="puppyface.html#research">Research</a>
+          </li>
+          <li>
+            <a href="puppyface.html#branding">Branding</a>
+          </li>
+          <li>
+            <a href="puppyface.html#execution">Execution</a>
+          </li>
+          <li>
+            <a href="puppyface.html#learning">Key Learnings</a>
+          </li>
+          <li>
+            <a id="prototype_link" href="https://invis.io/KQG614RXBGU">View Prototype</a>
+          </li>
+        </ul>
+      </div>
+    </banner>
   </header>
 
   <!--OVERVIEW-->
   <section id="overview">
-    <div class="container-fluid">
-      <div class="row" style="margin-top: 32px">
-        <div class="col-xs-12">
-          <br>
-          <h3 class="title">ABOUT PUPPYFACE</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <p>Since the dawn of the ice age, humans and animals have had a special bond. They are like family to us. We love
-            our pets so much and would like to take good care of them whenever we can. When we are away, we would like to
-            find someone that love our pets as much as we do to take care of them. PuppyFace is an app that offers reliable
-            and free pet services to your pets. Why is PuppyFace free? Because we encourage pet owners to help each other,
-            we use credits as a way to record when a pet owner provide or receive service. The purpose is to reduce the cost
-            of pet service, and at the same time, our pets receive services from other pet owners which is more reliable.
-            </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <h3 class="title">THE PROBLEM</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <p>Even though there are many pet services apps in the marketplace, many of the current service providers are expensive
-            and can’t meet pet owner’s requirements for cost and service. Rover is the most significant pet boarding app
-            right now. But many pet sitters on Rover are asking for expensive service fees regardless of their service quality.
-            Pet service fee is much higher for holidays. Traveling out of town during holidays become more difficult when
-            you have to consider the cost, and worry about your pet’s stay at somebody’s house. </p>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid" id="shaded">
-      <div class="row">
-        <div class="col-xs-12">
-          <h3 class="title shaded">THE SOLUTION</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <p>PuppyFace solves the problems of expensive and unreliable pet services by building a credit based service exchange
-            system between pet owners. With PuppyFace, pet owners can specify their preference for a boarding place, pet
-            sitter’s experience, then book a service using credits (PuppyFace will give every new user ten free credits to
-            start with). And at the same time, pet owners can also receive and check service requests from other pet owners.
-            If the service request is accepted and finished, then the pet owner will gain credits and can be used for future
-            pet service for his/her pets. Since the platform is not money involved and pet owners provide service to each
-            other, PuppyFace is a more reliable and low-cost tool to find pet service. </p>
-            <br>
-          <img src="/images/puppyface-threeimage.png" class="center-block" style="width:70%" />
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12">
-          <h3 class="title">MY ROLE</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <p>I functioned as the UX researcher, UX designer, visual designer for this project. Within these roles, I conducted
-            user research, created wireframes, conducted user interview, and completed visual designs.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--RESEARCH-->
-  <section id="research">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12">
-          <h3 class="title">THE RESEARCH</h3>
-        </div>
-      </div>
+    <div class="first">
+      <h3>Overview</h3>
     </div>
 
-    <!--User Research-->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12">
-          <h4>User Research</h4>
-          <hr>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <p>I designed a
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeyfQpz-IJJ0KqQTyvYsCrV8igSK0QDakHX18-lpEPZAr3-XA/viewform?usp=sf_link">user research survey</a> to know my target users. My questionnaire focused on:</p>
-          <ul>
-            <li>What people do with their pets when they travel;</li>
-            <li>Where do they find daycare or boarding places for their pets;</li>
-            <li>What concerns do they have for pet daycare/boarding;</li>
-            <li>For the places your pets usually go to boarding/daycare, what do they think they can improve;</li>
-            <li>Do they like to try a new app that can help them find free and reliable pet daycare/boarding.</li>
-          </ul>
-          <p>Results were gathered from 12 respondents across the country.</p>
-        </div>
-      </div>
-      <div class="row" style="padding-left:8vw; padding-right: 8vw;">
-        <div class="col-sm-6">
-          <img src="/images/survey2.png" class="center-block" style="width:90%" />
-        </div>
-        <div class="col-sm-6">
-          <img src="/images/survey3.png" class="center-block" style="width:90%" />
-        </div>
-      </div>
-
-      <div class="row" style="padding-left:8vw; padding-right: 8vw;">
-        <div class="col-sm-6">
-          <img src="/images/survey4.png" class="center-block" style="width:90%" />
-        </div>
-        <div class="col-sm-6">
-          <img src="/images/survey6.png" class="center-block" style="width:90%" />
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xs-12">
-          <p>I summarized the data and figured out pet owner’s motivation, frustration, and concerns:</p>
-          <ul>
-            <li>Pet owners usually put their pets in boarding or someone’s home when they travel;</li>
-            <li>Pet owners find pet boarding places through the internet;</li>
-            <li>Safety, cost, experience were the most important considerations;</li>
-            <li>They would like the pets boarding places they usually send their pets can lower the price;</li>
-            <li>61% of respondents liked to try a new app that can help them find FREE pet daycare/boarding.</li>
-          </ul>
-          <p>It is clear that from these survey results pet owners wanted a search tool that can find reliable and low-cost
-            pet services.</p>
-        </div>
-      </div>
+    <div>
+      <p class="p-after-h3">Since the dawn of the ice age, humans and animals have had a special bond. They are like family to us. We love our
+        pets so much and would like to take good care of them whenever we can. When we are away, we would like to find someone
+        that love our pets as much as we do to take care of them. PuppyFace is an app that offers reliable and free pet services
+        to your pets. Why is PuppyFace free? Because we encourage pet owners to help each other, we use credits as a way
+        to record when a pet owner provide or receive service. The purpose is to reduce the cost of pet service, and at the
+        same time, our pets receive services from other pet owners which is more reliable.
+      </p>
     </div>
 
-    <!--Personas-->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12">
-          <h4>Personas</h4>
-          <hr>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <p>I conducted one-on-one interviews with three of my survey respondents to find out more details about their responses
-            and help us understand the problem better. From these interviews, I developed three personas and identified there
-            are three major user groups:</p>
-          <ul>
-            <li>Caro represents pet owners who live in small towns where limited pet hotels are available;</li>
-            <li>Tara represents pet owners who have limited incomes like students, they prefer cheaper cost for pet services;</li>
-            <li>Max represents pet owners who live in a costly area like San Francisco, they like the idea of credit exchange
-              for pet services. </li>
-          </ul>
-        </div>
-      </div>
-      <div class="row" style="padding-left:8vw; padding-right: 8vw;">
-        <div class="col-md-4">
-          <img src="/images/Puppyface-persona1.png" class="center-block" style="width:100%" />
-        </div>
-        <div class="col-md-4">
-          <img src="/images/Puppyface-persona2.png" class="center-block" style="width:100%" />
-        </div>
-        <div class="col-md-4">
-          <img src="/images/Puppyface-persona3.png" class="center-block" style="width:100%" />
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <p>The demand for reliable and cheaper pet service is popular. I also identified some features for implementation
-            in the future development process, such as adding filters for senior dog experience, puppy experience, rescue
-            dog experience, etc.
-          </p>
-        </div>
-      </div>
+    <div>
+      <h4>Problem</h4>
     </div>
 
-    <!--Competitive Analysis-->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12">
-          <h4>Competitive Analysis</h4>
-          <hr>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <p>After having a comprehensive understanding of my target audience and what they need, I start to do
-            <a href="https://www.dropbox.com/s/f4994zjvvqex3ji/Competitive%20Analysis.docx?dl=0">SWOT analysis</a> for three popular pet service apps (Rover, Pawshake, PetBacker) in the market. I made a
-            <a
-              href="https://docs.google.com/spreadsheets/d/10cijwizWoLXh6gYYSk9pc6r75SzkjgYaYl2DLh-yJTA/edit?usp=sharing">feature list </a>of these three apps comparing all their features. And I examined their UI/UX designs in details
-              by testing out these apps myself and reading app reviews. </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-12">
-          <center>Screenshots of Competitors</center>
-          <img src="/images/Puppyface-competitors.png" class="center-block" style="width:80%">
-        </div>
-      </div>
-
+    <div>
+      <p class="p-after-h4">Even though there are many pet services apps in the marketplace, many of the current service providers are expensive
+        and can’t meet pet owner’s requirements for cost and service. Rover is the most significant pet boarding app right
+        now. But many pet sitters on Rover are asking for expensive service fees regardless of their service quality. Pet
+        service fee is much higher for holidays. Traveling out of town during holidays become more difficult when you have
+        to consider the cost, and worry about your pet’s stay at somebody’s house. </p>
     </div>
 
-    <!--User Stories-->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12">
-          <h4>User Stories</h4>
-          <hr>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <p>Based on all the surveys, interviews and competitive analysis, I came up with
-            <a href="https://docs.google.com/spreadsheets/d/1m7Miami0_XX43r-cFmpp5st0dR9FMb3082TY7qsx-tU/edit?usp=sharing">a list of user stories</a> and solutions to meet the needs of pet owners.</p>
-            <br>
-            <table>
-            <tr>
-              <th>What pet owners want </th>
-              <th>Solutions</th>
-            </tr>
-            <tr>
-              <td>(1)Reliability </td>
-              <td>Services are provided by other pet owners, and they have experience and love for pets, not provided by profitable
-                organizations, users can rate service providers</td>
-            </tr>
-            <tr>
-              <td>(2)Low cost</td>
-              <td>Services are exchanged using credits, not money which helps to lower household cost. Pet owners can provide
-                services to gain credits and use credits for their own pets.</td>
-            </tr>
-            <tr>
-              <td>(3)Filters for senior dog experience, puppy experience, rescue dog experience etc</td>
-              <td>These options will be available in the filter because they are important to many pet owners. So that they find
-                out if a pet sitter has required skills easily.</td>
-            </tr>
-          </table>
-        </div>
-      </div>
+    <div>
+      <h4>Solutions</h4>
     </div>
 
-    <!--User Flows & Sitemap-->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12">
-          <h4>User Flows &amp; Sitemap</h4>
-          <hr>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <p>I converted user stories into
-            <a href="https://drive.google.com/file/d/1xByyZDhvOK6NVyLDIdc8csVGY1NAi5i0/view?usp=sharing">user flows</a>and
-            <a href="https://drive.google.com/file/d/1O51_ieWTFVPCDU-uzq_WSBEYrYSnmQXN/view?usp=sharing">sitemap</a> to visualize the navigation process and content hierarchy. In this part, I not only referred to the
-            competitors’ UX design process and also referred to some resource sharing apps’ design process, including Airbnb,
-            Lyft, and Uber.</p>
-          <br>
-          <img src="/images/Puppyface-userflow.png" class="center-block " style="width:80%" />
-          <br>
-          <br>
-          <br>
-          <img src="/images/Puppyface-sitemap.png" class="center-block " style="width:70%" />
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--BRANDING-->
-  <section id="branding">
-    <div class="container-fluid" id="slightly-shaded">
-      <div class="row">
-        <div class="col-xs-12">
-          <h3 class="title">BRANDING</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <p> Many logos of pet’s brands can be divided into two groups: (1) colorful pet image to display a happy pet (2) one
-            color strokes to present a feeling of clean and simple. From my research, I concluded that this product needed
-            to get a balance between these two. Because the cuteness of pets can attract users, and the cleanness and simple
-            can make users feel reliable.</p>
-        </div>
-      </div>
-    </div>
-
-    <!--Typography-->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12">
-          <h4 class="branding">Typography</h4>
-          <hr>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <p>Righteous is an open sans typeface. Its round bowl, counter, and aperture create a feeling of decor and cuteness.
-            It is suitable for headlines and reminds people of the cuteness of puppies.</p>
-          <p>Gudea’s sans serif displays a simple, condensed structure that brings a pleasant feeling when used at any size.
-            Gudea was initially used in engineering documents. It also provides a sense of reliability.</p>
-          <br>
-          <img src="/images/Puppyface-typography.png" class="center-block" style="width:70%" />
-          <br>
-        </div>
-      </div>
-    </div>
-
-    <!--Logo-->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12">
-          <h4>Brand Story &amp; Logo</h4>
-          <hr>
-        </div>
-        <div class="row" style="padding-left:8vw; padding-right: 8vw;">
-          <div class="col-xs-4">
-            <img src="/images/Puppyface-brand1.jpg" class="center-block" style="width:70%" />
-          </div>
-          <div class="col-xs-4">
-            <img src="/images/Puppyface-brand2.jpg" class="center-block" style="width:70%" />
-          </div>
-          <div class="col-xs-4">
-            <img src="/images/Puppyface-brand3.jpg" class="center-block" style="width:70%" />
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <p>The word “puppyface” came up when I was browsing some dog’s facebook pages. Puppy with cute and smiling faces usually
-            gets a lot more “likes.” People’s heart is melty when they see a puppy. When I first walked my dog in the community
-            as he was a puppy, he drew a lot of attention from my neighbors like a superstar. It is hard for people to ignore
-            puppies’ innocent and adorable faces. </p>
-          <p>PuppyFace needed a logo to promote its public recognition and personality. The logo design begun with sketches
-            of various puppy faces and evolved into a simple illustration of a puppies face with round eyes, nose, pink tongue
-            and two big ears. Round eyes, nose, and pink tongue display cute personality. Dropped ears present relaxation.
-            Shaded yellow color conveys a feeling of reliability and stable. So the logo itself transmits a message of cuteness
-            and loyalty. </p>
-
-          <img src="/images/Puppyface-brandlogo.png" class="center-block" style="width:60%" />
-        </div>
-
-
-      </div>
-    </div>
-    </div>
-
-    <!--Colors-->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12">
-          <h4>Colors</h4>
-          <hr>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <p>PuppyFace needs a color palette to trigger people’s feeling for pets. Bright green and bright orange are chosen
-            to present pet’s happiness. The orange color reminds people of dog’s activeness, and green color reminds people
-            of dogs playing on grass. The color inspiration came from playing with my dog in a park.</p>
-          <img src="/images/Puppyface-colorpallet.png" class="center-block" style="width:70%" />
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--EXECUTION-->
-  <section id="execution">
-    <div class="container-fluid" id="slightly-shaded">
-      <div class="row">
-        <div class="col-xs-12">
-          <h3 class="title">EXECUTION</h3>
-        </div>
-      </div>
-    </div>
-
-    <!--Sketches-->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12">
-          <h4 class="branding">Paper Prototype</h4>
-          <hr>
-        </div>
-        <div class="row" style="padding-left:8vw; padding-right: 8vw;">
-          <div class="col-sm-6">
-            <img src="/images/Puppyface-paper1.jpg" class="center-block" style="width:60%" />
-          </div>
-          <div class="col-sm-6">
-            <img src="/images/Puppyface-paper2.jpg" class="center-block" style="width:60%" />
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <p>I started paper prototype by quickly sketching the structures. While I was outlining, I focus on providing information
-            and features pet owners concerned the most. Paper prototype allowed me to quickly create different layouts for
-            sitter list, profile, reservations. I conducted simple preference testing using paper prototype. From the feedback,
-            I learned that users prefer information in a row rather than in columns. The “z” eye tracking theory can explain
-            this result well. </p>
-        </div>
-      </div>
-    </div>
-
-    <!--Wireframes-->
-    <div class="container-fluid">
-
-      <div class="row">
-        <div class="col-xs-12">
-          <h4>Low-Fidelity Wireframes</h4>
-          <hr>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <p>I created
-            <a href="https://www.dropbox.com/s/ccsxhaqanjsife2/PuppyFace%20Balsamiq.pdf?dl=0">low fidelity wireframes </a>through Balsamiq to simulate the desired interaction flow and feel of the product.
-            </p>
-        </div>
-        <img src="/images/Puppyface-lowfi.png" class="center-block" style="width:80%" />
-      </div>
-    </div>
-
-    <!--Prototype-->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12">
-          <h4>Mock-up</h4>
-          <hr>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <img src="/images/Puppyface-mockup.png" class="center-block" style="width:84%" />
-          <p>I created high fidelity wireframes through Sketch and
-            <a href="https://invis.io/KQG614RXBGU">clickable prototype </a>through InvisionApp. Usability testings were performed to check if the design has good
-            usability. I conducted three rounds of usability testings through online tests and in-person tests. </p>
-          <br>
-          <h4>First Round Usability Testing</h4>
-          <p>PuppyFace app is tested by three users remotely on UserTesting.com. Testers are required to finish the following
-            tasks:</p>
-          <ul>
-            <li>Book a service for pet boarding</li>
-            <li>Check booking status</li>
-            <li>View request from other pet owner</li>
-            <li>View other pet owner profile</li>
-            <li>View his/her own profile</li>
-            <li>View pet’s profile</li>
-          </ul>
-          <p>According to the
-            <a href="https://docs.google.com/document/d/1AO2EDIwZK5Hd7F3biyAoSQZlHtJ4p65rpCGG4QJkU60/edit?usp=sharing">feedbacks </a> from three testers, I modified my design:</p>
-          <p>(1) Follow iOS Human Interface Guideline by changing the navigation bar, profile, and search, etc.</p>
-          <img src="/images/Puppyface-profilecompare.png" class="center-block" style="width:70%" />
-          <p>(2) Redesign reservation page because testers complained that it was confusing. It was hard to tell which was booking
-            and which was the request from other pet owners. Reservation was separated into “Your bookings” and “Requests”
-            instead of “Past” and “Upcoming.” Users would like to know which was booking and which was request first, then
-            they want to know which is upcoming or previous. There was a hierarchy of the user’s need. </p>
-          <img src="/images/Puppyface-reservationcompare.png" class="center-block" style="width:70%" />
-          <p>(3) Add “skip” option in onboarding process to allow users to view contents without registering or logging in</p>
-          <br>
-          <h4>Second Round Usability Testing</h4>
-          <p>I conducted three in-person tests and one remote test. The purpose of the second-round test was to check if modified
-            design solves the problems revealed in round one test, and review some more details about the app. I assigned
-            these tasks to testers:
-          </p>
-          <ul>
-            <li>Book a service for pet boarding</li>
-            <li>Check booking status</li>
-            <li>Tell if the app is for pet owner, or pet sitter, or for both. And why?</li>
-            <li>What’s biggest difference between this app and other pet service app?</li>
-            <li>Share pet’s photo in community</li>
-            <li>What do you think about the search filter</li>
-            <li>What do you think about sitter’s profile page</li>
-          </ul>
-          <p>According to the
-            <a href="https://docs.google.com/document/d/1A2a1K1zMFBsOvPOyS35v7YEYO7RpgNQCU0yhY_4TbMk/edit?usp=sharing">feedbacks </a> from three testers, I modified my design:</p>
-          <p>(1) Redesign booking page, change communication icon and group action icons together, so it was convenient for
-            users to take actions. I also grouped pet sitter’s information, so it was easy for users to browse information.
-            </p>
-          <img src="/images/Puppyface-bookingcompare.png" class="center-block" style="width:70%" />
-          <p>(2) Add more options to filter and place options by priority. Even though users can find pet sitters’ experience,
-            reviews in their profiles, but they prefer filter can help them exclude some options. From my interviews, I found
-            out that users would like to exclude or include some pet sitters with bad reviews, and they have specific requirements
-            for pet sitters’ experience. One user wanted pet sitter with experience with puppies, the other wanted pet sitter
-            with experience with rescue dogs. So I redesign the filter and add these options to filter. </p>
-          <img src="/images/Puppyface-filtercompare.png" class="center-block" style="width:70%" />
-          <br>
-          <h4>Third Round Usability Testing</h4>
-          <p>I conducted
-            <a href="https://docs.google.com/document/d/1pq4ZRGIH0XosFw9SAN4BNRrCVdXm5TqtAQJnMFsJyPc/edit?usp=sharing">three preference tests </a>on usabilityhub.com to polish some details of the design. According to the feedbacks
-            from three testers, I modified my design:</p>
-          <p>(1) Use bold orange border for pet owner’s profile picture to make it more noticeable. </p>
-          <img src="/images/Puppyface-preference1.png" class="center-block" style="width:70%" />
-          <p>(2) One user was confused by the availability calendar, so I redesigned it to make it more clear. I added lines
-            to cross out unavailable dates and use green to highlight available dates. </p>
-          <img src="/images/Puppyface-preference2.png" class="center-block" style="width:70%" />
-          <p>(3) Users complained blur background image has no focal point, and the letters were blended in the background and
-            hard to read. So I changed the transparency of background picture and added shadow to letters to increase the
-            readability of messages.
-          </p>
-          <img src="/images/Puppyface-preference3.png" class="center-block" style="width:70%" />
-
-        </div>
-      </div>
+    <div>
+      <p class="p-after-h4">PuppyFace solves the problems of expensive and unreliable pet services by building a credit based service exchange
+        system between pet owners. With PuppyFace, pet owners can specify their preference for a boarding place, pet sitter’s
+        experience, then book a service using credits (PuppyFace will give every new user ten free credits to start with).
+        And at the same time, pet owners can also receive and check service requests from other pet owners. If the service
+        request is accepted and finished, then the pet owner will gain credits and can be used for future pet service for
+        his/her pets. Since the platform is not money involved and pet owners provide service to each other, PuppyFace is
+        a more reliable and low-cost tool to find pet service. </p>
     </div>
     <div>
-      <p>Video of one in-person test recorded by Silverback: </p>
-      <br>
-      <div class="youtube-container">
-        <iframe class="youtube-video" src="https://www.youtube.com/embed/UysJzurE5sc" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-      </div>
-      <br>
-      <br>
+      <img src="/images/r-threeimages.png" class="center-block median">
     </div>
+
   </section>
 
 
-  <!--LEARNINGS-->
-  <section id="learnings">
-    <div class="container-fluid" id="slightly-shaded">
-      <div class="row">
-        <div class="col-xs-12">
-          <h3 class="title">KEY LEARNINGS</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <p>What I learned during the processing of creating PuppyFace is that details are vital to a product. When users are
-            using a product, any particulars could become a reason why user love the product or a reason why users feel frustrated.
-            I also learned that usability testing is critical. How users use the product could be entirely different from
-            what a designer thinks it should be. </p>
-            <br>
-          <p>What to do in the future? PuppyFace provides pet owners a way to find reliable pet sitters and solve the problem
-            of high cost of pet services. The final goal of PuppyFace is to create a mutually beneficial community for all
-            pet lovers. But there is still something I need to improve in the future. Users may not realize pet service on
-            the PuppyFace app is exchanged by credits not by money if they skip the onboarding process. I need to spend more
-            time to improve the visibility of credit exchange policy. Because this is a prominent feature of the PuppyFace
-            app, and what makes PuppyFace app distinguished from the rest of pet service apps. What gave me confidence during
-            our usability testing phase was that most users love the idea of credit exchange services, and I got very positive
-            and supportive feedback. </p>
-        </div>
-      </div>
+  <section id="research">
+    <div>
+      <h3>Research</h3>
+    </div>
+
+    <!-- <div>
+      <p class="p-after-h3">Missing Overview???</p>
+    </div> -->
+
+    <div>
+      <h4>User Research</h4>
+    </div>
+
+    <div>
+      <p class="p-after-h4">I designed a
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeyfQpz-IJJ0KqQTyvYsCrV8igSK0QDakHX18-lpEPZAr3-XA/viewform?usp=sf_link">user research survey</a> to know my target users. My questionnaire focused on:</p>
+      <ul>
+        <li>What people do with their pets when they travel;</li>
+        <li>Where do they find daycare or boarding places for their pets;</li>
+        <li>What concerns do they have for pet daycare/boarding;</li>
+        <li>For the places your pets usually go to boarding/daycare, what do they think they can improve;</li>
+        <li>Do they like to try a new app that can help them find free and reliable pet daycare/boarding.</li>
+      </ul>
+      <p>Results were gathered from 12 respondents across the country.</p>
+    </div>
+
+
+    <div>
+      <img src="/images/r-survey.png" class="center-block median">
+    </div>
+
+    <div>
+      <p>I summarized the data and figured out pet owner’s motivation, frustration, and concerns:</p>
+      <ul>
+        <li>Pet owners usually put their pets in boarding or someone’s home when they travel;</li>
+        <li>Pet owners find pet boarding places through the internet;</li>
+        <li>Safety, cost, experience were the most important considerations;</li>
+        <li>They would like the pets boarding places they usually send their pets can lower the price;</li>
+        <li>61% of respondents liked to try a new app that can help them find FREE pet daycare/boarding.</li>
+      </ul>
+      <p>It is clear that from these survey results pet owners wanted a search tool that can find reliable and low-cost pet
+        services.
+      </p>
+    </div>
+
+    <div>
+      <h4>Personas</h4>
+    </div>
+
+    <div>
+      <p class="p-after-h4">I conducted one-on-one interviews with three of my survey respondents to find out more details about their responses
+        and help us understand the problem better. From these interviews, I developed three personas and identified there
+        are three major user groups:</p>
+      <ul>
+        <li>Caro represents pet owners who live in small towns where limited pet hotels are available;</li>
+        <li>Tara represents pet owners who have limited incomes like students, they prefer cheaper cost for pet services;</li>
+        <li>Max represents pet owners who live in a costly area like San Francisco, they like the idea of credit exchange for
+          pet services. </li>
+      </ul>
+    </div>
+    <div>
+      <img src="/images/r-personas.png" class="center-block large" />
+    </div>
+
+    <div>
+      <p>The demand for reliable and cheaper pet service is popular. I also identified some features for implementation in the
+        future development process, such as adding filters for senior dog experience, puppy experience, rescue dog experience,
+        etc.
+      </p>
+    </div>
+
+    <div>
+      <h4>Competitive Analysis</h4>
+    </div>
+
+    <div>
+      <p class="p-after-h4">After having a comprehensive understanding of my target audience and what they need, I start to do
+        <a href="https://www.dropbox.com/s/f4994zjvvqex3ji/Competitive%20Analysis.docx?dl=0">SWOT analysis</a> for three popular pet service apps (Rover, Pawshake, PetBacker) in the market. I made a
+        <a href="https://docs.google.com/spreadsheets/d/10cijwizWoLXh6gYYSk9pc6r75SzkjgYaYl2DLh-yJTA/edit?usp=sharing">feature list </a>of these three apps comparing all their features. And I examined their UI/UX designs in details
+        by testing out these apps myself and reading app reviews. </p>
+    </div>
+
+    <div>
+      <img src="/images/r-competitors.png" class="center-block median">
+    </div>
+
+    <div>
+      <h4>User Stories</h4>
+    </div>
+
+    <div>
+      <p class="p-after-h4">Based on all the surveys, interviews and competitive analysis, I came up with
+        <a href="https://docs.google.com/spreadsheets/d/1m7Miami0_XX43r-cFmpp5st0dR9FMb3082TY7qsx-tU/edit?usp=sharing">a list of user stories</a> to meet the needs of pet owners.</p>
+    </div>
+
+    <div>
+      <h4>User Flows &amp; Sitemap</h4>
+    </div>
+
+    <div>
+      <p class="p-after-h4">I converted user stories into
+        <a href="https://drive.google.com/file/d/1xByyZDhvOK6NVyLDIdc8csVGY1NAi5i0/view?usp=sharing">user flows </a>and
+        <a href="https://drive.google.com/file/d/1O51_ieWTFVPCDU-uzq_WSBEYrYSnmQXN/view?usp=sharing">sitemap</a> to visualize the navigation process and content hierarchy. In this part, I not only referred to the competitors’
+        UX design process and also referred to some resource sharing apps’ design process, including Airbnb, Lyft, and Uber.</p>
+    </div>
+
+    <div>
+      <img src="/images/Puppyface-userflow.png" class="center-block large">
+    </div>
+
+    <div>
+      <img src="/images/Puppyface-sitemap.png" class="center-block median">
     </div>
   </section>
 
+  <section id="branding">
+    <div>
+      <h3>Branding</h3>
+    </div>
 
+    <div>
+      <p class="p-after-h3">Many logos of pet’s brands can be divided into two groups: (1)colorful pet image to display a happy pet; (2)one color
+        strokes to present a feeling of clean and simple. From my research, I concluded that this product needed to get a
+        balance between these two. Because the cuteness of pets can attract users, and the cleanness and simple can make
+        users feel reliable.</p>
+    </div>
+
+    <div>
+      <h4>Typography</h4>
+    </div>
+
+    <div>
+      <p class="p-after-h4"> Righteous is an open sans typeface. Its round bowl, counter, and aperture create a feeling of decor and cuteness. It
+        is suitable for headlines and reminds people of the cuteness of puppies.</p>
+      <p>Gudea’s sans serif displays a simple, condensed structure that brings a pleasant feeling when used at any size. Gudea
+        was initially used in engineering documents. It also provides a sense of reliability.</p>
+      </p>
+    </div>
+
+    <div>
+      <img src="/images/r-typeface.png" class="center-block median">
+    </div>
+
+    <div>
+      <h4>Brand Story &amp; Logo</h4>
+    </div>
+
+    <div>
+      <img src="/images/r-branding.png" class="center-block median">
+    </div>
+
+    <div>
+      <p>The word “puppyface” came up when I was browsing some dog’s facebook pages. Puppy with cute and smiling faces usually
+        gets a lot more “likes.” People’s heart is melty when they see a puppy. When I first walked my dog in the community
+        as he was a puppy, he drew a lot of attention from my neighbors like a superstar. It is hard for people to ignore
+        puppies’ innocent and adorable faces. </p>
+      <p>PuppyFace needed a logo to promote its public recognition and personality. The logo design begun with sketches of various
+        puppy faces and evolved into a simple illustration of a puppies face with round eyes, nose, pink tongue and two big
+        ears. Round eyes, nose, and pink tongue display cute personality. Dropped ears present relaxation. Shaded yellow
+        color conveys a feeling of reliability and stable. So the logo itself transmits a message of cuteness and loyalty.
+      </p>
+
+      <div>
+        <img src="/images/r-logos.png" class="center-block median">
+      </div>
+
+    </div>
+
+    <div>
+      <h4>Colors</h4>
+    </div>
+
+    <div>
+      <p class="p-after-h4">PuppyFace needs a color palette to trigger people’s feeling for pets. Bright green and bright orange are chosen to
+        present pet’s happiness. The orange color reminds people of dog’s activeness, and green color reminds people of dogs
+        playing on grass. The color inspiration came from playing with my dog in a park.</p>
+    </div>
+
+    <div>
+      <img src="/images/r-colors.png" class="center-block small">
+    </div>
+  </section>
+
+  <section id="execution">
+    <div>
+      <h3>Execution</h3>
+    </div>
+
+    <div>
+      <h4>Paper Prototype</h4>
+    </div>
+
+    <div>
+      <img src="/images/r-paper.png" class="center-block median">
+    </div>
+
+    <div>
+      <p>I started paper prototype by quickly sketching the structures. While I was outlining, I focus on providing information
+        and features pet owners concerned the most. Paper prototype allowed me to quickly create different layouts for sitter
+        list, profile, reservations. I conducted simple preference testing using paper prototype. From the feedback, I learned
+        that users prefer information in a row rather than in columns. The “z” eye tracking theory can explain this result
+        well.
+      </p>
+    </div>
+
+    <div>
+      <h4>Low-Fidelity Wireframes</h4>
+    </div>
+
+    <div>
+      <p class="p-after-h4">I created
+        <a href="https://www.dropbox.com/s/ccsxhaqanjsife2/PuppyFace%20Balsamiq.pdf?dl=0">low fidelity wireframes </a>through Balsamiq to simulate the desired interaction flow and feel of the product.</p>
+    </div>
+
+    <div>
+      <img src="/images/r-lowfi.png" class="center-block median">
+    </div>
+
+    <div>
+      <h4>Mockups</h4>
+    </div>
+
+    <div>
+      <p class="p-after-h4">I created high fidelity wireframes through Sketch and
+        <a href="https://invis.io/KQG614RXBGU">clickable prototype </a>through InvisionApp. Usability testings were performed to check if the design has good usability.
+        I conducted three rounds of usability testings through online tests and in-person tests.</p>
+    </div>
+
+    <div>
+      <img src="/images/r-siximages.png" class="center-block median">
+    </div>
+
+    <div>
+      <h4>First Round Usability Test</h4>
+    </div>
+
+    <div>
+      <p class="p-after-h4">PuppyFace app was tested by three users remotely on UserTesting.com. Testers were required to finish the following
+        tasks:
+      </p>
+      <ul>
+        <li>Book a service for pet boarding</li>
+        <li>Check booking status</li>
+        <li>View requests from other pet owners</li>
+        <li>View other pet owner's profile</li>
+        <li>View his/her own profile</li>
+        <li>View pet’s profile</li>
+      </ul>
+      <p>According to the
+        <a href="https://docs.google.com/document/d/1AO2EDIwZK5Hd7F3biyAoSQZlHtJ4p65rpCGG4QJkU60/edit?usp=sharing">feedbacks </a> from three testers, I modified my design:
+        <br>(1) Follow iOS Human Interface Guideline by changing the navigation bar, profile, and search, etc.</p>
+      <img src="/images/r-profile-compare.png" class="center-block small">
+      <p>(2) Redesign reservation page because testers complained that it was confusing. It was hard to tell which was booking
+        and which was the request from other pet owners. Reservation was separated into “Your bookings” and “Requests” instead
+        of “Past” and “Upcoming.” Users would like to know which was booking and which was request first, then they want
+        to know which is upcoming or previous. There was a hierarchy of the user’s need. </p>
+      <img src="/images/r-reservation.png" class="center-block small">
+      <p>(3) Add “skip” option in onboarding process to allow users to view contents without registering or logging in</p>
+    </div>
+
+    <div>
+      <h4>Second Round Usability Test</h4>
+    </div>
+
+    <div>
+      <p class="p-after-h4">I conducted three in-person tests and one remote test. The purpose of the second-round test was to check if modified
+        design solves the problems revealed in round one test, and review some more details about the app. I assigned these
+        tasks to testers:
+      </p>
+      <ul>
+        <li>Book a service for pet boarding</li>
+        <li>Check booking status</li>
+        <li>Tell if the app is for pet owner, or pet sitter, or for both. And why?</li>
+        <li>What’s biggest difference between this app and other pet service app?</li>
+        <li>Share pet’s photo in community</li>
+        <li>What do you think about the search filter</li>
+        <li>What do you think about sitter’s profile page</li>
+      </ul>
+      <p>According to the
+        <a href="https://docs.google.com/document/d/1A2a1K1zMFBsOvPOyS35v7YEYO7RpgNQCU0yhY_4TbMk/edit?usp=sharing">feedbacks </a> from three testers, I modified my design:
+        <br>(1) Redesign booking page, change communication icon and group action icons together, so it was convenient for users
+        to take actions. I also grouped pet sitter’s information, so it was easy for users to browse information.
+      </p>
+      <img src="/images/r-booking.png" class="center-block small" />
+      <p>(2) Add more options to filter and place options by priority. Even though users can find pet sitters’ experience, reviews
+        in their profiles, but they prefer filter can help them exclude some options. From my interviews, I found out that
+        users would like to exclude or include some pet sitters with bad reviews, and they have specific requirements for
+        pet sitters’ experience. One user wanted pet sitter with experience with puppies, the other wanted pet sitter with
+        experience with rescue dogs. So I redesign the filter and add these options to filter. </p>
+      <img src="/images/r-filter.png" class="center-block small" />
+    </div>
+
+    <div>
+      <h4>Third Round Usability Testing</h4>
+    </div>
+
+    <div>
+      <p class="p-after-h4">I conducted
+        <a href="https://docs.google.com/document/d/1pq4ZRGIH0XosFw9SAN4BNRrCVdXm5TqtAQJnMFsJyPc/edit?usp=sharing">three preference tests </a>on usabilityhub.com to polish some details of the design. According to the feedbacks from
+        three testers, I modified my design:
+        <br>(1) Use bold orange border for pet owner’s profile picture to make it more noticeable. </p>
+      <img src="/images/r-preference1.png" class="center-block small"/>
+      <p>(2) One user was confused by the availability calendar, so I redesigned it to make it more clear. I added lines to
+        cross out unavailable dates and use green to highlight available dates. </p>
+      <img src="/images/r-preference2.png" class="center-block small"/>
+      <p>(3) Users complained blur background image has no focal point, and the letters were blended in the background and hard
+        to read. So I changed the transparency of background picture and added shadow to letters to increase the readability
+        of messages.
+      </p>
+      <img src="/images/r-preference3.png" class="center-block small"/>
+    </div>
+
+    <div>
+      <h4>Video of one in-person test recorded by Silverback: </h4>
+    </div>
+
+    <div class="youtube-container">
+      <iframe src="https://www.youtube.com/embed/UysJzurE5sc" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="learning">
+    <div>
+      <h3>Key Learnings</h3>
+    </div>
+
+    <div>
+      <p class="p-after-h3">What I learned during the processing of creating PuppyFace is that details are vital to a product. When users are using
+        a product, any particulars could become a reason why user love the product or a reason why users feel frustrated.
+        I also learned that usability testing is critical. How users use the product could be entirely different from what
+        a designer thinks it should be. </p>
+      <p>What to do in the future? PuppyFace provides pet owners a way to find reliable pet sitters and solve the problem of
+        high cost of pet services. The final goal of PuppyFace is to create a mutually beneficial community for all pet lovers.
+        But there is still something I need to improve in the future. Users may not realize pet service on the PuppyFace
+        app is exchanged by credits not by money if they skip the onboarding process. I need to spend more time to improve
+        the visibility of credit exchange policy. Because this is a prominent feature of the PuppyFace app, and what makes
+        PuppyFace app distinguished from the rest of pet service apps. What gave me confidence during our usability testing
+        phase was that most users love the idea of credit exchange services, and I got very positive and supportive feedback.
+      </p>
+    </div>
+
+    <div class="last"></div>
+  </section>
+
+  <!-- <div class="readmore">
+  <div class="row">
+      <h3 style="text-align: center; font-size: 40px">Read More</h3>
+  </div>
+
+  <div class="tz-gallery">
+      <div class="row">
+        <div class="col-sm-1 col-md-2">
+        </div>
+        <div class="col-sm-4 col-md-3">
+          <div class="thumbnail">
+            <a href="/case_study/bounce.html">
+              <img src="/images/bounce-thumbnail.png" alt="Bounce">
+            </a>
+            <div class="caption">
+              <h3>Bounce</h3>
+              <p>xxx
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2">
+        </div>
+        <div class="col-sm-4 col-md-3">
+          <div class="thumbnail">
+            <a href="/case_study/blocbox.html">
+              <img src="/images/blocbox-table.png" alt="BlocBox">
+            </a>
+            <div class="caption">
+              <h3>BlocBox</h3>
+              <p>xxx</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-2">
+        </div>
+      </div>
+    </div>
+  </div> -->
 
   <!--FOOTER-->
   <footer>
-    <div class="container-fluid contact text-center">
-      <div class="row">
-        <div class="col-xs-12">
-          <p>Want to chat?</p>
-          <a href="mailto:oushanmail@gmail.com?subject=Hi,Shan!" class="btn">GET IN TOUCH</a>
-        </div>
-      </div>
-    </div>
     <div class="container-fluid bottom bottomstyle">
       <div class="row">
         <div class="d-flex flex-row .align-content-center">
@@ -653,9 +562,10 @@
   </footer>
 
   <!-- JS -->
-  <script src="/js/jquery-3.1.1.min.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
   <script src="/js/scripts.js?v=0002"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script> -->
 </body>
 
 </html>
