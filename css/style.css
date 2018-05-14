@@ -403,13 +403,26 @@ section div p.p-after-h4 {
 section div p {
   /* margin-right: 10vw !important;
     margin-left: 10vw !important; */
-  width: 45em;
+  width: 700px;
   margin: auto;
   margin-top: 29px;
 }
 
 section div img {
+  margin: auto;
   margin-top: 40px;
+}
+
+section div img.large {
+  width: 1000px;
+}
+
+section div img.median {
+  width: 700px;
+}
+
+section div img.small {
+  width: 466px;
 }
 
 section div ul {
@@ -420,18 +433,40 @@ section div ul {
 section div ul li {
   /* margin-right: 10vw !important;
     margin-left: 10vw !important; */
-  width: 45em;
+  width: 700px;
   margin: auto;
 }
 
 section div table {
   /* margin-right: 10vw !important;
     margin-left: 10vw !important; */
-  width: 45em;
+  width: 700px;
   margin: auto;
 }
 
-@media (max-width: 1000px) {
+.youtube-container {
+  padding-top: 20px;
+  width: 700px;
+  height: 400px;
+
+  display: block;
+  margin: auto;
+} 
+
+.youtube-container iframe {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1050px) {
+  section div img.large {
+    width: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+
+@media (max-width: 750px) {
   section div h3 {
     margin-left: 25px;
     margin-right: 25px;
@@ -442,6 +477,16 @@ section div table {
   }
   section div p {
     width: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  section div img.median {
+    width: 90%;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  section div img.small {
+    width: 90%;
     margin-left: 25px;
     margin-right: 25px;
   }
@@ -460,9 +505,17 @@ section div table {
     margin-left: 25px;
     margin-right: 25px;
   }
+
+  .youtube-container {
+    padding-top: 20px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
+  } 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   section div h3 {
     font-size: 34px;
     margin-left: 15px;
@@ -479,6 +532,21 @@ section div table {
     margin-left: 15px;
     margin-right: 15px;
     line-height: 1.5;
+  }
+  section div img.large {
+    width: 90%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  section div img.small {
+    width: 90%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  section div img.median {
+    width: 90%;
+    margin-left: 15px;
+    margin-right: 15px;
   }
   section div ul {
     width: auto;
@@ -581,19 +649,6 @@ footer div ul>li>a {
   }
 }
 
-.youtube-container {
-  padding-top: 20px;
-  width: 79em;
-  height: 60em;
-
-  display: block;
-  margin: auto;
-} 
-
-.youtube-container iframe {
-  width: 100%;
-  height: 100%;
-}
 /* .youtube-container {
   position: absolute;
 margin: auto;
