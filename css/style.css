@@ -293,11 +293,11 @@ header banner ul>li>a {
   header banner ul>li {
     margin-right: 5px;
     margin-left: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   header banner ul>li>a {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
 
