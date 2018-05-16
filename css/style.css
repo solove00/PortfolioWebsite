@@ -282,7 +282,7 @@ header banner ul>li {
 }
 
 header banner ul>li>a {
-  font-size: 21px;
+  font-size: 18px;
   color: #000000 !important;
 }
 
@@ -691,7 +691,7 @@ transform: translate(-50%, -50%);
   text-align: left;
   padding: 8px 8px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
 }
 
