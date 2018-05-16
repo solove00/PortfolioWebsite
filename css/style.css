@@ -211,7 +211,7 @@ header nav ul>li>a {
   letter-spacing: 1px;
 }
 
-header banner div#backyard {
+/* header banner div#backyard {
   background-color: #6AC465;
   overflow: hidden;
   margin: -12px 0px -20px 0px;
@@ -230,8 +230,8 @@ header banner div#blocbox {
   overflow: hidden;
   margin: -12px 0px -20px 0px;
   padding: 0;
-}
-
+} */
+/* 
 header banner div h1 {
   margin: 0 50px 0 50px;
   padding-left: 20px;
@@ -254,10 +254,10 @@ header banner div h1#blocbox {
   font-family: 'Roboto', sans-serif;
 }
 
-/*header banner div img {
+header banner div img {
   margin-right: 30px;
   margin-top: -30px;
-}*/
+} 
 
 header banner div img#bounce {
   margin-right: 30px;
@@ -267,18 +267,18 @@ header banner div img#bounce {
 header banner div img#blocbox {
   margin-right: 30px;
   margin-top: 30px;
-}
+}*/
 
 header banner div.menu {
   background-color: #F2F2F2;
   margin-bottom: -40px;
   z-index: 9999;
-}
+} 
 
 header banner ul>li {
   list-style-type: none;
   display: inline-block;
-  margin: 20px 15px 10px 15px;
+  margin: 20px 15px 20px 15px;
 }
 
 header banner ul>li>a {
@@ -324,7 +324,7 @@ header banner ul>li>a {
     width: 100%;
 } */
 
-.affix {
+/* .affix {
   top: 0;
   width: 100%;
   z-index: 9999
@@ -332,8 +332,8 @@ header banner ul>li>a {
 
 .affix+.container-fluid {
   padding-top: 70px;
-}
-
+} */
+/* 
 #overview, #research, #branding, #execution, #learnings, #coding {
   padding-top: 100px;
   margin-top: -100px;
@@ -344,21 +344,21 @@ header banner ul>li>a {
     padding-top: 150px;
     margin-top: -150px;
   }
-}
+} */
 
 /* SECTION */
 
-section {
+/* section {
   margin: 20px 0px 5px 0px;
 }
 
 section div {
   margin-bottom: 10px;
-}
-
+} */
+/* 
 section div.first {
   margin-top: 60px;
-}
+} */
 
 section div.last {
   margin-bottom: 60px;
@@ -1219,6 +1219,25 @@ a.selected{
 div.readmore{
   background-color:#f1efed;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#first {
+  padding-top: 40px;
+}
+
+/* .first-after-nav {
+  padding-top: 150px;
+} */
+
+.sticky ul {
+  margin-bottom: 0px;
+}
+
 /* .main-color{
 
 background: linear-gradient(270deg, #D38312, #A83279);

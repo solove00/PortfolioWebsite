@@ -7,38 +7,22 @@ function responsiveNavBar() {
     }
 }
 
-// $('#floating-nav').affix({
-//     offset: {
-//       top: ($('header').height() - 60)
-//     }
-// });	
-
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {Adjustfloatingnva()};
 
 var header = document.getElementById("floating-nav");
+var firstdiv = document.getElementById("first");
 var sticky = header.offsetTop;
 
-function myFunction() {
+$(window).resize(function() {
+    sticky = header.offsetTop;
+});
+
+function Adjustfloatingnva() {
   if (window.pageYOffset >= sticky) {
     header.classList.add("sticky");
+    firstdiv.style.paddingTop = "80px";
   } else {
     header.classList.remove("sticky");
+    firstdiv.style.paddingTop = "40px";
   }
 }
-
-// window.onscroll = function (ev) {
-//     if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight - 1000) {
-//         var x = document.getElementById("prototype_link");
-//         if (x != undefined) {
-//             this.console.log(x);
-//             x.classList.add("textglow");
-//         }
-//     }
-//     else {
-//         var x = document.getElementById("prototype_link");
-//         if (x != undefined) {
-//             this.console.log(x);
-//             x.classList.remove("textglow");
-//         }
-//     }
-// };
