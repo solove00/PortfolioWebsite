@@ -7,11 +7,24 @@ function responsiveNavBar() {
     }
 }
 
-$('#floating-nav').affix({
-    offset: {
-      top: ($('header').height() - 60)
-    }
-});	
+// $('#floating-nav').affix({
+//     offset: {
+//       top: ($('header').height() - 60)
+//     }
+// });	
+
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("floating-nav");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
 
 // window.onscroll = function (ev) {
 //     if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight - 1000) {
