@@ -7,22 +7,29 @@ function responsiveNavBar() {
     }
 }
 
-window.onscroll = function() {Adjustfloatingnva()};
-
 var header = document.getElementById("floating-nav");
 var firstdiv = document.getElementById("first");
 var sticky = header.offsetTop;
 
-$(window).resize(function() {
+$(window).resize(function () {
     sticky = header.offsetTop;
 });
 
-function Adjustfloatingnva() {
-  if (window.pageYOffset >= sticky) {
-    header.classList.add("sticky");
-    firstdiv.style.paddingTop = "80px";
-  } else {
-    header.classList.remove("sticky");
-    firstdiv.style.paddingTop = "40px";
-  }
+$(document).ready(function() {  
+    AdjustfloatingNav()
+});
+
+window.onscroll = function () { AdjustfloatingNav() };
+
+function AdjustfloatingNav() {
+    if (header.offsetTop > 0) {
+        sticky = header.offsetTop;
+    }
+    if (window.pageYOffset >= sticky) {
+        header.classList.add("sticky");
+        firstdiv.style.paddingTop = "80px";
+    } else {
+        header.classList.remove("sticky");
+        firstdiv.style.paddingTop = "40px";
+    }
 }
