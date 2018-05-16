@@ -15,10 +15,13 @@ $(window).resize(function () {
     sticky = header.offsetTop;
 });
 
+$(document).ready(function() {  
+    AdjustfloatingNav()
+});
 
-window.onscroll = function () { Adjustfloatingnva() };
+window.onscroll = function () { AdjustfloatingNav() };
 
-function Adjustfloatingnva() {
+function AdjustfloatingNav() {
     if (header.offsetTop > 0) {
         sticky = header.offsetTop;
     }
