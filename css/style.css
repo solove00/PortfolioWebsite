@@ -254,10 +254,10 @@ header banner div h1#blocbox {
   font-family: 'Roboto', sans-serif;
 }
 
-header banner div img {
+/*header banner div img {
   margin-right: 30px;
   margin-top: -30px;
-}
+}*/
 
 header banner div img#bounce {
   margin-right: 30px;
@@ -683,6 +683,10 @@ transform: translate(-50%, -50%);
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+.topnav a.logo-small{
+  margin-top: 3px;
+}
+
 .topnav a {
   position: relative;
   float: left;
@@ -717,6 +721,7 @@ transform: translate(-50%, -50%);
 .topnav .name {
   float: left;
   line-height: 54px;
+  font-size: 24px;
 }
 
 .topnav .item {
