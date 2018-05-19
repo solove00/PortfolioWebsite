@@ -241,7 +241,7 @@ header banner div#blocbox {
   padding: 0;
 } */
 
-/* 
+/*
 header banner div h1 {
   margin: 0 50px 0 50px;
   padding-left: 20px;
@@ -267,7 +267,7 @@ header banner div h1#blocbox {
 header banner div img {
   margin-right: 30px;
   margin-top: -30px;
-} 
+}
 
 header banner div img#bounce {
   margin-right: 30px;
@@ -344,7 +344,7 @@ header banner ul>li>a {
   padding-top: 70px;
 } */
 
-/* 
+/*
 #overview, #research, #branding, #execution, #learnings, #coding {
   padding-top: 100px;
   margin-top: -100px;
@@ -367,7 +367,7 @@ section div {
   margin-bottom: 10px;
 } */
 
-/* 
+/*
 section div.first {
   margin-top: 60px;
 } */
@@ -748,6 +748,7 @@ transform: translate(-50%, -50%);
     float: left;
     line-height: 54px;
     font-size: 24px;
+    font-family: 'Comfortaa', sans-serif, cursive;
 }
 
 .topnav .item {
@@ -755,6 +756,7 @@ transform: translate(-50%, -50%);
     line-height: 54px;
     padding-right: 20px;
     padding-left: 20px;
+    font-family: 'Comfortaa', sans-serif, cursive;
 }
 
 .topnav .item.rightmost {
