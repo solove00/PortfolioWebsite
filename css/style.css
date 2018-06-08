@@ -441,6 +441,10 @@ section div img.small {
     width: 466px;
 }
 
+section div img.full {
+  width: 100%;
+}
+
 section div ul {
     margin-top: 8px;
     margin-left: 25px;
