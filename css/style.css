@@ -391,7 +391,8 @@ section div h3 {
     width: 700px;
     margin: auto;
     margin-top: 31px;
-    font-weight: bold
+    font-weight: bold;
+    /*color:rgb(15, 69, 123);*/
 }
 
 section div h4 {
@@ -402,6 +403,7 @@ section div h4 {
     width: 700px;
     margin: auto;
     margin-top: 31px;
+    /*color:rgb(15, 69, 123);*/
 }
 
 section div p.p-after-h3 {
