@@ -429,6 +429,10 @@ section div img.large {
     width: 1000px;
 }
 
+section div canvas.large {
+    width: 1000px;
+}
+
 section div img.median {
     width: 700px;
 }
@@ -479,6 +483,10 @@ section div.content-carousel {
         width: auto;
         margin-left: 25px;
         margin-right: 25px;
+    }
+    section div canvas.half {
+      width: 25%;
+      float: left;
     }
 }
 
