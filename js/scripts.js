@@ -33,3 +33,4 @@ function AdjustfloatingNav() {
         firstdiv.style.paddingTop = "40px";
     }
 }
+
