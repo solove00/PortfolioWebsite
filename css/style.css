@@ -391,7 +391,8 @@ section div h3 {
     width: 700px;
     margin: auto;
     margin-top: 31px;
-    font-weight: bold
+    font-weight: bold;
+    /*color:rgb(15, 69, 123);*/
 }
 
 section div h4 {
@@ -402,6 +403,7 @@ section div h4 {
     width: 700px;
     margin: auto;
     margin-top: 31px;
+    /*color:rgb(15, 69, 123);*/
 }
 
 section div p.p-after-h3 {
@@ -429,12 +431,20 @@ section div img.large {
     width: 1000px;
 }
 
+section div canvas.large {
+    width: 1000px;
+}
+
 section div img.median {
     width: 700px;
 }
 
 section div img.small {
     width: 466px;
+}
+
+section div img.full {
+  width: 100%;
 }
 
 section div ul {
@@ -479,6 +489,10 @@ section div.content-carousel {
         width: auto;
         margin-left: 25px;
         margin-right: 25px;
+    }
+    section div canvas.half {
+      width: 25%;
+      float: left;
     }
 }
 
